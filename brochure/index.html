@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="scripts/ipages.min.css">
+	<!-- /end css -->
+</head>
+<body>
+<!-- flipbook markup -->
+<div id="flipbook">
+	<div data-ipgs-image="img/1.jpg"></div>
+	<div data-ipgs-image="img/2.jpg"></div>
+	<div data-ipgs-image="img/3.jpg"></div>
+	<div data-ipgs-image="img/4.jpg"></div>
+	<div data-ipgs-image="img/5.jpg"></div>
+	<div data-ipgs-image="img/6.jpg"></div>
+	<div data-ipgs-image="img/7.jpg"></div>
+	<div data-ipgs-image="img/8.jpg"></div>
+	<div data-ipgs-image="img/9.jpg"></div>
+	<div data-ipgs-image="img/10.jpg"></div>
+	<div data-ipgs-image="img/11.jpg"></div>
+	<div data-ipgs-image="img/12.jpg"></div>
+</div>
+<!-- /end flipbook markup -->
+<!-- scripts-section -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/pdf.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.ipages.min.js"></script>
+<!-- /end scripts-section -->
+
+<script>
+	$(document).ready(function() {
+		var options = {
+			pageWidth: 624, // Sets the book page width in px
+			pageHeight: 440,
+			responsive:true,
+			autoFit:true,
+			padding:10,
+		};
+		$('#flipbook').ipages(options);
+	});
+	</script>
+</body>
+</html>
