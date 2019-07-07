@@ -372,7 +372,7 @@
 						<a
 							class="image-logo-link"
 							title="Home Link"
-							href="https://abiworkshops.com"
+							href="http://abiworkshops.com"
 						>
 							<img
 								class="image-logo"
@@ -908,14 +908,22 @@
 		<script>
 			window.addEventListener('load', function(){
 				new Glider(document.querySelector('.testimonialsWrap'), {
-					slidesToShow: 1.5,
+					slidesToShow: 1,
 					draggable: true,
 					rewind: true,
 					dots: '#dots',
 					arrows: {
 						prev: '.glider-prev',
 						next: '.glider-next'
-					}
+					},
+					responsive: [
+						{
+							breakpoint: 900,
+							settings: {
+								slidesToShow: 1.5,
+							}
+						}
+					]
 				});
 			})
 		</script>
