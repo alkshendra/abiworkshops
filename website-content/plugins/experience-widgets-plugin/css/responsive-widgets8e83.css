@@ -1,0 +1,1842 @@
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. General.
+//   	1.1. Arrows.
+//   02. Brands Carousel.
+//   03. Testimonials.
+//   04. Count Up.
+//		4.1. Single without sidebar.
+//   05. Three Experiences.
+//		5.1. Single Experience.
+//   06. Team Carousel.
+//   07. Image Widget.
+//   08. Title & Text widget.
+//   09. Features widget.
+//   10. Most liked widget.
+//   11. Last Experiences widget.
+//   12. Experiences types widget.
+//   13. Portfolio widget.
+//   14. Last reviews widget.
+//   15. Last posts widget.
+//		15.1. Full width.
+//		15.2. Single with sidebar.
+//   16. Newsletter widget.
+//   17. Call to action widget.
+//   18. Slider widget.
+// ========================================================================== */
+
+/* PHONE
+// ========================================================================== */
+
+@media only screen and (max-width: 514px),
+(max-device-width: 514px) {
+
+	/* General.
+	// ====================================================================== */
+
+	/*
+	// Arrows.
+	*/
+
+	.full-width .team_carousel_leftarrow,
+	.full-width .team_carousel_rightarrow,
+	.full-width .brands_carousel_leftarrow,
+	.full-width .brands_carousel_rightarrow,
+	.full-width .experiences-type-leftarrow,
+	.full-width .experiences-type-rightarrow,
+	.full-width .two-portfolio-leftarrow,
+	.full-width .two-portfolio-rightarrow,
+	.full-width .last-reviews-leftarrow,
+	.full-width .last-reviews-rightarrow {
+		display: none !important; /* Hide the arrows in the full width pages */
+	}
+
+	/* Brands Carousel.
+	// ====================================================================== */
+
+	.widget_experience_brands_carousel_widget {
+		width: 100%;
+	}
+
+	#content-single-nprs .brands-carousel-widget, 
+	#content-single-npls .brands-carousel-widget,
+	.brands-carousel-widget {
+		width: 100%;
+	}
+
+	/* Testimonials.
+	// ====================================================================== */
+
+	.main-page-def .testimonials,
+	.page-become-loop .testimonials,
+	#content-single-npns .testimonials,
+	#main-single-portfolio .testimonials,
+	.experiences-content-box .testimonials,
+	.testimonials {
+		width: 100%;
+		padding-bottom: 40px;
+	}
+
+	.main-page-def .widget_experience_testimonials_widget ul,
+	.page-become-loop .widget_experience_testimonials_widget ul,
+	#content-single-npns .widget_experience_testimonials_widget ul,
+	#content-single-nprs .widget_experience_testimonials_widget ul,
+	#content-single-npls .widget_experience_testimonials_widget ul,
+	#main-single-portfolio .widget_experience_testimonials_widget ul,
+	.experiences-content-box .widget_experience_testimonials_widget ul,
+	.page-content .widget_experience_testimonials_widget ul{
+		padding: 0;
+	}
+
+	.testimonials-icons {
+		display: none;
+	}
+
+	.crop-client-image-testimonial {
+		width: 200px;
+		height: 200px;
+		float: none;
+		margin: 10px auto 20px auto;
+		position: relative;
+	}
+
+	.main-page-def .testimonials figcaption .text,
+	.page-become-loop .testimonials figcaption .text,
+	#content-single-npns .testimonials figcaption .text,
+	#main-single-portfolio .testimonials figcaption .text,
+	.experiences-content-box .testimonials figcaption .text,
+	.testimonials figcaption .text{
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.main-page-def .testimonials figcaption p,
+	.page-become-loop .testimonials figcaption p,
+	#content-single-npns .testimonials figcaption p,
+	#main-single-portfolio .testimonials figcaption p,
+	.experiences-content-box .testimonials figcaption p,
+	.testimonials figcaption .name {
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.widget-slider {
+		width: 100%;
+		height: auto;
+	}
+
+	.widget-slider ul li  { 
+		height: auto;
+	}
+
+	.page-content .widget-slider .dots,
+	.widget-slider .dots {
+		padding: 0;
+		text-align: center;
+	}
+
+	.page-become-loop .client-image-testimonial,
+	#content-single-npns .client-image-testimonial,
+	#main-single-portfolio .client-image-testimonial,
+	.experiences-content-box .client-image-testimonial,
+	.main-page-def .client-image-testimonial {
+		max-width: 150%;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	/* Count Up.
+	// ====================================================================== */
+
+	.widget_experience_count_up_widget {
+		width: 100%;
+	}
+
+	#content-wrapper .count-up-widget{
+		padding-top: 10px;
+		padding-left: 0;
+		flex-direction: column;
+		-webkit-flex-direction: column;
+		-moz-direction: column;
+	}
+
+	#content-wrapper .count-up-widget li {
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+	/*
+	// Singles without sidebar.
+	*/
+
+	.main-page-def .widget_experience_count_up_widget ul li,
+	.page-become-loop .widget_experience_count_up_widget ul li,
+	#content-single-npns .widget_experience_count_up_widget ul li,
+	#main-single-portfolio .widget_experience_count_up_widget ul li,
+	.experiences-content-box .widget_experience_count_up_widget ul li {
+		padding: 0px 3px;
+	}
+
+	/* Three experinces.
+	// ====================================================================== */
+
+	.widget_experience_show_three_widget {
+		width: 100%;
+	}
+
+	#single-experience-box .exp-w-container, 
+	#content-single-nprs .exp-w-container, 
+	#content-single-npls .exp-w-container {
+		width: 99%;
+	}
+
+	.main-page-def .exp-w-container,
+	.page-become-loop .exp-w-container,
+	#content-single-npns .exp-w-container,
+	#main-single-portfolio .exp-w-container,
+	.experiences-content-box .exp-w-container,
+	.exp-w-container {
+		height: auto;
+		width: 100%;
+	}
+
+	.main-page-def .exp-w-image,
+	.page-become-loop .exp-w-image,
+	#content-single-npns .exp-w-image,
+	#main-single-portfolio .exp-w-image,
+	.experiences-content-box .exp-w-image,
+	.exp-w-image {
+		height: 200px;
+		width: 100%;
+		float: left;
+	}
+
+	.main-page-def .exp-w-right-side,
+	.page-become-loop .exp-w-right-side,
+	#content-single-npns .exp-w-right-side,
+	#main-single-portfolio .exp-w-right-side,
+	.experiences-content-box .exp-w-right-side,
+	.exp-w-right-side {
+		float: left;
+		text-align: center;
+		margin-left: 0;
+		width: 100%;
+		font-weight: lighter;
+	}
+
+	#content-wrapper .main-page-def .exp-w-title,
+	#content-wrapper .page-become-loop .exp-w-title,
+	#content-wrapper #content-single-npns .exp-w-title,
+	#content-wrapper #main-single-portfolio .exp-w-title,
+	#content-wrapper .experiences-content-box .exp-w-title,
+	#content-wrapper .exp-w-title {
+		font-size: 18px;
+		margin-top: 20px; 
+	}
+
+	#content-wrapper .main-page-def .exp-w-text-experience p,
+	#content-wrapper .page-become-loop .exp-w-text-experience p,
+	#content-wrapper #content-single-npns .exp-w-text-experience p,
+	#content-wrapper #main-single-portfolio .exp-w-text-experience p,
+	#content-wrapper .experiences-content-box .exp-w-text-experience p,
+	#content-wrapper .exp-w-text-experience p {
+		font-size: 16px;
+	}
+
+	.exp-w-info-icons{
+		margin-bottom: 70px;
+	}
+
+	#content-wrapper .exp-w-price {
+		font-size: 18px;
+	}
+
+	#content-wrapper .exp-w-location {
+		font-size: 18px;
+	}
+
+	#content-wrapper .exp-w-info-icons .post-like {
+	    display: inline-flex;
+	}
+
+	#content-wrapper .exp-w-book-now {
+		width: 100%;
+		display: block;
+	}
+
+	.exp-w-button-rel {
+		position: relative;
+		width: 100%;
+	}
+
+	.exp-w-more {
+		display: none;
+	}
+
+	.exp-w-more-background {
+		display: none;
+	}
+
+	/*
+	// Single Experience.
+	*/
+
+	.experiences-content-box .exp-w-container .slick-slide {
+		margin-left: 1px;
+	}
+
+	/* Team carousel.
+	// ====================================================================== */
+
+	.widget_experience_team_carousel_widget {
+		width: 100%;
+	}
+
+	#single-experience-box .team-carousel-widget.slick-slider, 
+	#content-single-nprs .team-carousel-widget.slick-slider, 
+	#content-single-npls .team-carousel-widget.slick-slider,
+	.main-page-def .team-carousel-widget.slick-slider,
+	.page-become-loop .team-carousel-widget.slick-slider,
+	#content-single-npns .team-carousel-widget.slick-slider,
+	#main-single-portfolio .team-carousel-widget.slick-slider,
+	.experiences-content-box .team-carousel-widget.slick-slider, 
+	.team-carousel-widget.slick-slider {
+		width: 100%;
+	}
+
+	.team-carousel-widget .team-carousel-image-crop {
+		height: 145px;
+		width: 90%;
+	}
+
+	.main-page-def .team-carousel-widget .team-carousel-image-crop, 
+	.page-become-loop .team-carousel-widget .team-carousel-image-crop, 
+	#content-single-npns .team-carousel-widget .team-carousel-image-crop, 
+	#main-single-portfolio .team-carousel-widget .team-carousel-image-crop, 
+	.experiences-content-box .team-carousel-widget .team-carousel-image-crop {
+		height: 145px;
+		width: 90%;
+	}
+
+	.main-page-def .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	.page-become-loop .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	#content-single-npns .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	#main-single-portfolio .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	.experiences-content-box .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption,
+	.team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption {
+		width: auto;
+	}
+
+	.testimonials-whole-team-button-container {
+		width: 100%;
+	}
+
+	.testimonials-whole-team-button {
+		margin-top: 5px;
+	}
+
+	/* Image Widget.
+	// ====================================================================== */
+
+	.experience-widget-title.widget_image, .text-after-title.widget_image {
+		width: 100%;
+	}
+
+	/* Title & Text Widget.
+	// ====================================================================== */
+
+	.widget_experience_title_text_widget {
+		width: 100%;
+	}
+
+
+	/* Features widget.
+	// ====================================================================== */
+
+	.widget_experience_features_widget {
+		width: 100%;
+	}
+
+	.main-page-def .features-widget-ul,
+	.page-become-loop .features-widget-ul,
+	#content-single-npns .features-widget-ul,
+	#main-single-portfolio .features-widget-ul,
+	.experiences-content-box .features-widget-ul {
+		padding: 0;
+	}
+
+	#content-wrapper .widget_experience_features_widget .features-widget-ul {
+		display: block;
+	}
+
+	.features-list-style {
+		margin-bottom: 15px;
+	}
+
+	/* Most liked widget.
+	// ====================================================================== */
+
+	.most-all-info-container {
+		width: 100%;
+	}
+
+	#content-single-nprs .most-all-info-container, 
+	#content-single-npls .most-all-info-container {
+		width: 95%;
+	}
+
+	#content-single-npns .most-liked-container-full,
+	#content-single-nprs .most-liked-container-full,
+	#content-single-npls .most-liked-container-full {
+		padding: 50px 0;
+	}
+
+	#content-single-nprs .most-title-liked-box .post-like, 
+	#content-single-npls .most-title-liked-box .post-like,
+	#content-wrapper .main-page-def .most-title-liked-box .post-like, 
+	#content-wrapper .page-become-loop .most-title-liked-box .post-like, 
+	#content-wrapper #content-single-npns .most-title-liked-box .post-like, 
+	#content-wrapper #main-single-portfolio .most-title-liked-box .post-like, 
+	#content-wrapper .experiences-content-box .most-title-liked-box .post-like {
+		display: inline-flex;
+	}
+
+	.page-content.full-width .most-title-liked-box p {
+		padding: 0;
+		display: inline-flex;
+		align-items: center;
+		display: -webkit-inline-flex;
+		-webkit-align-items: center;
+	}
+
+	.most-title-liked-box {
+		width: 90%;
+		margin: auto;
+	}
+
+	.page-content .most-author-experience-link {
+		margin: 15px 0;
+	}
+
+	.most-info-experience-container {
+		width: 100%;
+	}
+
+	/* Last experiences widget.
+	// ====================================================================== */
+
+	.widget_experience_last_experience_grid_widget {
+		width: 100%;
+	}
+
+	.main-page-def .last-experiences-container .last-experience-figure, 
+	.page-become-loop .last-experiences-container .last-experience-figure, 
+	#content-single-npns .last-experiences-container .last-experience-figure, 
+	#main-single-portfolio .last-experiences-container .last-experience-figure, 
+	.experiences-content-box .last-experiences-container .last-experience-figure {
+		width: 100%;
+		margin: 0 auto 20px 0;
+	}
+
+	.last-experiences-container {
+		width: 100%;
+	}
+
+	.last-experiences-container .last-experience-figure {
+		margin: 0 auto 50px auto;
+		width: 80%;
+		height: auto;
+		float: none;
+	}
+
+	#content-single-nprs .last-experience-featured-image,
+	#content-single-npls .last-experience-featured-image,
+	.last-experience-featured-image {
+		width: 100%;
+		height: auto;
+	}
+	
+	.last-experiences-container .last-experience-figure .wp-post-image {
+		min-height: 0;
+	}
+
+	.last-experiences-featured-container {
+		height: auto;	
+	}
+
+	.last-experience-figcaption .last-experience-title-h4 {
+		margin-bottom: 10px;
+		line-height: 1.5;
+		font-size: 20px;
+	}
+
+	#content-wrapper .author-link {
+		font-size: 14px;
+	}
+
+	#content-wrapper .main-page-def .last-experience-price, 
+	#content-wrapper .page-become-loop .last-experience-price, 
+	#content-wrapper #content-single-npns .last-experience-price, 
+	#content-wrapper #main-single-portfolio .last-experience-price, 
+	#content-wrapper .main-page-def .last-experience-duration, 
+	#content-wrapper .page-become-loop .last-experience-duration, 
+	#content-wrapper #content-single-npns .last-experience-duration, 
+	#content-wrapper #main-single-portfolio .last-experience-duration, 
+	#content-wrapper .main-page-def .last-experience-people, 
+	#content-wrapper .page-become-loop .last-experience-people, 
+	#content-wrapper #content-single-npns .last-experience-people, 
+	#content-wrapper #main-single-portfolio .last-experience-people, 
+	#content-wrapper .main-page-def .last-experience-figcaption .post-like, 
+	#content-wrapper .page-become-loop .last-experience-figcaption .post-like, 
+	#content-wrapper #content-single-npns .last-experience-figcaption .post-like, 
+	#content-wrapper #main-single-portfolio .last-experience-figcaption .post-like,
+	#content-wrapper .last-experience-figcaption .post-like,
+	#content-wrapper .last-experience-people,
+	#content-wrapper  .last-experience-duration,
+	#content-wrapper  .last-experience-price {
+		padding: 7px;
+	    margin: 4px 4px 4px 0;
+	    font-size: 13px;
+	}
+
+	/* Experiences types widget.
+	// ====================================================================== */
+
+	#content-single-npns .widget_experience_types_carousel_widget,
+	.widget_experience_types_carousel_widget {
+		width: 100%;
+	}
+
+	#content-wrapper .image-type-figure {
+		width: 150px;
+	    margin: auto;
+	}
+
+	#single-experience-box .experiences-type-leftarrow, 
+	#content-single-nprs .experiences-type-leftarrow, 
+	#content-single-npls .experiences-type-leftarrow {
+		left: -25px;
+	}
+
+	#single-experience-box .experiences-type-rightarrow, 
+	#content-single-nprs .experiences-type-rightarrow, 
+	#content-single-npls .experiences-type-rightarrow {
+		right: -25px;
+	}
+
+	/* Portfolio widget.
+	// ====================================================================== */
+
+	#content-single-npns .widget_experience_two_portfolio_widget,
+	.widget_experience_two_portfolio_widget {
+		width: 100%;
+	}
+
+	.portfolio-image-container {
+		padding: 5px;
+	}
+
+	#content-wrapper .portfolio-widget-container .text-portfolio-pic{
+		height: 140px;
+	}
+
+	.two-portfolio-leftarrow, 
+	.two-portfolio-rightarrow {
+		top: 37%;
+	}
+
+	#single-experience-box .two-portfolio-leftarrow, 
+	#content-single-nprs .two-portfolio-leftarrow, 
+	#content-single-npls .two-portfolio-leftarrow {
+		left: -25px;
+	}
+
+	#single-experience-box .two-portfolio-rightarrow, 
+	#content-single-nprs .two-portfolio-rightarrow, 
+	#content-single-npls .two-portfolio-rightarrow {
+		right: -25px;
+	}
+
+	/* Last reviews widget.
+	// ====================================================================== */
+
+	#content-single-npns .widget_experience_last_reviews_widget,
+	.widget_experience_last_reviews_widget {
+		width: 100%;
+	}
+
+	.experience-review {
+		margin: 30px 15px 0 15px;
+	}
+	
+	.titles-review {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.in-review {
+		padding: 5px 0;
+	}
+
+	#single-experience-box .last-reviews-leftarrow, 
+	#content-single-nprs .last-reviews-leftarrow, 
+	#content-single-npls .last-reviews-leftarrow {
+		left: -25px;
+	}
+
+	#single-experience-box .last-reviews-rightarrow, 
+	#content-single-nprs .last-reviews-rightarrow, 
+	#content-single-npls .last-reviews-rightarrow {
+		right: -25px;
+	}
+
+	/* Last posts widget.
+	// ====================================================================== */
+
+	.last-posts-container {
+		width: 100%;
+		flex-direction: column;
+		-webkit-flex-direction: column;
+		-moz-direction: column;
+	}
+
+	.main-page-def .post-container, 
+	.page-become-loop .post-container, 
+	#content-single-npns .post-container, 
+	#main-single-portfolio .post-container
+	#single-experience-box .post-container , 
+	#content-single-nprs .post-container , 
+	#content-single-npls .post-container  {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.post-container {
+		width: 80%;
+		float: none;
+		margin: 30px auto;
+		display: block;
+	}
+
+	.last-posts-container .last-posts-pic.img {
+		width: 100%;
+		height: 220px;
+		margin-bottom: 0;
+	}
+
+	#single-experience-box .last-posts-container .last-posts-pic.img, 
+	#content-single-npns .last-posts-container .last-posts-pic.img, 
+	#content-single-nprs .last-posts-container .last-posts-pic.img, 
+	#content-single-npls .last-posts-container .last-posts-pic.img {
+		width: 100%;
+		height: 220px;
+		margin-bottom: 0;
+	}
+
+	#single-experience-box .post-container, 
+	#content-single-nprs .post-container, 
+	#content-single-npls .post-container
+	.main-page-def .post-container, 
+	.page-become-loop .post-container, 
+	#content-single-npns .post-container, 
+	#main-single-portfolio .post-container, 
+	.experiences-content-box .post-container {
+		width: 100%;
+		margin: 30px auto;
+	}
+
+	/*
+	// Single with sidebar.
+	*/
+
+	#content-single-nprs .last-experiences-container .last-experience-figure,
+	#content-single-npls .last-experiences-container .last-experience-figure {
+		margin: auto;
+	    width: 100%;
+		height: auto;
+	}
+
+	#single-experience-box .last-experience-figcaption .last-experience-title-h4, 
+	#content-single-nprs .last-experience-figcaption .last-experience-title-h4, 
+	#content-single-npls .last-experience-figcaption .last-experience-title-h4 {
+		font-size: 18px;
+	}
+
+	/* Newsletter widget.
+	// ====================================================================== */
+
+	.widget_experience_newsletter_widget {
+		width: 100%;
+	}
+
+	#content-wrapper .experience-newsletter-input,
+	#content-wrapper #single-experience-box .experience-newsletter-input, 
+	#content-wrapper #content-single-npns .experience-newsletter-input, 
+	#content-wrapper #content-single-nprs .experience-newsletter-input, 
+	#content-wrapper #content-single-npls .experience-newsletter-input {
+		width: 80%;
+	}
+
+	.experience-newsletter-form {
+		display: inline-block;
+	}
+
+	#content-wrapper .experience-newsletter-p {
+		width: 100%;
+	}
+
+	#content-wrapper .experience-newsletter-submit {
+		margin: 0 auto;
+	    width: 80%;
+	    display: block;
+	}
+
+	#content-wrapper #single-experience-box .experience-newsletter-submit,
+	#content-wrapper #content-single-npns .experience-newsletter-submit,
+	#content-wrapper #content-single-nprs .experience-newsletter-submit,
+	#content-wrapper #content-single-npls .experience-newsletter-submit {
+		width: 80%;
+		margin: auto;
+	}
+
+	/* Call to action widget.
+	// ====================================================================== */
+
+	.widget_experience_call_action_widget {
+		width: 100%;
+	}
+
+	/* Slider widget.
+	// ====================================================================== */
+
+	.slider-widget-arrow {
+		font-size: 30px;
+	}
+
+	#content-wrapper .slider-widget-text-h2 {
+		font-size: 28px;
+		line-height: 26px;
+	}
+
+	#content-wrapper .slider-widget-text-p {
+		padding: 30px 0 0 0;
+		font-size: 14px;
+	}
+
+}
+
+/* TABLET
+// ========================================================================== */
+
+@media only screen and (min-width: 515px) and (max-width: 768px),
+(min-device-width: 515px) and (max-device-width: 768px) {
+
+	/* General.
+	// ====================================================================== */
+
+	/* 
+	// Arrows.
+	*/
+
+	.full-width .team_carousel_leftarrow,
+	.full-width .team_carousel_rightarrow,
+	.full-width .brands_carousel_leftarrow,
+	.full-width .brands_carousel_rightarrow,
+	.full-width .experiences-type-leftarrow,
+	.full-width .experiences-type-rightarrow,
+	.full-width .two-portfolio-leftarrow,
+	.full-width .two-portfolio-rightarrow,
+	.full-width .last-reviews-leftarrow,
+	.full-width .last-reviews-rightarrow {
+		display: none !important; /* Hide the arrows in the full width pages */
+	}
+
+	/* Brands Carousel.
+	// ====================================================================== */
+
+	.widget_experience_brands_carousel_widget {
+		width: 100%;
+	}
+
+	.brands-carousel-widget{
+		width: 100%;
+	}
+
+	/* Count Up.
+	// ====================================================================== */
+
+	.widget_experience_count_up_widget {
+		width: 100%;
+	}
+
+	#main-page-full .page-content .widget_experience_count_up_widget .count-up-widget {
+		overflow: hidden;
+	}
+
+	#content-wrapper .count-up-widget-li .name {
+		font-size: 17px;
+		padding: 20px;
+	}
+
+	.widget_experience_count_up_widget .count-up-widget .count-up-widget-li .count {
+		font-size: 35px;
+	}
+
+	/* Three experinces.
+	// ====================================================================== */
+
+	.widget_experience_show_three_widget {
+		width: 100%;
+	}
+
+	.main-page-def .exp-w-container,
+	.page-become-loop .exp-w-container,
+	#content-single-npns .exp-w-container,
+	#main-single-portfolio .exp-w-container,
+	.experiences-content-box .exp-w-container,
+	.exp-w-container {
+		height: auto;
+		width: 100%;
+	}
+
+	.main-page-def .exp-w-image,
+	.page-become-loop .exp-w-image,
+	#content-single-npns .exp-w-image,
+	#main-single-portfolio .exp-w-image,
+	.experiences-content-box .exp-w-image,
+	.exp-w-image {
+		height: 218px;
+		width: 100%;
+		float: left;
+	}
+
+	.main-page-def .exp-w-right-side,
+	.page-become-loop .exp-w-right-side,
+	#content-single-npns .exp-w-right-side,
+	#main-single-portfolio .exp-w-right-side,
+	.experiences-content-box .exp-w-right-side,
+	.exp-w-right-side {
+		float: left;
+		text-align: center;
+		margin-left: 0;
+		width: 100%;
+		font-weight: lighter;
+	}
+
+	#content-wrapper .main-page-def .exp-w-title,
+	#content-wrapper .page-become-loop .exp-w-title,
+	#content-wrapper #content-single-npns .exp-w-title,
+	#content-wrapper #main-single-portfolio .exp-w-title,
+	#content-wrapper .experiences-content-box .exp-w-title,
+	#content-wrapper .exp-w-title {
+		font-size: 18px;
+		margin-top: 20px; 
+	}
+
+	#content-wrapper .main-page-def .exp-w-text-experience p,
+	#content-wrapper .page-become-loop .exp-w-text-experience p,
+	#content-wrapper #content-single-npns .exp-w-text-experience p,
+	#content-wrapper #main-single-portfolio .exp-w-text-experience p,
+	#content-wrapper .experiences-content-box .exp-w-text-experience p,
+	#content-wrapper .exp-w-text-experience p {
+		font-size: 16px;
+	}
+
+	.exp-w-info-icons{
+		margin-bottom: 70px;
+	}
+
+	#content-wrapper .exp-w-price {
+		font-size: 18px;
+	}
+
+	#content-wrapper .exp-w-location {
+		font-size: 18px;
+	}
+
+	#content-wrapper a.exp-w-book-now {
+		width: 100%;
+		display: block;
+	}
+
+	.exp-w-button-rel {
+		position: relative;
+		width: 100%;
+	}
+
+	.exp-w-more {
+		display: none;
+	}
+
+	.exp-w-more-background {
+		display: none;
+	}
+
+	/*
+	// Single width sidebar.
+	*/
+
+	#content-single-npls .exp-w-container .slick-slide,
+	#content-single-nprs .exp-w-container .slick-slide {
+
+	}
+
+	/* Team carousel.
+	// ====================================================================== */
+
+	.widget_experience_team_carousel_widget {
+		width: 100%;
+	}
+
+	.main-page-def .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	.page-become-loop .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	#content-single-npns .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	#main-single-portfolio .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	.experiences-content-box .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption,
+	.team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption {
+		width: 100%;
+	}
+
+	.main-page-def .team-carousel-widget.slick-slider,
+	.page-become-loop .team-carousel-widget.slick-slider,
+	#content-single-npns .team-carousel-widget.slick-slider,
+	#main-single-portfolio .team-carousel-widget.slick-slider,
+	.experiences-content-box .team-carousel-widget.slick-slider, 
+	.team-carousel-widget.slick-slider {
+		width: 100%;
+	}
+
+	.main-page-def .team-carousel-widget .team-carousel-image-crop, 
+	.page-become-loop .team-carousel-widget .team-carousel-image-crop, 
+	#content-single-npns .team-carousel-widget .team-carousel-image-crop, 
+	#main-single-portfolio .team-carousel-widget .team-carousel-image-crop, 
+	.experiences-content-box .team-carousel-widget .team-carousel-image-crop {
+		height: 180px;
+		width: 90%;
+	}
+
+	.team-carousel-widget .team-carousel-image-crop {
+		height: 200px;
+		width: 90%;
+	}
+
+	.testimonials-whole-team-button-container {
+		width: 100%;
+	}
+
+	/* Testimonials.
+	// ====================================================================== */
+
+	.main-page-def figure.testimonials,
+	.page-become-loop figure.testimonials,
+	#content-single-npns figure.testimonials,
+	#main-single-portfolio figure.testimonials,
+	.experiences-content-box figure.testimonials,
+	figure.testimonials {
+		width: 100%;
+		padding-bottom: 40px;
+	}
+
+	.main-page-def .widget_experience_testimonials_widget ul,
+	.page-become-loop .widget_experience_testimonials_widget ul,
+	#content-single-npns .widget_experience_testimonials_widget ul,
+	#content-single-nprs .widget_experience_testimonials_widget ul,
+	#content-single-npls .widget_experience_testimonials_widget ul,
+	#main-single-portfolio .widget_experience_testimonials_widget ul,
+	.experiences-content-box .widget_experience_testimonials_widget ul,
+	.page-content .widget_experience_testimonials_widget ul{
+		padding: 0;
+	}
+
+	.testimonials-icons {
+		display: none;
+	}
+
+	.crop-client-image-testimonial {
+		width: 200px;
+		height: 200px;
+		float: none;
+		margin: 10px auto 20px auto;
+	}
+
+	#content-wrapper .main-page-def .testimonials .text,
+	#content-wrapper .page-become-loop .testimonials .text,
+	#content-single-npns .testimonials .text,
+	#main-single-portfolio .testimonials .text,
+	#content-wrapper .experiences-content-box .testimonials .text,
+	#content-wrapper .testimonials .text {
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding: 10px 6%;
+	}
+
+	.testimonials figcaption .name {
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin-bottom: 0;
+	}
+
+	#content-wrapper .testimonials p {
+		width: 100%;
+	}
+
+	.widget-slider {
+		width: 100%;
+		height: auto;
+	}
+
+	.widget-slider ul li  { 
+		height: auto;
+	}
+
+	.page-content .widget-slider ol.dots,
+	.widget-slider ol.dots {
+		padding: 0;
+		text-align: center;
+	}
+
+	/* Image widget.
+	// ====================================================================== */
+
+	.experience-widget-title.widget_image,
+	.text-after-title.widget_image {
+		width: 100%;
+	}
+
+	.widget_experience_image_widget .image-widget img {
+		display: block;
+		margin: auto;
+		width: auto;
+	}
+
+	/* Title & Text widget.
+	// ====================================================================== */
+
+	.widget_experience_title_text_widget{
+		width: 100%;
+	}
+
+	/* Features widget.
+	// ====================================================================== */
+
+	.widget_experience_features_widget {
+		width: 100%;
+	}
+
+	#content-wrapper .features-widget-ul {
+		display: inline-flex;
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		max-width: 768px;
+	}
+
+	.widget_experience_features_widget .features-widget-ul .features-list-style {
+		padding-bottom: 30px;
+		width: 50%;
+	}
+
+	/* Most liked widget.
+	// ====================================================================== */
+
+	.most-all-info-container {
+		width: 100%;
+	}
+
+	#content-single-nprs .most-all-info-container, 
+	#content-single-npls .most-all-info-container {
+		width: 95%;
+	}
+
+	#content-single-nprs .most-liked-container-full,
+	#content-single-npls .most-liked-container-full {
+		padding: 50px 0;
+	}
+
+	.most-info-experience-container {
+		width: 100%;
+	}
+
+	#content-single-nprs .most-title-liked-box .post-like, 
+	#content-single-npls .most-title-liked-box .post-like {
+		display: inline-flex;
+	}
+
+	/* Last Experiences widget.
+	// ====================================================================== */
+
+	.widget_experience_last_experience_grid_widget {
+		width: 100%;
+	}
+
+	.last-experiences-container {
+		width: 100%;
+		display: inline-flex;
+		justify-content: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+	}
+
+	.main-page-def .last-experiences-container .last-experience-figure, 
+	.page-become-loop .last-experiences-container .last-experience-figure, 
+	#content-single-npns .last-experiences-container .last-experience-figure, 
+	#main-single-portfolio .last-experiences-container .last-experience-figure, 
+	.experiences-content-box .last-experiences-container .last-experience-figure,
+	.last-experiences-container .last-experience-figure {
+		margin: 30px auto;
+		padding: 0 5px;
+		width: 50%;
+		height: auto;
+	}
+
+	.last-experience-featured-image {
+		width: 100%;
+		height: auto;
+	}
+
+	.last-experiences-container .last-experience-figure .wp-post-image {
+		min-height: 0;
+	}
+	
+	.last-experiences-featured-container {
+		height: auto;	
+	}
+
+	.last-experience-figcaption .last-experience-title-h4 {
+		margin-bottom: 10px;
+		margin-top: 10px;
+		line-height: 1.5;
+		font-size: 17px;
+	}
+
+	#content-wrapper .last-experience-figure .last-experience-figcaption p {
+		padding: 7px 12px;
+	    margin: 10px 10px 10px 0;
+		font-size: 14px;
+	}
+
+	/* Experiences types widget.
+	// ====================================================================== */
+
+	.main-page-def .widget_experience_types_carousel_widget, 
+	.page-become-loop .widget_experience_types_carousel_widget, 
+	#content-single-npns .widget_experience_types_carousel_widget, 
+	#main-single-portfolio .widget_experience_types_carousel_widget, 
+	.experiences-content-box .widget_experience_types_carousel_widget,
+	.widget_experience_types_carousel_widget {
+		width: 100%;
+	}
+
+	.image-type-figure {
+		width: 150px;
+	    margin: auto;
+	}
+
+	#single-experience-box .experiences-type-leftarrow, 
+	#content-single-nprs .experiences-type-leftarrow, 
+	#content-single-npls .experiences-type-leftarrow {
+		left: -25px;
+	}
+
+	#single-experience-box .experiences-type-rightarrow, 
+	#content-single-nprs .experiences-type-rightarrow, 
+	#content-single-npls .experiences-type-rightarrow {
+		right: -25px;
+	}
+
+	/* Portfolio widget.
+	// ====================================================================== */
+
+	.main-page-def .widget_experience_two_portfolio_widget, 
+	.page-become-loop .widget_experience_two_portfolio_widget, 
+	#content-single-npns .widget_experience_two_portfolio_widget, 
+	#main-single-portfolio .widget_experience_two_portfolio_widget,
+	.widget_experience_two_portfolio_widget {
+		width: 100%;
+	}
+
+	.portfolio-image-container {
+		padding-left: 15px;
+	    padding-right: 15px;
+	}
+
+	.two-portfolio-leftarrow, 
+	.two-portfolio-rightarrow {
+		top: 40%;
+	}
+
+	#single-experience-box .two-portfolio-leftarrow, 
+	#content-single-nprs .two-portfolio-leftarrow, 
+	#content-single-npls .two-portfolio-leftarrow {
+		left: -25px;
+	}
+
+	#single-experience-box .two-portfolio-rightarrow, 
+	#content-single-nprs .two-portfolio-rightarrow, 
+	#content-single-npls .two-portfolio-rightarrow {
+		right: -25px;
+	}
+
+	/* Last posts widget.
+	// ====================================================================== */
+
+	.last-posts-container {
+		width: 100%;
+	}
+
+	.main-page-def .post-container, 
+	.page-become-loop .post-container, 
+	#content-single-npns .post-container, 
+	#main-single-portfolio .post-container, 
+	.experiences-content-box .post-container,
+	.post-container {
+		width: 31%;
+		float: none;
+		margin: 30px auto;
+		display: block;
+	}
+
+	.last-posts-container .last-posts-pic.img {
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	/* 
+	// Full Width.
+	*/
+
+	.full-width .last-posts-container {
+		width: 97%;
+	}
+
+	/*
+	// Single with sidebar.
+	*/
+
+	#content-single-nprs .last-experiences-container .last-experience-figure,
+	#content-single-npls .last-experiences-container .last-experience-figure {
+		margin: 15px auto;
+		width: 50%;
+	    height: auto;
+	}
+
+	/* Newsletter widget.
+	// ====================================================================== */
+
+	.widget_experience_newsletter_widget {
+		width: 100%;
+	}
+
+	#content-wrapper .experience-newsletter-input {
+		width: auto;
+	}
+
+	.experience-newsletter-form {
+		display: inline-block;
+	}
+
+	#content-wrapper .experience-newsletter-submit {
+		margin-left: 5px;
+		height: 47px;
+	}
+
+	/* Last reviews widget.
+	// ====================================================================== */
+
+	.main-page-def .widget_experience_last_reviews_widget, 
+	.page-become-loop .widget_experience_last_reviews_widget, 
+	#content-single-npns .widget_experience_last_reviews_widget, 
+	#main-single-portfolio .widget_experience_last_reviews_widget, 
+	.experiences-content-box .widget_experience_last_reviews_widget,
+	.widget_experience_last_reviews_widget {
+		width: 100%;
+	}
+
+	#single-experience-box .last-reviews-leftarrow, 
+	#content-single-nprs .last-reviews-leftarrow, 
+	#content-single-npls .last-reviews-leftarrow {
+		left: -25px;
+	}
+
+	#single-experience-box .last-reviews-rightarrow, 
+	#content-single-nprs .last-reviews-rightarrow, 
+	#content-single-npls .last-reviews-rightarrow {
+		right: -25px;
+	}
+
+	/* Call to action widget.
+	// ====================================================================== */
+
+	.widget_experience_call_action_widget {
+		width: 100%;
+	}
+
+	/* Slider widget.
+	// ====================================================================== */
+
+	#content-wrapper .slider-widget-text-p {
+		font-size: 15px;
+		line-height: 26px;
+	}
+
+}
+
+/* TABLET LANDSCAPE
+// ========================================================================== */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px),
+(min-device-width: 769px) and (max-device-width: 1024px) {
+
+	/* General.
+	// ====================================================================== */
+
+	/*
+	// Arrows.
+	*/
+
+	.full-width .team_carousel_leftarrow,
+	.full-width .team_carousel_rightarrow,
+	.full-width .brands_carousel_leftarrow,
+	.full-width .brands_carousel_rightarrow,
+	.full-width .experiences-type-leftarrow,
+	.full-width .experiences-type-rightarrow,
+	.full-width .two-portfolio-leftarrow,
+	.full-width .two-portfolio-rightarrow,
+	.full-width .last-reviews-leftarrow,
+	.full-width .last-reviews-rightarrow {
+		display: none !important; /* Hide the arrows in the full width pages */
+	}
+
+	/* Brands Carousel.
+	// ====================================================================== */
+
+	.widget_experience_brands_carousel_widget {
+		width: 100%;
+	}
+
+	.brands-carousel-widget{
+		width: 100%;
+	}
+
+	/* Count Up.
+	// ====================================================================== */
+
+	.widget_experience_count_up_widget {
+		width: 100%;
+	}
+
+	/* Three experinces.
+	// ====================================================================== */
+
+	.widget_experience_show_three_widget {
+		width: 100%;
+	}
+
+	.main-page-def .exp-w-container,
+	.page-become-loop .exp-w-container,
+	#content-single-npns .exp-w-container,
+	#main-single-portfolio .exp-w-container,
+	.experiences-content-box .exp-w-container,
+	.exp-w-container {
+		height: auto;
+		width: 100%;
+	}
+
+	.main-page-def .exp-w-image,
+	.page-become-loop .exp-w-image,
+	#content-single-npns .exp-w-image,
+	#main-single-portfolio .exp-w-image,
+	.experiences-content-box .exp-w-image,
+	.exp-w-image {
+		height: 218px;
+		width: 100%;
+		float: left;
+	}
+
+	.main-page-def .exp-w-right-side,
+	.page-become-loop .exp-w-right-side,
+	#content-single-npns .exp-w-right-side,
+	#main-single-portfolio .exp-w-right-side,
+	.experiences-content-box .exp-w-right-side,
+	.exp-w-right-side {
+		float: left;
+		text-align: center;
+		margin-left: 0;
+		width: 100%;
+		font-weight: lighter;
+	}
+
+	#content-wrapper .main-page-def .exp-w-title,
+	#content-wrapper .page-become-loop .exp-w-title,
+	#content-wrapper #content-single-npns .exp-w-title,
+	#content-wrapper #main-single-portfolio .exp-w-title,
+	#content-wrapper .experiences-content-box .exp-w-title,
+	#content-wrapper .exp-w-title {
+		font-size: 18px;
+		margin-top: 20px; 
+	}
+
+	#content-wrapper .main-page-def .exp-w-text-experience p,
+	#content-wrapper .page-become-loop .exp-w-text-experience p,
+	#content-wrapper #content-single-npns .exp-w-text-experience p,
+	#content-wrapper #main-single-portfolio .exp-w-text-experience p,
+	#content-wrapper .experiences-content-box .exp-w-text-experience p,
+	#content-wrapper .exp-w-text-experience p {
+		font-size: 16px;
+	}
+
+	.exp-w-info-icons{
+		margin-bottom: 70px;
+	}
+
+	#content-wrapper .exp-w-price {
+		font-size: 18px;
+	}
+
+	#content-wrapper .exp-w-location {
+		font-size: 18px;
+	}
+
+	#content-wrapper a.exp-w-book-now {
+		width: 100%;
+		display: block;
+	}
+
+	.exp-w-button-rel {
+		position: relative;
+		width: 40%;
+		margin: auto;
+	}
+
+	.exp-w-more {
+		display: none;
+	}
+
+	.exp-w-more-background {
+		display: none;
+	}
+
+	/*
+	// Page default.
+	*/
+
+	.main-page-def .exp-w-container .slick-slide {
+		margin-right: 2px;
+	}
+
+	/*
+	// Team carousel.
+	*/
+
+	.widget_experience_team_carousel_widget {
+		width: 100%;
+	}
+
+	.main-page-def .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	.page-become-loop .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	#content-single-npns .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	#main-single-portfolio .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption, 
+	.experiences-content-box .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption,
+	.team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption {
+		width: 100%;
+	}
+
+	.main-page-def .team-carousel-widget.slick-slider,
+	.page-become-loop .team-carousel-widget.slick-slider,
+	#content-single-npns .team-carousel-widget.slick-slider,
+	#main-single-portfolio .team-carousel-widget.slick-slider,
+	.experiences-content-box .team-carousel-widget.slick-slider, 
+	.team-carousel-widget.slick-slider {
+		width: 100%;
+	}
+
+	.main-page-def .team-carousel-widget .team-carousel-image-crop,
+	 .page-become-loop .team-carousel-widget .team-carousel-image-crop, 
+	 #content-single-npns .team-carousel-widget .team-carousel-image-crop, 
+	 #main-single-portfolio .team-carousel-widget .team-carousel-image-crop, 
+	 .experiences-content-box .team-carousel-widget .team-carousel-image-crop,
+	.team-carousel-widget .team-carousel-image-crop {
+		height: 200px;
+		width: 90%;
+	}
+
+	.testimonials-whole-team-button-container {
+		width: 100%;
+	}
+
+	/* Testimonials.
+	// ====================================================================== */
+
+	.main-page-def .testimonials,
+	.page-become-loop .testimonials,
+	#content-single-npns .testimonials,
+	#main-single-portfolio .testimonials,
+	.experiences-content-box .testimonials,
+	.testimonials {
+		width: 100%;
+		padding-bottom: 40px;
+	}
+
+	.main-page-def .widget_experience_testimonials_widget ul,
+	.page-become-loop .widget_experience_testimonials_widget ul,
+	#content-single-npns .widget_experience_testimonials_widget ul,
+	#content-single-nprs .widget_experience_testimonials_widget ul,
+	#content-single-npls .widget_experience_testimonials_widget ul,
+	#main-single-portfolio .widget_experience_testimonials_widget ul,
+	.experiences-content-box .widget_experience_testimonials_widget ul,
+	.page-content .widget_experience_testimonials_widget ul{
+		padding: 0;
+	}
+
+	.testimonials-icons {
+		display: none;
+	}
+
+	.crop-client-image-testimonial {
+		width: 200px;
+		height: 200px;
+		float: none;
+		margin: 10px auto 20px auto;
+	}
+
+	.main-page-def .testimonials p,
+	.page-become-loop .testimonials p,
+	#content-single-npns .testimonials p,
+	#main-single-portfolio .testimonials p,
+	.experiences-content-box .testimonials p,
+	.testimonials p{
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.testimonials figcaption .name {
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.widget-slider {
+		width: 100%;
+		height: auto;
+	}
+
+	.widget-slider ul li  { 
+		height: auto;
+	}
+
+	.page-content .widget-slider .dots,
+	.widget-slider .dots {
+		padding: 0;
+		text-align: center;
+	}
+
+	/* Image widget.
+	// ====================================================================== */
+
+	.experience-widget-title.widget_image,
+	.text-after-title.widget_image {
+		width: 100%;
+	}
+
+	.widget_experience_image_widget .image-widget img {
+		display: block;
+		margin: auto;
+	}
+
+	/* Title & Text widget.
+	// ====================================================================== */
+
+	.widget_experience_title_text_widget{
+		width: 100%;
+	}
+
+	/* Features widget.
+	// ====================================================================== */
+
+	.widget_experience_features_widget {
+		width: 100%;
+	}
+
+	#content-wrapper .features-widget-ul {
+		max-width: 1024px;
+	}
+
+	.widget_experience_features_widget .features-widget-ul .features-list-style {
+		width: 25%;
+	}
+
+	/* Most liked widget.
+	// ====================================================================== */
+
+	.most-all-info-container {
+		width: 100%;
+	}
+
+	.most-info-experience-container {
+		width: 100%;
+	}
+
+	/* Last experiences widget.
+	// ====================================================================== */
+
+	.widget_experience_last_experience_grid_widget {
+		width: 100%;
+	}
+
+	.last-experiences-container {
+		width: 100%;
+	}
+
+	#single-experience-box .last-experiences-container .last-experience-figure, 
+	#content-single-nprs .last-experiences-container .last-experience-figure, 
+	#content-single-npls .last-experiences-container .last-experience-figure,
+	.last-experiences-container .last-experience-figure {
+		width: 43%;
+		height: auto;
+		margin: 3% 0 2% 5%;
+	}
+
+	#single-experience-box .last-experience-featured-image,
+	.last-experience-featured-image {
+		width: 100%;
+		height: 225px;
+	}
+	
+	#content-single-nprs .last-experiences-featured-container, 
+	#content-single-npls .last-experiences-featured-container {
+		height: 182px;
+	}
+	
+	#content-single-nprs .last-experience-featured-image, 
+	#content-single-npls .last-experience-featured-image {
+		height: 182px;
+	}
+	
+	.last-experiences-container .last-experience-figure .wp-post-image {
+		min-height: 0;
+	}
+
+	.last-experiences-featured-container {
+		height: auto;
+	}
+
+	.last-experience-figcaption .last-experience-title-h4 {
+		margin-bottom: 10px;
+		margin-top: 10px;
+		line-height: 1.5;
+		font-size: 17px;
+	}
+
+	#content-wrapper .author-link {
+		font-size: 15px;
+	}
+
+	#content-wrapper .last-experience-price,
+	#content-wrapper .last-experience-duration,
+	#content-wrapper .last-experience-people,
+	#content-wrapper .last-experience-figcaption .post-like {
+		margin: 10px 10px 10px 0;
+		padding: 10px;
+	}
+	
+	#content-single-nprs .last-experience-price,
+	#content-single-nprs .last-experience-duration,
+	#content-single-nprs .last-experience-people,
+	#content-single-nprs .last-experience-figcaption .post-like,
+	#content-single-npls .last-experience-price,
+	#content-single-npls .last-experience-duration,
+	#content-single-npls .last-experience-people,
+	#content-single-npls .last-experience-figcaption .post-like {
+		margin: 8px 8px 8px 0;
+		padding: 2px 6px;
+	}
+
+	/* Experiences types widget.
+	// ====================================================================== */
+
+	.widget_experience_types_carousel_widget {
+		width: 100%;
+	}
+
+	#content-single-nprs .widget_experience_types_carousel_widget, 
+	#content-single-npls .widget_experience_types_carousel_widget {
+		width: 85%;
+	}
+
+	.image-type-figure {
+		width: 150px;
+	    margin: auto;
+	}
+
+	#content-single-nprs .experiences-type-leftarrow, 
+	#content-single-npls .experiences-type-leftarrow {
+		left: -25px;
+	}
+
+	#content-single-nprs .experiences-type-rightarrow, 
+	#content-single-npls .experiences-type-rightarrow {
+		right: -25px;
+	}
+
+	/* Portfolio widget.
+	// ====================================================================== */
+
+	.widget_experience_two_portfolio_widget {
+		width: 100%;
+	}
+
+	#content-single-nprs .widget_experience_two_portfolio_widget, 
+	#content-single-npls .widget_experience_two_portfolio_widget {
+		width: 85%;
+	}
+
+	.portfolio-widget-container {
+		margin: 20px 0 30px;
+	}
+
+	.portfolio-image-container {
+		padding: 5px;
+	}
+
+	.two-portfolio-leftarrow, 
+	.two-portfolio-rightarrow {
+		top: 40%;
+	}
+
+	#content-single-nprs .two-portfolio-leftarrow, 
+	#content-single-npls .two-portfolio-leftarrow {
+		left: -25px;
+	}
+
+	#content-single-nprs .two-portfolio-rightarrow, 
+	#content-single-npls .two-portfolio-rightarrow {
+		right: -25px;
+	}
+
+	/* Last posts widget.
+	// ====================================================================== */
+
+	.last-posts-container {
+		width: 100%;
+	}
+
+	#single-experience-box .post-container, 
+	#content-single-nprs .post-container, 
+	#content-single-npls .post-container,
+	.main-page-def .post-container, 
+	.page-become-loop .post-container, 
+	#content-single-npns .post-container, 
+	#main-single-portfolio .post-container, 
+	.experiences-content-box .post-container,
+	.post-container {
+		width: 31%;
+		margin: 1%;
+	}
+
+	.main-page-def .last-posts-container .last-posts-pic.img, 
+	.page-become-loop .last-posts-container .last-posts-pic.img, 
+	#content-single-npns .last-posts-container .last-posts-pic.img, 
+	#main-single-portfolio .last-posts-container .last-posts-pic.img, 
+	.experiences-content-box .last-posts-container .last-posts-pic.img {
+		height: 220px;
+	}
+
+	#single-experience-box .last-posts-container .last-posts-pic.img,
+	.last-posts-container .last-posts-pic.img {
+		width: 100%;
+		height: 260px;
+		margin-bottom: 20px;
+	}
+	
+	#content-single-nprs .last-posts-container .last-posts-pic.img, 
+	#content-single-npls .last-posts-container .last-posts-pic.img {
+		height: 148px;
+	}
+
+	#content-wrapper .last-posts-title-post {
+		margin: 0;
+	}
+
+	/* 
+	// Full Width.
+	*/
+
+	#content-wrapper .full-width .last-posts-title-post,
+	#content-wrapper .full-width .last-posts-date,
+	#content-wrapper .full-width .last-posts-author {
+		margin: 0;
+	}
+
+	/*
+	// Single with sidebar.
+	*/
+
+	/* Newsletter widget.
+	// ====================================================================== */
+
+	.widget_experience_newsletter_widget {
+		width: 100%;
+	}
+
+	#content-wrapper .experience-newsletter-input {
+		width: auto;
+	}
+
+	.experience-newsletter-form {
+		display: inline-block;
+	}
+
+	#content-wrapper .experience-newsletter-submit {
+		margin-left: 5px;
+	}
+
+	/* Last reviews widget.
+	// ====================================================================== */
+
+	.widget_experience_last_reviews_widget {
+		width: 100%;
+	}
+
+	#content-single-nprs .widget_experience_last_reviews_widget,
+	#content-single-npls .widget_experience_last_reviews_widget {
+		width: 85%;
+	}
+
+	#content-single-nprs .last-reviews-leftarrow, 
+	#content-single-npls .last-reviews-leftarrow {
+		left: -25px;
+	}
+
+	#content-single-nprs .last-reviews-rightarrow, 
+	#content-single-npls .last-reviews-rightarrow {
+		right: -25px;
+	}
+
+	/* Call to action widget.
+	// ====================================================================== */
+
+	.widget_experience_call_action_widget {
+		width: 100%;
+	}
+
+	/* Slider widget.
+	// ====================================================================== */
+
+}

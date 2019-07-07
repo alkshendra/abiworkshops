@@ -1,0 +1,129 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 03/02/2016 12:41
+  	*/
+
+@font-face {
+	font-family: "Flaticon";
+	src: url("Flaticon.eot");
+	src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+		url("Flaticon.woff") format("woff"),
+		url("Flaticon.ttf") format("truetype"),
+		url("Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("Flaticon.svg#Flaticon") format("svg");
+	}
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+.flaticon-general-ui-1-66741:before { content: "\f100"; }
+.flaticon-general-ui-10-66752:before { content: "\f101"; }
+.flaticon-general-ui-11-66753:before { content: "\f102"; }
+.flaticon-general-ui-12-66754:before { content: "\f103"; }
+.flaticon-general-ui-13-66755:before { content: "\f104"; }
+.flaticon-general-ui-14-66757:before { content: "\f105"; }
+.flaticon-general-ui-15-66758:before { content: "\f106"; }
+.flaticon-general-ui-16-66760:before { content: "\f107"; }
+.flaticon-general-ui-17-66761:before { content: "\f108"; }
+.flaticon-general-ui-18-66762:before { content: "\f109"; }
+.flaticon-general-ui-19-66763:before { content: "\f10a"; }
+.flaticon-general-ui-2-66742:before { content: "\f10b"; }
+.flaticon-general-ui-20-66764:before { content: "\f10c"; }
+.flaticon-general-ui-21-66765:before { content: "\f10d"; }
+.flaticon-general-ui-22-66767:before { content: "\f10e"; }
+.flaticon-general-ui-23-66768:before { content: "\f10f"; }
+.flaticon-general-ui-24-66769:before { content: "\f110"; }
+.flaticon-general-ui-25-66779:before { content: "\f111"; }
+.flaticon-general-ui-26-66780:before { content: "\f112"; }
+.flaticon-general-ui-27-66783:before { content: "\f113"; }
+.flaticon-general-ui-28-66785:before { content: "\f114"; }
+.flaticon-general-ui-29-66786:before { content: "\f115"; }
+.flaticon-general-ui-3-66743:before { content: "\f116"; }
+.flaticon-general-ui-30-66787:before { content: "\f117"; }
+.flaticon-general-ui-31-66788:before { content: "\f118"; }
+.flaticon-general-ui-32-66789:before { content: "\f119"; }
+.flaticon-general-ui-33-66790:before { content: "\f11a"; }
+.flaticon-general-ui-34-66792:before { content: "\f11b"; }
+.flaticon-general-ui-35-66793:before { content: "\f11c"; }
+.flaticon-general-ui-36-66794:before { content: "\f11d"; }
+.flaticon-general-ui-37-66795:before { content: "\f11e"; }
+.flaticon-general-ui-38-66796:before { content: "\f11f"; }
+.flaticon-general-ui-39-66797:before { content: "\f120"; }
+.flaticon-general-ui-4-66744:before { content: "\f121"; }
+.flaticon-general-ui-40-66798:before { content: "\f122"; }
+.flaticon-general-ui-41-66799:before { content: "\f123"; }
+.flaticon-general-ui-42-66801:before { content: "\f124"; }
+.flaticon-general-ui-43-66804:before { content: "\f125"; }
+.flaticon-general-ui-44-66819:before { content: "\f126"; }
+.flaticon-general-ui-45-66820:before { content: "\f127"; }
+.flaticon-general-ui-46-66821:before { content: "\f128"; }
+.flaticon-general-ui-47-66822:before { content: "\f129"; }
+.flaticon-general-ui-48-66823:before { content: "\f12a"; }
+.flaticon-general-ui-49-66824:before { content: "\f12b"; }
+.flaticon-general-ui-5-66745:before { content: "\f12c"; }
+.flaticon-general-ui-50-66825:before { content: "\f12d"; }
+.flaticon-general-ui-51-66826:before { content: "\f12e"; }
+.flaticon-general-ui-52-66827:before { content: "\f12f"; }
+.flaticon-general-ui-53-66828:before { content: "\f130"; }
+.flaticon-general-ui-54-66829:before { content: "\f131"; }
+.flaticon-general-ui-55-66830:before { content: "\f132"; }
+.flaticon-general-ui-56-66831:before { content: "\f133"; }
+.flaticon-general-ui-57-66833:before { content: "\f134"; }
+.flaticon-general-ui-58-66835:before { content: "\f135"; }
+.flaticon-general-ui-59-66836:before { content: "\f136"; }
+.flaticon-general-ui-6-66746:before { content: "\f137"; }
+.flaticon-general-ui-60-66837:before { content: "\f138"; }
+.flaticon-general-ui-61-66838:before { content: "\f139"; }
+.flaticon-general-ui-62-66844:before { content: "\f13a"; }
+.flaticon-general-ui-63-66845:before { content: "\f13b"; }
+.flaticon-general-ui-64-66846:before { content: "\f13c"; }
+.flaticon-general-ui-65-66847:before { content: "\f13d"; }
+.flaticon-general-ui-66-66859:before { content: "\f13e"; }
+.flaticon-general-ui-66740:before { content: "\f13f"; }
+.flaticon-general-ui-67-66862:before { content: "\f140"; }
+.flaticon-general-ui-68-66863:before { content: "\f141"; }
+.flaticon-general-ui-69-66864:before { content: "\f142"; }
+.flaticon-general-ui-7-66749:before { content: "\f143"; }
+.flaticon-general-ui-70-66865:before { content: "\f144"; }
+.flaticon-general-ui-71-66866:before { content: "\f145"; }
+.flaticon-general-ui-72-66868:before { content: "\f146"; }
+.flaticon-general-ui-73-66869:before { content: "\f147"; }
+.flaticon-general-ui-74-66870:before { content: "\f148"; }
+.flaticon-general-ui-75-66872:before { content: "\f149"; }
+.flaticon-general-ui-76-66875:before { content: "\f14a"; }
+.flaticon-general-ui-77-66877:before { content: "\f14b"; }
+.flaticon-general-ui-78-66879:before { content: "\f14c"; }
+.flaticon-general-ui-79-66880:before { content: "\f14d"; }
+.flaticon-general-ui-8-66750:before { content: "\f14e"; }
+.flaticon-general-ui-80-66882:before { content: "\f14f"; }
+.flaticon-general-ui-81-66883:before { content: "\f150"; }
+.flaticon-general-ui-82-66884:before { content: "\f151"; }
+.flaticon-general-ui-83-66885:before { content: "\f152"; }
+.flaticon-general-ui-84-66888:before { content: "\f153"; }
+.flaticon-general-ui-85-66889:before { content: "\f154"; }
+.flaticon-general-ui-86-66922:before { content: "\f155"; }
+.flaticon-general-ui-87-66923:before { content: "\f156"; }
+.flaticon-general-ui-88-66924:before { content: "\f157"; }
+.flaticon-general-ui-89-66926:before { content: "\f158"; }
+.flaticon-general-ui-9-66751:before { content: "\f159"; }
+.flaticon-general-ui-90-66928:before { content: "\f15a"; }
+.flaticon-general-ui-91-66930:before { content: "\f15b"; }
+.flaticon-general-ui-92-66931:before { content: "\f15c"; }
+.flaticon-general-ui-93-66932:before { content: "\f15d"; }
+.flaticon-general-ui-94-66933:before { content: "\f15e"; }
+.flaticon-general-ui-95-66934:before { content: "\f15f"; }
+.flaticon-general-ui-96-66936:before { content: "\f160"; }
+.flaticon-general-ui-97-66937:before { content: "\f161"; }
+.flaticon-general-ui-98-66938:before { content: "\f162"; }
+.flaticon-general-ui-99-66939:before { content: "\f163"; }

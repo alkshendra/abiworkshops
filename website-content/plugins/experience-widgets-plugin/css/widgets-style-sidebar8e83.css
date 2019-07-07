@@ -1,0 +1,1160 @@
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//	 01. General.
+//		01.1. Vertical Sidebar.
+//		01.2. Horizontal Sidebar.
+//   02. Testimonials.
+//   03. Count Up.
+//   04. Team Carousel.
+//		04.1. Arrows.
+//		04.2. Button.
+//   05. Three Experiences.
+//   06. Brands Carousel.
+//		06.1. Arrows.
+//	 07. Image widget.
+//	 08. Features.
+//   09. Most Liked widget.
+//	 10. Last Experiences grid.
+//   11. Experiences Types Carousel.
+//		11.1. Arrows.
+//   12. Portfolio widget.
+//		12.1. Arrows.
+//   13. Last Reviews.
+//		13.1. Arrows.
+//	 14. Last Posts.
+//	 15. Newsletter.
+//	 11. Call to Action.
+//	 14. Slider widget.
+// ========================================================================== */
+
+/* GENERAL.
+// ========================================================================== */
+
+/*
+// Vertical Sidebar.
+*/
+
+#content-wrapper .widget-vertical .text-after-title {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.widget-vertical .experience-widget-title,
+.widget-vertical .text-after-title {
+	width: auto;
+	margin: auto;
+	padding: 0;
+	line-height: 26px;
+	text-transform: inherit;
+}
+
+/*
+//  Horizontal Sidebar.
+*/
+
+#content-wrapper .widget-horizontal .text-after-title {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.widget-horizontal .experience-widget-title {
+	margin: auto;
+	padding: 0 0 5px 0;
+	line-height: 1;
+}
+
+.widget-horizontal .text-after-title {
+	width: auto;
+	margin: auto;
+}
+
+/* Testimonials.
+// ========================================================================== */
+
+.widget-vertical .testimonials {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+.widget-horizontal .testimonials {
+	width: 100%;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+.widget-vertical .testimonials-icons,
+.widget-horizontal .testimonials-icons {
+	display: none;
+}
+
+.widget-vertical .widget-testimonials-ul,
+.widget-horizontal .widget-testimonials-ul {
+	margin-top: 30px;
+}
+
+.widget-vertical .crop-client-image-testimonial {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	float: none;
+	margin: 10px auto 10px auto;
+}
+
+.widget-horizontal .crop-client-image-testimonial {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	float: none;
+	margin: 0px auto 10px auto;
+}
+
+.widget-vertical .crop-client-image-testimonial img,
+.widget-horizontal .crop-client-image-testimonial img{
+	min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    max-width: none;
+    width: 130%;
+    height: auto;
+}
+
+.widget-vertical .testimonials p,
+.widget-horizontal .testimonials p{
+	float: none;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+.widget-vertical .testimonials figcaption .name,
+.widget-horizontal .testimonials figcaption .name {
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-bottom: 0;
+}
+
+.widget-horizontal .testimonials figcaption .name,
+.widget-horizontal .testimonials figcaption .text{
+	color: #ffffff;
+}
+
+.widget-vertical .widget-slider,
+.widget-horizontal .widget-slider {
+	height: auto;
+}
+
+.widget-vertical .widget-slider ul li,
+.widget-horizontal .widget-slider ul li  { 
+	height: auto;
+}
+
+#box-horizontal-sidebar .widget-horizontal .widget-slider .dots li {
+	border: 1px solid #ffffff;
+}
+
+/* Count Up.
+// ========================================================================== */
+
+#content-wrapper .widget-vertical .count-up-widget {
+	margin: 30px;
+}
+
+#content-wrapper .widget-horizontal .count-up-widget {
+	padding: 0;
+	margin: 20px 0;
+}
+
+.widget-vertical .count-up-widget {
+	text-align: center;
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	width: 80%;
+	margin: auto;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	padding-top: 10px;
+}
+
+.widget-horizontal .count-up-widget {
+	text-align: center;
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	width: 100%;
+	margin: auto;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	padding-top: 10px;
+}
+
+.widget-vertical .count-up-widget li {
+	text-align: center;
+	list-style: none;
+	padding: 12px;
+}
+
+.widget-horizontal .count-up-widget li {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+#box-vertical-sidebar .widget-vertical .count-up-widget li p,
+#box-horizontal-sidebar .widget-horizontal .count-up-widget li p {
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+.widget-horizontal .count-up-widget li p {
+	padding-right: 1px;
+	padding-left: 1px;
+	color: #ffffff;
+}
+
+.widget-vertical .count-up-widget li .count,
+.widget-horizontal .count-up-widget li .count {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Team Carousel.
+// ========================================================================== */
+
+.widget-vertical .team-carousel-widget.slick-slider {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.widget-horizontal .team-carousel-widget.slick-slider {
+	width: 100%;
+}
+
+.widget-vertical .team-carousel-widget .team-carousel-image-crop,
+.widget-horizontal .team-carousel-widget .team-carousel-image-crop {
+	height: 90px;
+	width: 90px;
+}
+
+#box-vertical-sidebar .widget-vertical .team-carousel-widget .team-carousel-image-crop img,
+#box-horizontal-sidebar .widget-horizontal .team-carousel-widget .team-carousel-image-crop img  {
+	width: 100%;
+}
+
+.widget-vertical .team-carousel-widget .slick-slide.slick-center figcaption,
+.widget-horizontal .team-carousel-widget .slick-slide.slick-center figcaption{
+	padding-top: 15px;
+	margin: 20px 2px 0 2px;
+	width: auto;
+}
+
+.widget-vertical .team-carousel-widget .slick-slide figcaption,
+.widget-horizontal .team-carousel-widget .slick-slide figcaption{
+	margin: 20px 2px 0 2px;
+}
+
+.widget-vertical .team-carousel-widget .slick-slide figcaption p,
+.widget-horizontal .team-carousel-widget .slick-slide figcaption p {
+	margin-top: 0;
+	padding: 0 1px 15px 1px;
+}
+
+.widget-vertical .team-carousel-widget .slick-slide figcaption a,
+.widget-horizontal .team-carousel-widget .slick-slide figcaption a {
+	padding: 10px 1px;
+	font-weight: bold;
+}
+
+/*
+// Arrows.
+*/
+
+.widget-vertical .team_carousel_leftarrow,
+.widget-vertical .team_carousel_rightarrow,
+.widget-horizontal .team_carousel_leftarrow,
+.widget-horizontal .team_carousel_rightarrow {
+	display: none !important; /* Hide the arrows in the sidebars */
+}
+
+/*
+// Button.
+*/
+
+.widget-vertical .testimonials-whole-team-button-container,
+.widget-horizontal .testimonials-whole-team-button-container {
+	width: 100%;
+}
+
+.widget-vertical .testimonials-whole-team-button,
+.widget-horizontal .testimonials-whole-team-button {
+	color: white;
+	padding: 10px 20px;
+	display: block;
+	margin-top: 0;
+	font-size: 13px;
+	opacity: 1;
+}
+
+/* Three Experinces.
+// ========================================================================== */
+
+.widget-vertical .exp-w-container {
+	height: auto;
+	width: 100%;
+	cursor: -webkit-grab;
+	cursor: grab;
+	margin: 30px 0 0 0;
+}
+
+.widget-vertical .exp-w-image:active,
+.widget-vertical .exp-w-title:active,
+.widget-vertical .exp-w-text-experience:active,
+.widget-vertical .exp-w-info-icons:active,
+.widget-vertical .exp-w-container:active {
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
+
+.widget-horizontal .exp-w-container {
+	height: auto;
+	width: 100%;
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+
+.widget-horizontal .exp-w-image:active,
+.widget-horizontal .exp-w-title:active,
+.widget-horizontal .exp-w-text-experience:active,
+.widget-horizontal .exp-w-info-icons:active,
+.widget-horizontal .exp-w-container:active {
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
+
+.widget-vertical .text-after-title.show-three {
+	padding-bottom: 0px;
+}
+
+.widget-vertical .exp-w-image,
+.widget-horizontal .exp-w-image {
+	height: 200px;
+	width: 100%;
+	float: none;
+}
+
+.widget-vertical .exp-w-right-side,
+.widget-horizontal .exp-w-right-side {
+	float: none;
+	text-align: center;
+	margin-left: 0;
+	width: 100%;
+	font-weight: lighter;
+}
+
+#content-wrapper .widget-vertical .exp-w-title,
+#content-wrapper .widget-horizontal .exp-w-title {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+#content-wrapper .widget-vertical .exp-w-text-experience p,
+#content-wrapper .widget-horizontal .exp-w-text-experience p {
+	font-size: 14px;
+}
+
+.widget-vertical .exp-w-info-icons,
+.widget-horizontal .exp-w-info-icons{
+	margin-bottom: 70px;
+}
+
+#content-wrapper .widget-vertical .exp-w-price,
+#content-wrapper .widget-horizontal .exp-w-price {
+	font-size: 18px;
+}
+
+#content-wrapper .widget-vertical .exp-w-location, 
+#content-wrapper .widget-horizontal .exp-w-location {
+	font-size: 18px;
+}
+
+#content-wrapper .widget-vertical .post-like-widget,
+#content-wrapper .widget-horizontal .post-like-widget {
+	padding: 0;
+	font-size: 18px;
+}
+
+#content-wrapper #box-vertical-sidebar .widget-vertical .exp-w-info-icons .post-like,
+#content-wrapper #box-horizontal-sidebar .widget-horizontal .exp-w-info-icons .post-like {
+	margin: 0;
+	display: inline-flex;
+	line-height: 1;
+}
+
+#content-wrapper .widget-vertical .exp-w-book-now,
+#content-wrapper .widget-horizontal .exp-w-book-now {
+	padding: 10px 12px;
+	width: 100%;
+	display: block;
+	opacity: 1;
+}
+
+.widget-vertical .exp-w-button-rel,
+.widget-horizontal .exp-w-button-rel {
+	position: relative;
+	width: 100%;
+}
+
+.widget-vertical .exp-w-more,
+.widget-horizontal .exp-w-more {
+	display: none;
+}
+
+.widget-vertical .exp-w-more-background,
+.widget-horizontal .exp-w-more-background {
+	display: none;
+}
+
+#content-wrapper .widget-vertical .exp-w-container .slick-dots {
+	top: -45px;
+	padding-left: 0;
+}
+
+#content-wrapper .widget-horizontal .exp-w-container .slick-dots {
+	top: -33px;
+	padding-left: 0;
+}
+
+.widget-vertical .exp-w-container .slick-dots,
+.widget-horizontal .exp-w-container .slick-dots {
+	height: 10px;
+	width: 100%;
+	margin-left: 0;
+	text-align: center;
+}
+
+.widget-vertical .exp-w-container .slick-dots button,
+.widget-horizontal .exp-w-container .slick-dots button {
+	width: 12px;
+	height: 12px;
+}
+
+/* Brands Carousel.
+// ========================================================================== */
+
+.widget-vertical .brands-carousel-widget,
+.widget-horizontal .brands-carousel-widget{
+	width: 100%;
+	margin: 20px 0;
+}
+
+/*
+// Arrows.
+*/
+
+.widget-vertical .brands_carousel_leftarrow,
+.widget-vertical .brands_carousel_rightarrow,
+.widget-horizontal .brands_carousel_leftarrow,
+.widget-horizontal .brands_carousel_rightarrow {
+	display: none !important; /* Hide the arrows in the sidebars */ 
+}
+
+/* Image widget.
+// ========================================================================== */
+
+.widget-vertical .image-widget {
+	margin: 25px 0 0 0;
+}
+
+.widget-horizontal .image-widget {
+	margin: 20px 0;
+}
+
+/* Features.
+// ========================================================================== */
+
+
+#content-wrapper .widget-vertical .features-widget-ul {
+	list-style: none;
+	width: 100%;
+	margin: auto;
+	display: block;
+	padding-top: 20px;
+}
+
+#content-wrapper .widget-horizontal .features-widget-ul {
+	display: block;
+	list-style: none;
+	width: 100%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+#content-wrapper .widget-horizontal .features-list-style {
+	padding-bottom: 20px;
+}
+
+.widget-horizontal .features-image{
+	max-width: 50px;
+}
+
+.widget-horizontal .features-title {
+	margin: 10px 0;
+}
+
+.widget-vertical .features-title {
+	margin: 0;
+}
+
+.widget-vertical .features-text {
+	padding-top: 10px;
+}
+
+/* Most Liked widget.
+// ========================================================================== */
+
+.widget-horizontal .most-liked-widget h3,
+.widget-vertical .most-liked-widget h3{
+	display: none;
+}
+
+.widget-vertical .most-liked-widget {
+	margin: -30px -25px;
+}
+
+.widget-horizontal .most-liked-container-full {
+	padding-top: 36px;
+	overflow: hidden;
+	position: relative;
+}
+
+.widget-vertical .most-liked-container-full {
+	padding: 30px 25px;
+	position: relative;
+}
+
+.widget-horizontal .most-all-info-container,
+.widget-vertical .most-all-info-container {
+	width: 100%;
+}
+
+.widget-horizontal .experience-widget-title.most-liked {
+	display: block;
+}
+
+.widget-vertical .widget-title .experience-widget-title.most-liked{
+	color: #626262;
+}
+
+.widget-horizontal .most-info-experience-container,
+.widget-vertical .most-info-experience-container {
+	width: 100%;
+}
+
+.widget-horizontal .most-title-liked-box,
+.widget-vertical .most-title-liked-box {
+	display: block;
+	text-align: center;
+}
+
+#content-wrapper .widget-horizontal .most-title-experience {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#content-wrapper .widget-vertical .most-title-experience {
+	padding-top: 20px;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.widget-horizontal .most-likes-experience,
+.widget-vertical .most-likes-experience {
+	padding: 10px;
+}
+
+.widget-horizontal .most-all-info-container .post-like,
+.widget-vertical .most-all-info-container .post-like {
+	display: inline-block;
+	padding: 8px;
+	margin: auto;
+	line-height: 1;
+}
+
+.widget-horizontal .most-all-info-container .post-like a,
+.widget-vertical .most-all-info-container .post-like a {
+	padding: 0;
+}
+
+.widget-horizontal .most-author-experience {
+	margin-top: 5px;
+}
+
+.widget-vertical .most-author-experience {
+	padding: 0;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.widget-horizontal .most-author-experience-link {
+	padding: 20px 0;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+}
+
+.widget-vertical .most-author-experience-link {
+	text-align: center;
+	font-weight: bold;
+}
+
+.widget-horizontal .most-text-experience p,
+.widget-vertical .most-text-experience p {
+	text-align: center;
+}
+
+.widget-horizontal .most-info-experience-icons {
+	padding-top: 20px;
+	margin: 0;
+}
+
+.widget-vertical .most-info-experience-icons {
+	margin: 0;
+	padding: 0;
+}
+
+.widget-horizontal .most-location,
+.widget-vertical .most-location,
+.widget-horizontal .most-price,
+.widget-vertical .most-price {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.widget-horizontal .most-button-experience {
+	margin-bottom: -30px;
+	padding-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.widget-vertical .most-button-experience {
+	padding-top: 25px;
+	padding-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+.widget-horizontal .most-book-now-link,
+.widget-vertical .most-book-now-link {
+	padding: 10px 12px;
+	color: #ffffff;
+	font-size: 13px;
+	opacity: 1;
+}
+
+/* Last Experiences Grid.
+// ========================================================================== */
+
+.widget-horizontal .last-experiences-container,
+.widget-vertical .last-experiences-container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.widget-horizontal .last-experience-figure,
+.widget-vertical .last-experience-figure {
+	width: 100%;
+	margin: 30px 0 0 0;
+	height: auto;
+}
+
+.widget-horizontal .last-experiences-featured-container,
+.widget-vertical .last-experiences-featured-container {
+	height: 250px;
+}
+
+.widget-horizontal .last-experience-figcaption {
+	height: 183px;
+}
+
+.widget-horizontal .last-experience-figcaption,
+.widget-vertical .last-experience-figcaption {
+	text-align: center;
+}
+
+.widget-vertical .last-experience-title-link {
+	padding: 0;
+}
+
+.widget-horizontal .last-experience-title-h4,
+.widget-vertical .last-experience-title-h4 {
+	margin: 10px 0; 
+	text-align: center;
+	font-size: 18px;
+}
+
+#box-horizontal-sidebar .widget-horizontal .last-experience-figcaption .author-link,
+#box-vertical-sidebar .widget-vertical .last-experience-figcaption .author-link {
+	float: none;
+}
+
+#box-vertical-sidebar.dark-version .widget-vertical .last-experience-figcaption .author-link {
+	color: #fff;
+}
+
+#box-vertical-sidebar.dark-version .widget-vertical .last-experience-figcaption p {
+	color: #333;
+}
+
+#box-horizontal-sidebar .widget-horizontal .last-experience-price {
+	font-size: 14px;
+}
+
+#box-horizontal-sidebar .widget-horizontal .last-experience-price,
+#box-vertical-sidebar .widget-vertical .last-experience-price {
+	padding: 7px;
+	margin: 20px 3px 0 0;
+}
+
+#box-horizontal-sidebar .widget-horizontal .last-experience-people,
+#box-horizontal-sidebar .widget-horizontal .last-experience-duration,
+#box-horizontal-sidebar .widget-horizontal .post-like {
+	padding: 7px;
+	margin: 20px 3px 0 0;
+	font-size: 14px;
+}
+
+#box-horizontal-sidebar .widget-horizontal .post-like a{
+	line-height: 1;
+}
+
+.widget-horizontal .last-experience-figcaption i{
+	font-size: 14px;
+}
+
+.widget-horizontal .last-experience-figcaption .last-icon,
+.widget-horizontal .last-experience-figcaption .like {
+	height: 26px;
+	display: inline-block;
+}
+
+.widget-horizontal .last-experience-figcaption .like {
+	line-height: 26px;
+}
+
+.widget-vertical .last-experience-figcaption .last-icon {
+	height: 24px;
+	display: inline-block;
+}
+
+#box-vertical-sidebar .widget-vertical .last-experience-people,
+#box-vertical-sidebar .widget-vertical .last-experience-duration,
+#box-vertical-sidebar .widget-vertical .post-like {
+	padding: 7px;
+	margin: 20px 3px 0 0;
+}
+
+.widget-horizontal .experience-plus-expand,
+.widget-vertical .experience-plus-expand {
+	color: #ffffff;
+	font-size: 40px;
+}
+
+/* Experiences Types Carousel.
+// ========================================================================== */
+
+.widget-horizontal .experiences-type-container,
+.widget-vertical .experiences-type-container {
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+
+.widget-horizontal .experiences-type-container.slick-slider,
+.widget-vertical .experiences-type-container.slick-slider {
+	margin-bottom: 0;
+}
+
+.widget-horizontal .image-type:active,
+.widget-vertical .image-type:active {
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
+
+.widget-horizontal .image-type-figure {
+	margin: 20px 0;
+	width: 100%;
+}
+
+.widget-vertical .image-type-figure {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.widget-vertical .image-type-container {
+	height: auto;
+}
+
+.widget-horizontal .image-type-figcaption,
+.widget-vertical .image-type-figcaption {
+	display: none;
+}
+
+/*
+// Arrows.
+*/
+
+.widget-horizontal .experiences-type-leftarrow,
+.widget-vertical .experiences-type-leftarrow,
+.widget-horizontal .experiences-type-rightarrow,
+.widget-vertical .experiences-type-rightarrow {
+	display: none !important; /* Hide the arrows in the Sidebars */
+}
+
+/* Portfolio widget.
+// ========================================================================== */
+
+#content-wrapper .widget-horizontal .portfolio-widget-container,
+#content-wrapper .widget-vertical .portfolio-widget-container {
+	margin: 25px 0 0 0;
+}
+
+.widget-horizontal .portfolio-image-container {
+	padding: 5px 8px 8px 8px;
+}
+
+.widget-vertical .portfolio-image-container {
+	padding: 8px;
+}
+
+.widget-horizontal .text-portfolio-pic,
+.widget-vertical .text-portfolio-pic {
+	height: 115px;
+}
+
+#content-wrapper .widget-vertical .text-portfolio-pic img,
+#content-wrapper .widget-horizontal .text-portfolio-pic img {
+	min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    max-width: none;
+    width: 130%;
+    height: auto;
+}
+
+.widget-horizontal .text-portfolio-pic .expand,
+.widget-vertical .text-portfolio-pic .expand {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+/*
+// Arrows.
+*/
+
+.widget-horizontal .two-portfolio-leftarrow,
+.widget-vertical .two-portfolio-leftarrow,
+.widget-horizontal .two-portfolio-rightarrow,
+.widget-vertical .two-portfolio-rightarrow {
+	display: none !important; /* Hide the arrows in the sidebars */
+}
+
+/* Last Reviews.
+// ========================================================================== */
+
+.widget-horizontal .experience-reviews-container.slick-slider,
+.widget-vertical .experience-reviews-container.slick-slider {
+	margin-bottom: 0;
+}
+
+.widget-horizontal .experience-review {
+	margin: 20px 3px 0 3px;
+	cursor: drag;
+	cursor: -webkit-grab;
+}
+
+.widget-vertical .experience-review {
+	margin: 30px 15px 0 15px;
+	cursor: drag;
+	cursor: -webkit-grab;
+}
+
+.widget-horizontal .review-author-gravatar-img,
+.widget-vertical .review-author-gravatar-img {
+	margin-top: 2px;
+	margin-bottom: 16px;
+}
+
+.widget-vertical .titles-review,
+.widget-horizontal .titles-review {
+	display: block;
+}
+
+.widget-horizontal .review-experience-title,
+.widget-vertical .review-experience-title,
+.widget-horizontal .review-author-name,
+.widget-vertical .review-author-name {
+	padding: 0;
+}
+
+#content-wrapper .widget-horizontal .comment-rating,
+#content-wrapper .widget-vertical .comment-rating {
+	margin: 0;
+}
+
+.widget-horizontal .review-title-rating,
+.widget-horizontal .review-comment {
+	color: #ffffff;
+}
+
+/*
+// Arrows.
+*/
+
+.widget-horizontal .last-reviews-leftarrow,
+.widget-horizontal .last-reviews-rightarrow,
+.widget-vertical .last-reviews-rightarrow,
+.widget-vertical .last-reviews-leftarrow {
+	display: none !important; /* Hide the arrows in the sidebars */
+}
+
+/* Last Posts.
+// ========================================================================== */
+
+.widget-horizontal .last-posts-container,
+.widget-vertical .last-posts-container {
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.widget-horizontal .post-container {
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+
+.widget-vertical .post-container {
+	width: 100%;
+	margin: 30px 0 0 0;
+}
+
+.widget-horizontal .last-posts-container .last-posts-pic,
+.widget-vertical .last-posts-container .last-posts-pic {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.widget-horizontal .last-posts-container .last-posts-pic img,
+.widget-vertical .last-posts-container .last-posts-pic img {
+	width: 100%;
+	height: auto;
+}
+
+.widget-horizontal .last-posts-title-link {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.widget-vertical .last-posts-title-link {
+	font-size: 17px;
+	font-weight: bold;
+	padding: 0;
+}
+
+#box-horizontal-sidebar .widget-horizontal .last-posts-excerpt {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 130%;
+}
+
+#box-vertical-sidebar .widget-vertical .last-posts-excerpt {
+	padding: 0 15px;
+	font-size: 14px;
+}
+
+#box-horizontal-sidebar .widget-horizontal .last-posts-date,
+#box-horizontal-sidebar .widget-horizontal .last-posts-author {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+#box-vertical-sidebar .widget-vertical .last-posts-date,
+#box-vertical-sidebar .widget-vertical .last-posts-author {
+	padding: 5px 0;
+	font-size: 14px;
+}
+
+.widget-horizontal .last-posts-pic .expand,
+.widget-vertical .last-posts-pic .expand {
+	color: #ffffff;
+	font-size: 40px;
+}
+
+/* Newsletter.
+// ========================================================================== */
+
+.widget-vertical .newsletter-form-container {
+	margin-bottom: 20px;
+}
+
+.widget-vertical .experience-newsletter-form {
+	margin-top: 30px;
+}
+
+.widget-horizontal .experience-newsletter-form {
+	margin-top: 20px;
+}
+
+#box-horizontal-sidebar .widget-horizontal .experience-newsletter-p,
+#box-vertical-sidebar .widget-vertical .experience-newsletter-p {
+	width: 100%;
+}
+
+#box-horizontal-sidebar .widget-horizontal .experience-newsletter-input,
+#box-vertical-sidebar .widget-vertical .experience-newsletter-input {
+	width: 80%;
+	background-color: #f2f2f2;
+}
+
+#box-horizontal-sidebar .widget-horizontal .experience-newsletter-submit,
+#box-vertical-sidebar .widget-vertical .experience-newsletter-submit {
+	margin: auto;
+	cursor: pointer;
+	width: 80%;
+}
+
+#box-horizontal-sidebar .widget-horizontal .mc4wp-alert,
+#box-vertical-sidebar .widget-vertical .mc4wp-alert {
+	width: 80%;
+}
+
+/* Call to Action.
+// ========================================================================== */
+
+.widget-horizontal .button-call-button,
+.widget-vertical .button-call-button {
+	padding: 10px 12px;
+	display: block;
+}
+
+.widget-horizontal .button-call-container {
+	margin: 20px 0;
+}
+
+.widget-vertical .button-call-container {
+	margin-top: 30px;
+}
+
+.widget-horizontal .button-call-button,
+.widget-vertical .button-call-button {
+	font-size: 13px;
+	color: #fff;
+	opacity: 1;
+}
+
+/* Slider widget.
+// ========================================================================== */
+
+.widget-vertical .widget-slider-main {
+	margin: -30px -25px;
+}
+
+.widget-horizontal .widget-slider-main h3,
+.widget-vertical .widget-slider-main h3{
+	display: none;
+}
+
+.widget-horizontal .widget-slider-ul {
+	padding: 0;
+}
+
+.widget-vertical .widget-slider-ul {
+	margin: 0;
+}
+
+.widget-horizontal .widget-slider-container,
+.widget-vertical .widget-slider-container {
+	height: 240px;
+}
+
+.widget-horizontal .widget-slider-container .widget-slider-li,
+.widget-vertical .widget-slider-container .widget-slider-li {
+	height: 240px;
+}
+
+.widget-horizontal .widget-slider-container .widget-slider-image,
+.widget-vertical .widget-slider-container .widget-slider-image {
+	background-size: 140%;
+}
+
+.widget-horizontal .slider-widget-text-relative,
+.widget-vertical .slider-widget-text-relative {
+	width: 100%;
+}
+
+.widget-horizontal .slider-widget-text-h2,
+.widget-vertical .slider-widget-text-h2 {
+	font-size: 23px;
+}
+
+#box-horizontal-sidebar .widget-horizontal .slider-widget-text-p,
+#box-vertical-sidebar .widget-vertical .slider-widget-text-p {
+	padding: 15px 30px;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: 1px;
+}
+
+.widget-horizontal .slider-widget-button,
+.widget-vertical .slider-widget-button {
+	padding: 0;
+	margin-top: 10px;
+}
+
+.widget-horizontal li .slider-widget-button .slider-widget-button-a,
+.widget-vertical li .slider-widget-button .slider-widget-button-a {
+	font-size: 13px;
+	padding: 10px 12px;
+	color: #fff;
+	opacity: 1;
+}
+
+.widget-horizontal li .slider-widget-button-a:hover,
+.widget-vertical li .slider-widget-button-a:hover {
+	color: #eb9687;
+}
+
+.widget-horizontal .slider-widget-arrow,
+.widget-vertical .slider-widget-arrow {
+	top: 37%;
+}

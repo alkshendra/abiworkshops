@@ -1,0 +1,476 @@
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Headers.
+//   02. Testimonials.
+//   03. Count Up.
+//   04. Team Carousel.
+//		4.1. Arrows.
+//   05. Three Experiences.
+//   06. Brands Carousel.
+//		6.1. Arrows.
+//   07. Image widget.
+//   08. Title and Text.
+//   09. Features widget.
+//	 10. Most Liked widget.
+//	 11. Last Experiences with Grid.
+//	 12. Experiences Types widget.
+//	 13. Portfolio widget.
+//	 14. Call to Action widget.
+//	 15. Last Reviews widget.
+//	 16. Last Posts widget.
+//	 17. Newsletter widget.
+// ========================================================================== */
+
+/* Headers.
+// ========================================================================== */
+
+#content-wrapper .custom-width .text-after-title {
+	text-align: center;
+	font-weight: lighter;
+}
+
+/* Testimonials.
+// ========================================================================== */
+
+#content-wrapper .custom-width .testimonials {
+	width: 80%;
+	padding-bottom: 40px;
+}
+
+#content-wrapper .custom-width .testimonials-icons {
+	display: none;
+}
+
+#content-wrapper .custom-width .crop-client-image-testimonial {
+	width: 100px;
+	height: 100px;
+	float: none;
+	margin: auto;
+}
+
+#content-wrapper .custom-width .testimonials p{
+	float: none;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+#content-wrapper .custom-width .testimonials figcaption .name {
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-bottom: 0;
+}
+
+#content-wrapper .custom-width .widget-slider {
+	height: auto;
+}
+
+#content-wrapper .custom-width .widget-slider ul li { 
+	height: auto;
+}
+
+#content-wrapper .custom-width .widget-slider ul{ 
+	padding: 0;
+	margin: 0;
+}
+
+#content-wrapper .custom-width .widget-slider .dots{ 
+	padding: 0;
+	margin: 0;
+}
+
+/* Count Up.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_count_up_widget {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .count-up-widget {
+	padding-left: 0;
+}
+
+#content-wrapper .custom-width .count-up-widget {
+	text-align: center;
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	width: 80%;
+	margin: auto;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	padding-top: 10px;
+}
+
+#content-wrapper .custom-width .count-up-widget li {
+	text-align: center;
+	list-style: none;
+}
+
+#content-wrapper .custom-width .count-up-widget li .count {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Team Carousel.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_team_carousel_widget {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .team-carousel-widget.slick-slider {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .team-carousel-widget .team-carousel-image-crop {
+	height: 90px;
+	width: 90px;
+}
+
+#content-wrapper .custom-width .team-carousel-widget .team-carousel-image-crop img {
+	width: 100%;
+}
+
+#content-wrapper .custom-width .team-carousel-widget .slick-slide.slick-center figcaption{
+	padding-top: 15px;
+	margin: 20px 2px 0 2px;
+	width: auto;
+}
+
+#content-wrapper .custom-width .team-carousel-widget .slick-slide figcaption{
+	margin: 20px 2px 0 2px;
+}
+
+#content-wrapper .custom-width .team-carousel-widget .slick-slide figcaption p{
+	margin-top: 0;
+	padding: 0 1px 15px 1px;
+	font-size: 16px;
+}
+
+#content-wrapper .custom-width .team-carousel-widget .slick-slide figcaption a {
+	padding: 10px 1px;
+}
+
+#content-wrapper .custom-width .testimonials-whole-team-button-container {
+	width: 100%;
+}
+
+#content-wrapper .custom-width .testimonials-whole-team-button {
+	padding: 15px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+/*
+// Arrows.
+*/
+
+#content-wrapper .custom-width .team_carousel_leftarrow,
+#content-wrapper .custom-width .team_carousel_rightarrow{
+	font-size: 30px;
+}
+
+/* Three Experiences.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_show_three_widget {
+	width: 80%;
+	cursor: pointer;
+}
+
+#content-wrapper .custom-width .exp-w-container {
+	height: auto;
+	width: 79%;
+}
+
+#content-wrapper .custom-width .exp-w-image {
+	height: 200px;
+	width: 100%;
+	float: none;
+}
+
+#content-wrapper .custom-width .exp-w-right-side {
+	float:none;
+	text-align: center;
+	margin-left:0;
+	width: 100%;
+	font-weight: lighter;
+}
+
+#content-wrapper .custom-width .exp-w-title {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+#content-wrapper .custom-width .exp-w-text-experience p{
+	font-size: 16px;
+}
+
+#content-wrapper .custom-width .exp-w-info-icons{
+	margin-bottom: 70px;
+}
+
+#content-wrapper .custom-width .exp-w-price{
+	font-size: 18px;
+}
+
+#content-wrapper .custom-width .exp-w-location {
+	font-size: 18px;
+}
+
+#content-wrapper .custom-width .exp-w-book-now{
+	padding: 15px;
+	width: 100%;
+	display: block;
+}
+
+#content-wrapper .custom-width .exp-w-button-rel{
+	position: relative;
+	width: 100%;
+}
+
+#content-wrapper .custom-width .exp-w-more{
+	display: none;
+}
+
+#content-wrapper .custom-width .exp-w-more-background{
+	display: none;
+}
+
+#content-wrapper .custom-width .exp-w-container .slick-dots {
+	top: -45px;
+	padding-left: 0;
+}
+
+#content-wrapper .custom-width .exp-w-container .slick-dots{
+	height: 10px;
+	width: 100%;
+	margin-left: 0;
+	text-align: center;
+}
+
+#content-wrapper .custom-width .exp-w-container .slick-dots button{
+	width: 12px;
+	height: 12px;
+}
+
+/* Brands Carousel.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_brands_carousel_widget {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .brands-carousel-widget {
+	width: 100%;
+}
+
+#content-wrapper .custom-width .crop_brand_image {
+	width: 90px;
+	height: 90px;
+}
+
+#content-wrapper .custom-width .crop_brand_image img{
+	width: 90px;
+}
+
+/*
+// Arrows.
+*/
+
+#content-wrapper .custom-width .brands_carousel_leftarrow,
+#content-wrapper .custom-width .brands_carousel_rightarrow{
+	top: 40%;
+	font-size: 30px;
+}
+
+/* Image widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .experience-widget-title.widget_image, 
+#content-wrapper .custom-width .text-after-title.widget_image {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .image-widget {
+	margin: 0;
+}
+
+/* Title and Text.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_title_text_widget {
+	width: 80%;
+}
+
+/* Features widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_features_widget {
+	width: 100%;
+}
+
+#content-wrapper .custom-width .features-widget-ul {
+	padding: 0;
+}
+
+#content-wrapper .custom-width .features-title {
+	margin: 0;
+}
+
+#content-wrapper .custom-width .features-before-title-text,
+#content-wrapper .custom-width .features-text {
+	font-size: 15px;
+}
+
+/* Most Liked widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .most-all-info-container {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .most-info-experience-container {
+	width: 100%;
+}
+
+#content-wrapper .custom-width .most-title-liked-box {
+	margin-bottom: 20px;
+}
+
+#content-wrapper .custom-width .most-title-experience {
+	line-height: 1.8;
+	padding: 0;
+	margin: 0;
+}
+
+/* Last Experiences with Grid.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_last_experience_grid_widget {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .last-experiences-container {
+	width: 100%;
+}
+
+#content-wrapper .custom-width .last-experiences-container .last-experience-figure {
+	width: 100%;
+	margin: auto;
+}
+
+#content-wrapper .custom-width .last-experiences-container .last-experience-featured-image {
+	width: 100%;
+}
+
+#content-wrapper .custom-width .last-experience-figcaption .last-experience-title-h4 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+#content-wrapper .custom-width .author-link {
+	font-size: 15px;
+}
+
+#content-wrapper .custom-width .last-experience-price,
+#content-wrapper .custom-width .last-experience-duration,
+#content-wrapper .custom-width .last-experience-people,
+#content-wrapper .custom-width .last-experience-figcaption .post-like {
+	padding: 6px;
+	margin: 8px 8px 8px 0;
+	font-size: 14px;
+}
+
+/* Experiences Types widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_types_carousel_widget {
+	width: 80%;
+	margin: auto;
+}
+
+#content-wrapper .custom-width .image-type-figure {
+	width: 100%;
+}
+
+#content-wrapper .custom-width .type-button {
+	padding: 15px;
+    font-size: 9px;
+}
+
+/* Portfolio widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .portfolio-image-container {
+	padding: 5px;
+}
+
+#content-wrapper .custom-width .portfolio-image-container .text-portfolio-pic {
+	height: 150px;
+}
+
+#content-wrapper .custom-width .portfolio-image-container .text-portfolio-pic img{
+	max-width: 150%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/* Call to Action widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_call_action_widget {
+	width: 80%;
+}
+
+/* Last Reviews widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .experience-review {
+	margin: 0 32px;
+}
+
+#content-wrapper .custom-width .review-author-gravatar-img {
+	margin-bottom: 0;
+}
+
+/* Last Posts widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .last-posts-container {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .post-container {
+	width: 100%;
+    margin: auto;
+    float: none;
+	margin-bottom: 30px;
+}
+
+#content-wrapper .custom-width .last-posts-container .last-posts-pic.img {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 15px;
+}
+
+/* Newsletter widget.
+// ========================================================================== */
+
+#content-wrapper .custom-width .widget_experience_newsletter_widget {
+	width: 80%;
+}
+
+#content-wrapper .custom-width .experience-newsletter-input {
+	width: auto;
+}

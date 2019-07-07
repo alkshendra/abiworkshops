@@ -1,0 +1,96 @@
+.sidr{
+	display: none;
+	position: absolute;
+	position: fixed;
+	margin-top: -30px;
+	height: 100%;
+	z-index: 999999;
+	width: 350px;
+	font-size: 15px;
+	background-color: #333333;
+	border-radius: 0 2px 0 0;
+}
+
+.sidr .sidr-inner{
+	padding: 0 0 15px;
+}
+
+.sidr.left{
+	left: -300px;
+	right: auto;
+}
+
+.sidr ul{
+	display: block;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+.sidr ul li{
+	line-height: 30px;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.sidr ul li:hover,
+.sidr ul li.active,
+.sidr ul li.sidr-class-active{
+	border-top: none;
+}
+
+.sidr ul li:hover>a,
+.sidr ul li:hover>span,
+.sidr ul li.active>a,
+.sidr ul li.active>span,
+.sidr ul li.sidr-class-active>a,
+.sidr ul li.sidr-class-active>span{
+
+}
+
+.sidr ul li a,
+.sidr ul li span{
+	padding: 0;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 11px;
+	text-align: center;
+}
+
+.sidr ul li ul{
+	border-bottom: none;
+	margin: 0;
+}
+
+.sidr ul li ul li{
+	line-height: 30px;
+	font-size: 13px;
+	display: block-flex;
+	margin: auto;
+}
+
+.sidr ul li ul li:last-child{
+	border-bottom: none;
+}
+
+.sidr ul li ul li:hover,
+.sidr ul li ul li.active,
+.sidr ul li ul li.sidr-class-active{
+	border-top: none;
+}
+
+.sidr ul li ul li:hover>a,
+.sidr ul li ul li:hover>span,
+.sidr ul li ul li.active>a,
+.sidr ul li ul li.active>span,
+.sidr ul li ul li.sidr-class-active>a,
+.sidr ul li ul li.sidr-class-active>span{
+}
+
+#sidr ul li ul li a,
+.sidr ul li ul li span{
+	color: #ededed;
+	text-transform: capitalize;
+}

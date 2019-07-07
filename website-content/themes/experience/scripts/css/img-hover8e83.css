@@ -1,0 +1,115 @@
+/* GLOBAL */
+
+.effects {
+}
+
+.effects .img {
+	position: relative;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+.effects .img:nth-child(n) {
+	margin-right: 0;
+}
+
+.effects .img:first-child {
+	margin-left: 0;
+}
+
+.effects .img:last-child {
+  margin-right: 0;
+}
+
+.effects .img img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	position: relative;
+}
+
+.effects .img:hover img {
+	-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.overlay {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	background: black;
+	overflow: hidden;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+}
+
+.close-overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: 45px;
+	height: 45px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 45px;
+	text-align: center;
+	background-color: #000;
+	cursor: pointer;
+}
+
+.close-overlay.hidden {
+	display: none;
+}
+
+.expand {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	text-decoration:none;
+}
+
+/* EFFECT HOVER */
+
+.effect-hover .overlay {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-transform: translateZ(0);
+}
+
+.effect-hover .overlay a.expand {
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+	opacity: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.effect-hover .img.hover .overlay {
+	opacity: 0.5;
+	-webkit-transform: translateZ(0);
+}
+
+.effect-hover .img.hover .overlay .expand {
+	top: 50%;
+	margin-top: -30px;
+	opacity: 1;
+}

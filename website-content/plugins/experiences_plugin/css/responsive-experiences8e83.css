@@ -1,0 +1,1276 @@
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Single.
+//		1.1. Thickbox: PayPal and General.
+//		1.2. Notifications: free booking.
+//   02. Contributor Page (Author).
+//		2.1. Header.
+//		2.2. Main.
+//   03. Client Page.
+//		3.1. Header.
+//		3.2. Main.
+//		3.3. Thickbox.
+//   04. Pages Experiences.
+//		4.1. Isotope Filters.
+//		4.2. Template: Page Text.
+//			4.2.1. Common Style.
+//			4.2.2. Post Likes.
+//		4.3. Template: Page Grid.
+//		4.4. Template: Page Full.
+//   05. Taxonomy Page.
+//   06. Authors Page.
+// ========================================================================== */
+
+/* PHONE
+// ========================================================================== */
+
+@media only screen and (max-width: 514px),
+(max-device-width: 514px) {
+
+	/* Single.
+	// ====================================================================== */
+
+	#single-experience-box {
+		width: 85%;
+	}
+
+	.title-single-experience-header {
+		font-size: 25px;
+	}
+
+	.text-single-experience-header a {
+		font-size: 23px;
+	}
+
+	.text-single-experience-header {
+		margin-top: 30px;
+	}
+
+	.exp-single-title-like {
+		flex-direction: column;
+	}
+
+	.exp-single-title-like .post-like {
+		display: inline-flex;
+		margin: 30px 0 0;
+	}
+
+	.details-single-experience  {
+		margin: 5%;
+	}
+
+	.inside-position {
+		position: relative;
+		top: 0;
+	}
+
+	.inside-position figure {
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+
+	.single-experience {
+		width: 100%;
+	}
+
+	.experiences-bookings-and-specifications {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.experience-author {
+		width: 100%;
+	}
+
+	.experience-author-gravatar-img {
+		width: 100%;
+	    overflow: hidden;
+	}
+	
+	.experience-author .experience-author-gravatar-img img {
+		float: none;
+	}
+
+	.experience-specifications {
+		width: 100%;
+	}
+
+	.title-rating-input {
+		width: 100%;
+	}
+
+	/*
+	// Thickbox: PayPal and General.
+	*/
+
+	#TB_window {
+	    top: 0 !important;
+		left: 0 !important;
+	    height: 100% !important;
+		width: 100% !important;
+	    margin-top: 0 !important;
+		margin-left: 0 !important;
+	    border-top: 0;
+	    border-bottom: 0;
+	}
+
+	#TB_ajaxContent {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.exp-sin-th-details p {
+		width: 100%;
+		min-height: 85px;
+	}
+
+	/*
+	// Notifications: free booking.
+	*/
+
+	.booked_free_experience {
+		line-height: 30px;
+	}
+
+	.booked_free_experience a {
+		line-height: 100%;
+	}
+
+	/* Contributor Page (Author).
+	// ====================================================================== */
+
+	/*
+	// Header.
+	*/
+
+	.title-author-experience-header {
+		font-size: 35px;
+	}
+
+	.text-author-experience-header {
+		font-size: 25px;
+		margin-top: 30px;
+	}
+
+	/*
+	// Main.
+	*/
+
+	.author-experience-box {
+		width: 85%;
+		flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+	}
+
+	.author-experience-contact-box {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.experience-contact-box-text {
+		padding: 20px;
+	}
+
+	.author-experience-contact-box .experience-image-profile-box {
+		width: 83%;
+		height: 200px;
+	}
+
+	.experience-specific-information-box {
+		width: 100%;
+	}
+
+	.exp-author-activities-loop-li {
+		height: auto;
+	}
+
+	.exp-author-activities-loop-li .exp-author-featured-image {
+		height: 220px
+	}
+
+	.exp-author-activity-info {
+		width: 100%;
+		margin-top: 30px;
+		margin-left: 0;
+	}
+
+	.exp-author-page-book-now {
+		position: relative;
+		float: left;
+	    margin-top: 20px;
+		text-align: center;
+		width: 100%;
+	}
+
+	/* Client Page.
+	// ====================================================================== */
+
+	/*
+	// Header.
+	*/
+
+	.title-client-experience-header {
+		font-size: 35px;
+	}
+
+	.text-client-experience-header {
+		font-size: 25px;
+		margin-top: 30px;
+	}
+
+	/*
+	// Main.
+	*/
+
+	.client-experience-box {
+		width: 85%;
+	}
+
+	.client-experience-info-box {
+		width: 100%;
+	}
+
+	.experience-image-client-profile-box {
+		width: 100%;
+		height: 200px;
+	}
+
+	.exp-client-info-noimg {
+		margin: 25px 0 0 0;
+		width: 100%;
+	}
+
+	.exp-client-info-noimg p {
+		width: 100%;
+	}
+
+	.exp-client-info-noimg .exp-client-p-no-logged {
+		margin: 0;
+	}
+
+	.client-experience-bookings {
+		margin: 0;
+	}
+
+	.experiences_your_bookings_box {
+		width: 100%;
+	}
+
+	.exp-client-featured-image {
+		width: 100%;
+	}
+
+	.exp-client-activity-info {
+		margin-left: 0;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	.exp-client-page-book-now {
+		position: relative;
+		float: left;
+		text-align: center;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	/*
+	// Thickbox.
+	*/
+
+	.exp-edit-client-form textarea,
+	.exp-edit-client-form input[type="text"], 
+	.exp-edit-client-form input[type="password"] {
+		width: 100%;
+	}
+
+	.exp-edit-client-form .button {
+		width: 100%;
+	}
+
+	.exp-edit-client-form {
+		margin-bottom: 60px;
+	}
+
+	/* Pages Experiences.
+	// ====================================================================== */
+
+	/*
+	// Isotope filters.
+	*/
+
+	.isotope_filters li a {
+		margin: 0px 10px 20px 10px;
+	}
+
+	/*
+	// Template: Page Text.
+	*/
+
+	.text-page-experiences-two-col {
+		width: 85%;
+	}
+
+	/* Common style. */
+
+	.experience-page-content-width {
+		width: 80%;
+	}
+
+	.text-page-experiences-two-col figure {
+		width: 100%;
+		margin: 5% auto;
+	}
+
+	.experience-page-text-featured-image {
+		width: 100%;
+		height: 200px;
+	}
+
+	.text-experiences-pic {
+		height: 200px;
+	}
+
+	.text-page-experiences-two-col figcaption h4 {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 5px;
+	}
+
+	.experience-page-two-col-text-price,
+	.experience-page-two-col-text-duration,
+	.experience-page-two-col-text-people {
+		padding: 7px;
+		margin: 5px 5px 5px 0;
+		font-size: 14px;
+	}
+
+	/* Post likes. */
+
+	.experience-page-text-figcaption .post-like{ 
+		padding: 7px;
+		margin: 5px 5px 5px 0;
+		font-size: 14px;
+	}
+
+	.experience-plus-expand .fa-plus-circle{
+		font-size: 25px;
+	}
+
+	/*
+	// Template: Page Grid.
+	*/
+
+	.grid-page-experiences-two-col {
+		width: 85%;
+	}
+
+	.item_experience_grid {
+		width: 100%;
+	}
+
+	.grid-page-experiences-two-col figure {
+		margin: 5% auto;
+		height: 200px;
+		max-width: 100%;
+	}
+
+	figure .experience-page-grid-featured-image {
+		height: 200px;
+		width: auto;
+	    max-width: 100%;
+	}
+
+	.experience-page-grid-effect-hover .experience-page-grid-figcaption {
+		width: 90%;
+	}
+
+	.experience-page-grid-effect-hover .experience-page-grid-figcaption h4 {
+		font-size: 18px;
+	}
+
+	.experience-page-grid-effect-hover .experience-page-grid-figcaption .experience-title-link {
+		display: block;
+		height: 42px;
+	}
+
+	.experience-page-grid-effect-hover .experiences-page-two-col-grid-name a {
+		font-size: 16px;
+	}
+
+	.experience-page-grid-effect-hover:hover .exp-center-grid-page-fg-absolute {
+		margin: 15px auto;
+	}
+
+	.experience-page-grid-effect-hover .exp-center-grid-page-fg-absolute p {
+		bottom: -14px;
+	    font-size: 14px;
+	    margin-right: 12px;
+	}
+
+	/*
+	// Template: Page Full.
+	*/
+
+	.full-page-experiences-one-col {
+		width: 85%;
+	}
+
+	.item_experience_full {
+		height: auto;
+	}
+
+	.exp-page-image {
+		height: 300px;
+		width: 100%;
+		background-size: cover;
+	}
+
+	.exp-page-right-side {
+		margin-left: 0;
+		width: 100%;
+		margin-bottom: 70px;
+	}
+
+	.exp-page-title {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+
+	.exp-page-more-background {
+		display: none;
+	}
+
+	.exp-page-more {
+		display: none;
+	}
+
+	#content-wrapper .exp-page-text-experience p {
+		padding: 15px 0 15px 0;
+		line-height: 1.5;
+	}
+
+	.exp-page-full-info .post-like {
+		display: inline-flex;
+	}
+
+	.exp-page-right-side .exp-page-book-now {
+		width: 100%;
+		text-align: center;
+	}
+
+	/* Taxonomy Page.
+	// ====================================================================== */
+
+	.taxonomy-content-box {
+		width: 85%; 
+	}
+
+	.taxonomy-thumb {
+		height: 200px;
+		margin-top: 20px;
+	}
+
+	.taxonomy-thumb img {
+		min-width: 100%;
+		width: 200%;
+		min-height: 100%;
+	}
+
+	.taxo-experiences-categories {
+		margin: 10px 0 0 0;
+	}
+
+	/* Authors Page.
+	// ====================================================================== */
+
+	.experience-authors-page {
+		width: 80%;
+	}
+
+	.experience-authors-grid figure {
+	    width: 100%;
+	    float: none;
+	    margin: 0 auto 40px auto;
+
+	}
+
+	.experience-author-image-crop {
+		width: 100%;
+		height: 250px;
+	}
+}
+
+/* TABLET
+// ========================================================================== */
+
+@media only screen and (min-width: 515px) and (max-width: 768px),
+(min-device-width: 515px) and (max-device-width: 768px) {
+
+	/* Single.
+	// ====================================================================== */
+
+	#single-experience-box {
+		width: 85%;
+	}
+
+	.inside-position {
+		position: relative;
+	    top: 0;
+	}
+
+	.inside-position figure {
+		border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    -webkit-border-radius: 3px;
+	}
+
+	.single-experience {
+		width: 100%;
+	}
+
+	.experiences-bookings-and-specifications {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.experience-aside-box {
+		width: 100%;
+	}
+
+	.experience-author .experience-author-gravatar-img img {
+		float: none;
+	}
+
+	/*
+	// Thickbox: PayPal and General.
+	*/
+
+	#TB_window {
+	    top: 0 !important;
+		left: 0 !important;
+	    height: 100% !important;
+		width: 100% !important;
+	    margin-top: 0 !important;
+		margin-left: 0 !important;
+	    border-top: 0;
+	    border-bottom: 0;
+	}
+
+	#TB_ajaxContent {
+		width: 100% !important;
+	}
+
+	/*
+	// Notifications: free booking.
+	*/
+
+	.booked_free_experience {
+		line-height: 30px;
+	}
+
+	.booked_free_experience a {
+		line-height: 100%;
+	}
+
+	/* Contributor Page (Author).
+	// ====================================================================== */
+
+	/*
+	// Header.
+	*/
+
+	/*
+	// Main.
+	*/
+
+	.author-experience-box {
+		width: 85%;
+	}
+
+	.experience-specific-information-box {
+		margin-right: 5%;
+		width: 100%;
+	}
+
+	.exp-author-activities-loop-li {
+		height: auto;
+	}
+
+	.author-experience-contact-box {
+		width: 100%;
+	}
+
+	.exp-author-activity-info {
+	    width: 100%;
+	    margin-top: 30px;
+	    margin-left: 0;
+	}
+
+	.exp-author-page-book-now {
+	    position: relative;
+	    float: left;
+	    margin-top: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
+
+	.author-experience-contact-box .experience-image-profile-box {
+		width: 83%;
+		height: 218px;
+	}
+
+	.experience-contact-box-text {
+		padding: 10px 20px;
+	}
+
+	/* Client Experiences.
+	// ====================================================================== */
+
+	/*
+	// Header.
+	*/
+
+	/*
+	// Main.
+	*/
+
+	.client-experience-box {
+		width: 85%;
+	}
+
+	.client-experience-info-box {
+		width: 50%;
+	}
+
+	.experience-image-client-profile-box {
+		width: 100%;
+		height: 218px;
+	}
+
+	.exp-client-info-noimg {
+		margin: 25px 0 0;
+	}
+
+	.client-experience-bookings {
+		width: 50%;
+		padding-left: 5%;
+		margin-left: 0;
+	}
+
+	.experiences_your_bookings_box {
+	    width: 100%;
+	}
+
+	.exp-client-featured-image {
+	    width: 100%;
+	}
+
+	.exp-client-activity-info {
+	    margin-left: 0;
+	    margin-top: 30px;
+		width: 100%;
+	}
+
+	.exp-client-page-book-now {
+	    position: relative;
+	    float: left;
+	    text-align: center;
+	    margin-top: 20px;
+	    width: 100%;
+	}
+
+	/*
+	// Thickbox.
+	*/
+
+	.exp-edit-client-form input {
+		width: 100%;
+	}
+
+	.exp-edit-client-form .button {
+		width: 100%;
+	}
+
+	.exp-edit-client-form {
+		margin-bottom: 100px;
+	}
+
+	/* Pages Experiences.
+	// ====================================================================== */
+
+	/*
+	// Isotope filters.
+	*/
+
+	.isotope_filters li a {
+		margin: 0px 10px 20px 10px;
+	}
+
+	/*
+	// Template: Page text.
+	*/
+
+	.text-page-experiences-two-col {
+		width: 85%;
+	}
+
+	/* Common style. */
+
+	.experience-page-content-width {
+		width: 80%;
+	}
+
+	.text-page-experiences-two-col .experiences-page {
+		width: 100%;
+	}
+
+	.text-page-experiences-two-col figure {
+		width: 100%;
+		margin: 5% auto;
+	}
+
+	.experience-page-text-featured-image {
+		width: 100%;
+		height: 260px;
+	}
+
+	.text-experiences-pic {
+		height: 260px;
+	}
+
+	.text-page-experiences-two-col figcaption h4 {
+		font-size: 20px;
+	}
+
+	.experience-page-two-col-text-price {
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	.experience-page-two-col-text-duration {
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	.experience-page-two-col-text-people {
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	/* Post likes. */
+
+	.experience-page-text-figcaption .post-like{ 
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	.experience-plus-expand i.fa-plus-circle{
+		font-size: 25px;
+	}
+
+	/*
+	// Template: Page Grid.
+	*/
+
+	.grid-page-experiences-two-col {
+		width: 85%;
+	}
+
+	.grid-page-experiences-two-col figure {
+		width: 270px;
+	    height: 218px;
+		margin: 20px 0 20px 40px;
+	}
+
+	figure .experience-page-grid-featured-image {
+		height: 218px;
+		width: auto;
+		max-width: 100%;
+	}
+
+	.experience-page-grid-effect-hover:hover .experience-page-grid-figcaption h4 {
+		font-size: 18px;
+	    width: 90%;
+	}
+
+	.experience-page-grid-effect-hover:hover .experience-page-grid-figcaption .experience-title-link {
+		display: block;
+		height: 48px;
+	}
+
+	.experience-page-grid-effect-hover .experiences-page-two-col-grid-name a {
+		font-size: 16px;
+	}
+
+	.experience-page-grid-effect-hover .exp-center-grid-page-fg-absolute p {
+		bottom: -20px;
+	    font-size: 14px;
+	    margin-right: 10px;
+	}
+
+	/*
+	// Template: Page Full.
+	*/
+
+	.full-page-experiences-one-col {
+		width: 85%;
+	}
+
+	.item_experience_full {
+		height: auto;
+	}
+
+	.exp-page-image {
+		height: 300px;
+		width: 100%;
+	}
+
+	.exp-page-right-side {
+		margin-left: 0;
+		width: 100%;
+		margin-bottom: 70px;
+	}
+
+	.exp-page-title {
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	.exp-page-more-background {
+		display: none;
+	}
+
+	.exp-page-more {
+		display: none;
+	}
+
+	#content-wrapper .exp-page-text-experience p {
+		padding: 25px 0 25px 0;
+		line-height: 1.5;
+	}
+
+	.exp-paga-full-location {
+		padding-bottom: 10px;
+	}
+
+	.exp-page-right-side a.exp-page-book-now {
+		width: 100%;
+		text-align: center;
+	}
+
+	/* Taxonomy Page.
+	// ====================================================================== */
+
+	.taxonomy-content-box  {
+		width: 85%; 
+	}
+
+	.experiences-taxonomy .taxonomy-thumb {
+		height: 218px;
+		margin-top: 20px;
+	}
+
+	.experiences-taxonomy .taxonomy-thumb img {
+		min-width: 100%;
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.taxo-experiences-categories {
+		margin: 10px 0 0 0;
+	}
+
+	/* Authors Page.
+	// ====================================================================== */
+
+	.experience-authors-page {
+		width: 80%;
+	}
+
+	.experience-authors-grid {
+		width: 100%;
+		display: inline-flex;
+		flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	    justify-content: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+	}
+
+	.author-grid-effect {
+		width: 50%;
+		padding: 0 17px;
+	}
+
+	.experience-authors-grid figure {
+	    width: 100%;
+		height: 290px;
+	    float: none;
+	    margin: 0 auto 40px auto;
+	}
+
+	.experience-author-image-crop {
+		width: 100%;
+	}
+}
+
+/* TABLET LANDSCAPE
+// ========================================================================== */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px),
+(min-device-width: 769px) and (max-device-width: 1024px) {
+
+	/* Single.
+	// ====================================================================== */
+
+	#single-experience-box {
+		width: 85%;
+	}
+
+	.inside-position {
+		width: 100%;
+		position: relative;
+		top: 0;
+	}
+
+	.details-single-experience {
+		margin: 2%;
+	}
+
+	.single-experience {
+		width: 58%;
+	}
+
+	.experiences-bookings-and-specifications {
+    width: 38%;
+    max-width: 38%;
+}
+
+	/*
+	// Thickbox: PayPal and General.
+	*/
+
+	#TB_window {
+	    top:0 !important;
+		left:0 !important;
+	    height:100% !important;
+		width:100% !important;
+	    margin-top:0 !important;
+		margin-left:0 !important;
+	    border-top:0;
+	    border-bottom:0;
+	}
+
+	#TB_ajaxContent {
+		width: 100% !important;
+	}
+
+	/*
+	// Notifications: free booking.
+	*/
+
+	.booked_free_experience {
+		line-height: 30px;
+	}
+
+	.booked_free_experience a {
+		line-height: 100%;
+	}
+
+	/* Contributor Page (Author).
+	// ====================================================================== */
+
+	/*
+	// Header.
+	*/
+
+	/*
+	// Main.
+	*/
+
+	.author-experience-box {
+		width: 85%;
+	}
+
+	.experience-specific-information-box {
+		width: 58%;
+	}
+
+	.author-experience-contact-box {
+	    width: 38%;
+	    max-width: 38%;
+	}
+
+	.exp-author-activities-loop-li {
+		height: auto;
+	}
+
+	.exp-author-activity-info {
+	    width: 100%;
+	    margin-top: 30px;
+	    margin-left: 0;
+	}
+
+	.exp-author-page-book-now {
+	    position: relative;
+	    float: left;
+	    margin-top: 20px;
+	}
+
+	/* Client Experiences.
+	// ====================================================================== */
+
+	/*
+	// Header.
+	*/
+
+	/*
+	// Main.
+	*/
+
+	.client-experience-box {
+		width: 85%;
+	}
+
+	.client-experience-info-box {
+		width: 48%;
+	}
+
+	.client-experience-bookings {
+		width: 48%;
+	    margin: 0;
+	}
+
+	.exp-edit-client-form input {
+		width: 100%;
+	}
+
+	.exp-edit-client-form .button {
+		width: 100%;
+	}
+
+	.exp-edit-client-form {
+		margin-bottom: 100px;
+	}
+
+	/* Pages Experiences.
+	// ====================================================================== */
+
+	/*
+	// Isotope filters.
+	*/
+
+	.isotope_filters li a {
+		margin: 0px 10px 20px 10px;
+	}
+
+	/*
+	// Template: Page text.
+	*/
+
+	.text-page-experiences-two-col {
+		width: 85%;
+	}
+
+	/* Common style. */
+
+	.experience-page-content-width {
+		width: 85%;
+	}
+	
+	.text-page-experiences-two-col .item_experience {
+		width: 45%;
+	}
+
+	.text-page-experiences-two-col figure {
+		max-width: 100%;
+		width: 360px;
+	    margin: 20px 0 20px 50px;
+	}
+
+	.experience-page-text-featured-image {
+		width: 100%;
+		height: 257px;
+	}
+
+	.text-experiences-pic {
+		height: 257px;
+	}
+
+	.text-page-experiences-two-col figcaption h4 {
+		font-size: 18px;
+	}
+
+	.experience-page-two-col-text-price {
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	.experience-page-two-col-text-duration {
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	.experience-page-two-col-text-people {
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	/* Post likes. */
+
+	.experience-page-text-figcaption .post-like{ 
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	.experience-plus-expand .fa-plus-circle{
+		font-size: 25px;
+	}
+
+	/*
+	// Template: Page Grid.
+	*/
+
+	.grid-page-experiences-two-col {
+		width: 85%;
+	}
+
+	.item_experience_grid {
+		width: 45%;
+	}
+
+	.grid-page-experiences-two-col figure {
+		width: 360px;
+		height: 280px;
+	    margin: 20px 0 30px 50px;
+		max-width: 100%;
+	}
+
+	.experience-page-grid-featured-image {
+		width: auto;
+		max-width: 100%;
+	}
+
+	.experience-page-grid-featured-image img {
+		width: 150%;
+	}
+
+	.experience-page-grid-effect-hover:hover .experience-page-grid-figcaption .experience-title-link {
+		display: block;
+		height: 48px;
+	}
+
+	.experience-page-grid-effect-hover .exp-center-grid-page-fg-absolute p {
+		bottom: -20px;
+	}
+
+	/* 
+	// Template: Page Full.
+	*/
+
+	.full-page-experiences-one-col {
+		width: 85%;
+	}
+
+	.item_experience_full {
+		height: auto;
+	}
+
+	.exp-page-image {
+		height: 300px;
+		width: 100%;
+	}
+
+	.exp-page-right-side {
+		margin-left: 0;
+		width: 100%;
+		margin-bottom: 70px;
+	}
+
+	.exp-page-title {
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	.exp-page-more-background {
+		display: none;
+	}
+
+	.exp-page-more {
+		display: none;
+	}
+
+	#content-wrapper .exp-page-text-experience p {
+		padding: 25px 0 25px 0;
+	}
+
+	.exp-paga-full-location {
+		padding-bottom: 10px;
+		display: inline-flex;
+	}
+
+	.exp-page-right-side a.exp-page-book-now {
+		text-align: center;
+	}
+
+	/* Taxonomy Page.
+	// ====================================================================== */
+
+	.taxonomy-content-box {
+		width: 85%; 
+	}
+
+	.taxonomy-thumb {
+		height: 257px;
+		margin-top: 20px;
+	}
+
+	.taxonomy-thumb img {
+		min-width: 100%;
+		width: 200%;
+		min-height: 100%;
+	}
+
+	.taxo-experiences-categories {
+		margin: 10px 0 0 0;
+	}
+
+	/* Authors Page.
+	// ====================================================================== */	
+	
+	.experience-authors-page {
+		width: 85%;
+	}
+
+	.experience-authors-grid {
+		width: 100%;
+		display: inline-flex;
+		flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	    justify-content: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+	}
+
+	.author-grid-effect {
+		width: 50%;
+		padding: 0 17px;
+	}
+
+	.experience-authors-grid figure {
+	    width: 100%;
+		height: 290px;
+	    float: none;
+	    margin: 0 auto 40px auto;
+	}
+
+	.experience-author-image-crop {
+		width: 100%;
+	}
+}

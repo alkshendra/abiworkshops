@@ -1,0 +1,12 @@
+.white-header-filter {
+	background-color: white;
+}
+
+.black-header-filter {
+	background-color: black;
+}
+
+.white-header-filter .featured-img-header,
+.black-header-filter .featured-img-header{
+	opacity: 0.6;
+}

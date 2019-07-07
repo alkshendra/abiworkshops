@@ -1,0 +1,71 @@
+.dl-menuwrapper {
+	float: right;
+	z-index: 5;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.dl-trigger{
+	right: 5px;
+	background-color: transparent;
+	border: none;
+	width: 45px;
+	height: 35px;
+	text-indent: -900em;
+	overflow: hidden;
+	position: absolute;
+	cursor: pointer;
+	outline: none;
+}
+
+.dl-menuwrapper .dl-active {
+	background: transparent;
+} 
+
+
+.dl-menuwrapper button:after {
+	content: '';
+	position: absolute;
+	width: 70%;
+	height: 2px;
+	background: #fff;
+	top: 5px;
+	left: 16%;
+	box-shadow: 
+		0 10px 0 #fff, 
+		0 20px 0 #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.dl-menuwrapper.dark button:after {
+	background: #333;
+	box-shadow: 
+		0 10px 0 #333, 
+		0 20px 0 #333;
+}
+
+.dl-menuwrapper.white button:after {
+	background: #fff;
+	box-shadow: 
+		0 10px 0 #fff, 
+		0 20px 0 #fff;
+}
+
+.experience-header.smaller .dl-menuwrapper.dark button:after {
+	box-shadow: 
+		0 8px 0 black, 
+		0 16px 0 black;
+}
+
+.experience-header.smaller .dl-menuwrapper.white button:after {
+	box-shadow: 
+		0 8px 0 #fff, 
+		0 16px 0 #fff;
+}

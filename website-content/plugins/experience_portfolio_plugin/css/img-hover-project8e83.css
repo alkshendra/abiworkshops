@@ -1,0 +1,138 @@
+.portfolio-same-box .same-portfolio-pic {
+	position: relative;
+	float: left;
+	margin: 30px;
+	height: 300px;
+	width: 450px;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+.same-portfolio-pic:hover .project-image-container{
+	opacity: 0.6;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.same-portfolio figure:hover  .size-grid-port-same {
+	-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.info-project-box {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.same-portfolio figure figcaption {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 100%;
+	height: 140px;
+}
+
+.project-same-entry-title a {
+	text-decoration: none;
+	color: white;
+}
+
+.info-project-box h4 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.project-same-entry-title a:hover {
+	color: #eb9687;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.same-portfolio figure figcaption::before,
+.same-portfolio figure figcaption::after {
+	pointer-events: none;
+}
+
+.same-portfolio figure h4 {
+	margin: 0;
+}
+
+.effect-marley  .project-same-categories p{
+	position: relative;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 50px;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.project-same-categories {
+	display: block;
+}
+
+.project-same-categories p {
+	color: white;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.project-same-categories a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.project-same-categories a:hover {
+	color: #eb9687;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.effect-marley h4 {
+	top: 30px;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.effect-marley:hover h4 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.effect-marley h4,
+.effect-marley h4::after,
+.effect-marley p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+.effect-marley:hover h4,
+.effect-marley:hover h4::after,
+.effect-marley:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

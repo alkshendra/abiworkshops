@@ -1,0 +1,436 @@
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//	 (*) This is the style archive for all widgets located in: Page Default,
+//	 Become Page, Single no Sidebar and Single Experience.
+//
+//   01. Testimonials.
+//   02. Count Up.
+//   03. Team Carousel.
+//   04. Three Experiences.
+//   05. Brands Carousel.
+//		5.1. Arrows.
+//   06. Most Liked.
+//   07. Types Carousel.
+//   08. Portfolio widget.
+//   09. Last Reviews.
+//	 10. Slider widget.
+//	 11. Last Posts widget.
+//	 12. Last Experiences widget.
+//	 13. Features widget.
+// ========================================================================== */
+
+#content-wrapper .main-page-def .overlay a,
+#content-wrapper.page-become-loop .overlay a,
+#content-wrapper #content-single-npns .overlay a,
+#content-wrapper #main-single-portfolio .overlay a,
+.experiences-content-box .overlay a{
+	color: #ffffff;
+}
+
+/* Testimonials.
+// ========================================================================== */
+
+.main-page-def .widget_experience_testimonials_widget ul,
+.page-become-loop .widget_experience_testimonials_widget ul,
+#content-single-npns .widget_experience_testimonials_widget ul,
+#main-single-portfolio .widget_experience_testimonials_widget ull{
+	padding: 0;
+	margin: 0;
+}
+
+.main-page-def .testimonials,
+.page-become-loop .testimonials,
+#content-single-npns .testimonials,
+#main-single-portfolio .testimonials {
+	width: 85%;
+	margin: auto;
+}
+
+.main-page-def .testimonials p,
+.page-become-loop .testimonials p,
+#content-single-npns .testimonials p,
+#main-single-portfolio .testimonials p{
+	width: 82%;
+	padding: 0px 50px 20px 50px;
+}
+
+/* Count Up.
+// ========================================================================== */
+
+#content-wrapper .widget_experience_count_up_widget ul {
+	padding-left: 0;
+}
+
+.main-page-def .widget_experience_count_up_widget ul li,
+.page-become-loop .widget_experience_count_up_widget ul li,
+#content-single-npns .widget_experience_count_up_widget ul li,
+#main-single-portfolio .widget_experience_count_up_widget ul li,
+.experiences-content-box .widget_experience_count_up_widget ul li {
+	padding: 0 20px;
+}
+
+/* Team Carousel.
+// ========================================================================== */
+
+.main-page-def .widget_experience_team_carousel_widget,
+.page-become-loop .widget_experience_team_carousel_widget,
+#content-single-npns .widget_experience_team_carousel_widget,
+#main-single-portfolio .widget_experience_team_carousel_widget {
+	width: 85%;
+}
+
+.main-page-def .team-carousel-widget.slick-slider,
+.page-become-loop .team-carousel-widget.slick-slider,
+#content-single-npns .team-carousel-widget.slick-slider,
+#main-single-portfolio .team-carousel-widget.slick-slider {
+	width: 100%;
+}
+
+.main-page-def .team-carousel-widget .team-carousel-image-crop,
+.page-become-loop .team-carousel-widget .team-carousel-image-crop,
+#content-single-npns .team-carousel-widget .team-carousel-image-crop,
+#main-single-portfolio .team-carousel-widget .team-carousel-image-crop {
+	height: 220px;
+	width: 220px;
+}
+
+.main-page-def .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption,
+.page-become-loop .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption,
+#content-single-npns .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption,
+#main-single-portfolio .team-carousel-widget .slick-slide.slick-center .team-carousel-figcaption {
+	width: 220px;
+}
+
+/* Three Experiences.
+// ========================================================================== */
+
+.main-page-def .widget_experience_show_three_widget,
+.page-become-loop .widget_experience_show_three_widget,
+#content-single-npns .widget_experience_show_three_widget,
+#main-single-portfolio.widget_experience_show_three_widget {
+	width: 100%;
+}
+
+.main-page-def .exp-w-container,
+.page-become-loop .exp-w-container,
+#content-single-npns .exp-w-container,
+#main-single-portfolio .exp-w-container {
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.main-page-def .exp-w-image,
+.page-become-loop .exp-w-image,
+#content-single-npns .exp-w-image,
+#main-single-portfolio .exp-w-image {
+	height: 300px;
+	width: 350px;
+}
+
+.main-page-def .exp-w-right-side,
+.page-become-loop .exp-w-right-side,
+#content-single-npns .exp-w-right-side,
+#main-single-portfolio .exp-w-right-side {
+	margin-left: 4%;
+	width: 53%;
+}
+
+#content-wrapper .main-page-def .exp-w-container .slick-dots,
+#content-wrapper .page-become-loop .exp-w-container .slick-dots,
+#content-wrapper #content-single-npns .exp-w-container .slick-dots,
+#content-wrapper #main-single-portfolio .exp-w-container .slick-dots {
+	padding-left: 4%;
+}
+
+.main-page-def .exp-w-container .slick-dots,
+.page-become-loop .exp-w-container .slick-dots,
+#content-single-npns .exp-w-container .slick-dots,
+#main-single-portfolio .exp-w-container .slick-dots  {
+	margin-left: 346px;
+}
+
+#content-wrapper .main-page-def .exp-w-title,
+#content-wrapper .page-become-loop .exp-w-title,
+#content-wrapper #content-single-npns .exp-w-title,
+#content-wrapper #main-single-portfolio .exp-w-title {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#content-wrapper .main-page-def .exp-w-text-experience p,
+#content-wrapper .page-become-loop .exp-w-text-experience p,
+#content-wrapper #content-single-npns .exp-w-text-experience p,
+#content-wrapper #main-single-portfolio .exp-w-text-experience p {
+	padding: 2px 0 16px 0;
+	font-size: 14px;
+}
+
+/* Brands Carousel.
+// ========================================================================== */
+
+.main-page-def .widget_experience_brands_carousel_widget,
+.page-become-loop .widget_experience_brands_carousel_widget,
+#content-single-npns .widget_experience_brands_carousel_widget,
+#main-single-portfolio .widget_experience_brands_carousel_widget,
+.experiences-content-box .widget_experience_brands_carousel_widget {
+	width: 85%;
+}
+
+.main-page-def .brands-carousel-widget,
+.page-become-loop .brands-carousel-widget,
+#content-single-npns .brands-carousel-widget,
+#main-single-portfolio .brands-carousel-widget,
+.experiences-content-box .brands-carousel-widget {
+	width: 100%;
+}
+
+
+.main-page-def .crop_brand_image,
+.page-become-loop .crop_brand_image,
+#content-single-npns .crop_brand_image,
+#main-single-portfolio .crop_brand_image,
+.experiences-content-box .crop_brand_image {
+	margin: 0 10px;
+}
+
+/*
+// Arrows.
+*/
+
+.main-page-def .brands_carousel_leftarrow,
+.page-become-loop .brands_carousel_leftarrow,
+#content-single-npns .brands_carousel_leftarrow,
+#main-single-portfolio .brands_carousel_leftarrow,
+.experiences-content-box .brands_carousel_leftarrow,
+.main-page-def .brands_carousel_rightarrow,
+.page-become-loop .brands_carousel_rightarrow,
+#content-single-npns .brands_carousel_rightarrow,
+#main-single-portfolio .brands_carousel_rightarrow,
+.experiences-content-box .brands_carousel_rightarrow {
+	top: 45%;
+}
+
+/* Most Liked.
+// ========================================================================== */
+
+#content-wrapper .main-page-def .most-title-liked-box,
+#content-wrapper .page-become-loop .most-title-liked-box,
+#content-wrapper #content-single-npns .most-title-liked-box,
+#content-wrapper #main-single-portfolio .most-title-liked-box,
+#content-wrapper .experiences-content-box .most-title-liked-box {
+	margin-bottom: 20px;
+}
+
+#content-wrapper #main-single-portfolio .most-title-experience {
+	line-height: 1;
+	margin: 0;
+	padding: 8px 0 0 0;
+}
+
+#content-wrapper .main-page-def .most-likes-experience,
+#content-wrapper .page-become-loop .most-likes-experience,
+#content-wrapper #content-single-npns .most-likes-experience,
+#content-wrapper #main-single-portfolio .most-likes-experience,
+#content-wrapper .experiences-content-box .most-likes-experience {
+	margin-left: 10px;
+}
+
+#content-wrapper .main-page-def .most-title-liked-box .post-like,
+#content-wrapper .page-become-loop .most-title-liked-box .post-like,
+#content-wrapper #content-single-npns .most-title-liked-box .post-like,
+#content-wrapper #main-single-portfolio .most-title-liked-box .post-like,
+#content-wrapper .experiences-content-box .most-title-liked-box .post-like{
+	margin-left: 10px;
+	padding: 3px 10px;
+}
+
+#content-wrapper .main-page-def .most-text-experience p,
+#content-wrapper .page-become-loop .most-text-experience p,
+#content-wrapper #content-single-npns .most-text-experience p,
+#content-wrapper #main-single-portfolio .most-text-experience p,
+#content-wrapper .experiences-content-box .most-text-experience p {
+	padding: 0 20px;
+}
+
+#content-wrapper .main-page-def .most-location,
+#content-wrapper .page-become-loop .most-location,
+#content-wrapper #content-single-npns .most-location,
+#content-wrapper #main-single-portfolio .most-location,
+#content-wrapper .experiences-content-box .most-location {
+	padding: 0 20px;
+}
+
+#content-wrapper .main-page-def .most-info-experience-icons,
+#content-wrapper .page-become-loop .most-info-experience-icons,
+#content-wrapper #content-single-npns .most-info-experience-icons,
+#content-wrapper #main-single-portfolio .most-info-experience-icons,
+#content-wrapper .experiences-content-box .most-info-experience-icons {
+	margin-bottom: 0;
+}
+
+/*  Types carousel.
+// ========================================================================== */
+
+.main-page-def .widget_experience_types_carousel_widget,
+.page-become-loop .widget_experience_types_carousel_widget,
+#content-single-npns .widget_experience_types_carousel_widget,
+#main-single-portfolio .widget_experience_types_carousel_widget,
+.experiences-content-box .widget_experience_types_carousel_widget {
+	width: 85%;
+}
+
+.main-page-def .type-button,
+.page-become-loop .type-button,
+#content-single-npns .type-button,
+#main-single-portfolio .type-button,
+.experiences-content-box .type-button {
+	padding: 15px;
+	font-size: 12px;
+}
+
+/*  Portfolio widget.
+// ========================================================================== */
+
+.main-page-def .widget_experience_two_portfolio_widget,
+.page-become-loop .widget_experience_two_portfolio_widget,
+#content-single-npns .widget_experience_two_portfolio_widget,
+#main-single-portfolio .widget_experience_two_portfolio_widget {
+	width: 85%;
+}
+
+.main-page-def .portfolio-image-container .text-portfolio-pic,
+.page-become-loop .portfolio-image-container .text-portfolio-pic,
+#content-single-npns .portfolio-image-container .text-portfolio-pic,
+#main-single-portfolio .portfolio-image-container .text-portfolio-pic{
+	height: 240px;
+}
+
+/*  Last Reviews.
+// ========================================================================== */
+
+.main-page-def .widget_experience_last_reviews_widget,
+.page-become-loop .widget_experience_last_reviews_widget,
+#content-single-npns .widget_experience_last_reviews_widget,
+#main-single-portfolio .widget_experience_last_reviews_widget,
+.experiences-content-box .widget_experience_last_reviews_widget {
+	width: 85%;
+}
+
+/* Slider widget.
+// ========================================================================== */
+
+#content-wrapper .widget_experience_slider_widget_widget ul {
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	list-style: none;
+}
+
+#main-single-portfolio .slider-widget-text-h2 {
+	padding: 0;
+	border-bottom: none;
+}
+
+/* Last Posts widget.
+// ========================================================================== */
+
+.main-page-def .last-posts-container,
+.page-become-loop .last-posts-container,
+#content-single-npns .last-posts-container,
+#main-single-portfolio .last-posts-container {
+	max-width: 100%;
+}
+
+.main-page-def .post-container,
+.page-become-loop .post-container,
+#content-single-npns .post-container,
+#main-single-portfolio .post-container {
+	width: 29%;
+	margin-right: 4%;
+	margin-top: 4%;
+}
+
+.main-page-def .last-posts-container .last-posts-pic.img,
+.page-become-loop .last-posts-container .last-posts-pic.img,
+#content-single-npns .last-posts-container .last-posts-pic.img,
+#main-single-portfolio .last-posts-container .last-posts-pic.img {
+	width: 100%;
+}
+
+/* Last Experiences widget.
+// ========================================================================== */
+
+.main-page-def .widget_experience_last_experience_grid_widget,
+.page-become-loop .widget_experience_last_experience_grid_widget,
+#content-single-npns .widget_experience_last_experience_grid_widget,
+#main-single-portfolio .widget_experience_last_experience_grid_widget {
+	max-width: 100%;
+}
+
+.main-page-def .last-experiences-container,
+.page-become-loop .last-experiences-container,
+#content-single-npns .last-experiences-container,
+#main-single-portfolio .last-experiences-container{
+	max-width: 100%;
+}
+
+.main-page-def .last-experiences-container .last-experience-figure,
+.page-become-loop .last-experiences-container .last-experience-figure,
+#content-single-npns .last-experiences-container .last-experience-figure,
+#main-single-portfolio .last-experiences-container .last-experience-figure {
+	margin: 3%;
+	width: 44%;
+}
+
+.main-page-def .last-experience-featured-image,
+.page-become-loop .last-experience-featured-image,
+#content-single-npns .last-experience-featured-image,
+#main-single-portfolio .last-experience-featured-image{
+	max-width: 110%;
+	width: 100%;
+}
+
+.main-page-def .last-experience-figcaption .last-experience-title-h4,
+.page-become-loop .last-experience-figcaption .last-experience-title-h4,
+#content-single-npns .last-experience-figcaption .last-experience-title-h4,
+#main-single-portfolio .last-experience-figcaption .last-experience-title-h4 {
+	font-size: 18px;
+}
+
+.main-page-def .last-experiences-featured-container,
+.page-become-loop .last-experiences-featured-container,
+#content-single-npns .last-experiences-featured-container,
+#main-single-portfolio .last-experiences-featured-container {	
+}
+
+#content-wrapper .main-page-def .last-experience-price,
+#content-wrapper .page-become-loop .last-experience-price,
+#content-wrapper #content-single-npns .last-experience-price,
+#content-wrapper #main-single-portfolio .last-experience-price,
+#content-wrapper .main-page-def .last-experience-duration,
+#content-wrapper .page-become-loop .last-experience-duration,
+#content-wrapper #content-single-npns .last-experience-duration,
+#content-wrapper #main-single-portfolio .last-experience-duration,
+#content-wrapper .main-page-def .last-experience-people,
+#content-wrapper .page-become-loop .last-experience-people,
+#content-wrapper #content-single-npns .last-experience-people,
+#content-wrapper #main-single-portfolio .last-experience-people,
+#content-wrapper .main-page-def .last-experience-figcaption .post-like,
+#content-wrapper .page-become-loop .last-experience-figcaption .post-like,
+#content-wrapper #content-single-npns .last-experience-figcaption .post-like,
+#content-wrapper #main-single-portfolio .last-experience-figcaption .post-like {
+	margin: 10px 10px 10px 0;
+	padding: 10px;
+}
+
+/* Features widget.
+// ========================================================================== */
+
+#content-single-npns .features-title,
+.authors-page-content .features-title, 
+.experiences-content-box .features-title {
+	margin: 0;
+	padding: 0;
+}

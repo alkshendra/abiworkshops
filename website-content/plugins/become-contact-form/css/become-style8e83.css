@@ -1,0 +1,364 @@
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Become a Professional Header.
+//   02. Become a Professional Page.
+// 		2.1. General.
+//		2.2. Headings.
+//		2.3. List Style.
+//  	2.4. Images.
+//   03. Form.
+// ========================================================================== */
+
+/* Become a Proffesional Header.
+// ========================================================================== */
+
+.experience-login-register-header.dark p .become-professional {
+	color: #333;
+}
+
+.experience-login-register-header.white p .become-professional {
+	color: white;
+}
+
+.experience-login-register-header p .become-professional  {
+	font-size: 13px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
+.smaller .experience-login-register-header p .become-professional {
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+	font-size: 11px;
+}
+
+/* Become a Professional Page.
+// ========================================================================== */
+
+/*
+General.
+*/
+
+#main-become {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding: 40px 0;
+	float: left;
+}
+
+#main-become .title_become {
+	font-size: 30px;
+    padding: 30px 0 50px 0;
+    color: #545454;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.page-become-loop {
+	width: 1024px;
+	display: block;
+	margin: auto;
+}
+
+.page-become-loop p {
+	font-weight: 400;
+	line-height: 26px;
+	font-size: 15px;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.page-become-loop figure {
+	padding-bottom: 20px;
+}
+
+.page-become-loop a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.page-become-loop iframe {
+	max-width: 100%;
+	padding-bottom: 20px 0;
+}
+
+.page-become-loop blockquote {
+	margin: 0 30px;
+	font-style: italic;
+}
+
+/*
+Headings.
+*/
+
+
+.page-become-loop h1{
+	font-size: 32px;
+	line-height: 40px;
+	padding: 10px 0;
+	margin: 20px 0;
+	letter-spacing: 2px;
+}
+
+.page-become-loop h2 {
+	font-size: 24px;
+    line-height: 40px;
+	padding: 10px 0;
+	margin: 20px 0;
+	letter-spacing: 2px;
+}
+
+.page-become-loop h3 {
+	font-size: 22px;
+    line-height: 40px;
+	padding: 10px 0;
+	margin: 20px 0;
+	letter-spacing: 2px;
+}
+
+.page-become-loop h4 {
+	font-size: 18px;
+    line-height: 40px;
+	padding: 10px 0;
+	margin: 20px 0;
+	letter-spacing: 2px;
+}
+
+.page-become-loop h5 {
+	font-size: 14px;
+    line-height: 20px;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+.page-become-loop h6 {
+	font-size: 12px;
+    line-height: 20px;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+/*
+List Style.
+*/
+
+.page-become-loop ul{
+	padding-left: 35px;
+	line-height: 26px;
+	font-size: 15px;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	list-style: square;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.page-become-loop ol{
+	padding-left: 35px;
+	font-weight: 400;
+	line-height: 26px;
+	font-size: 15px;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	list-style: decimal;
+	display: inline-block;
+}
+
+/* 
+Images.
+*/
+
+.page-become-loop img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+.page-become-loop figure {
+	margin: 0;
+}
+
+.page-become-loop img.wp-post-image{
+	padding: 0;
+	float: left;
+}
+
+.page-become-loop .aligncenter {
+	margin: auto;
+	display: block;
+}
+
+.page-become-loop .alignleft {
+	float: left;
+	padding-right: 20px; 
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+.page-become-loop .alignright {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-top: 5px;
+	float: right;
+}
+
+.page-become-loop .alignnone{
+}
+
+.page-become-loop img.aligncenter {
+	margin: auto;
+	display: block;
+}
+
+.page-become-loop img.alignleft {
+	float: left;
+	padding-right: 40px; 
+	padding-bottom: 20px;
+}
+
+.page-become-loop img.alignright {
+	margin-left: 40px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+.page-become-loop img.alignnone{
+}
+
+/* Form.
+// ========================================================================== */
+
+.become-form-box {
+	margin: 50px 0;
+	font-family: inherit;
+	font-weight: lighter;
+}
+
+.cf-input-box {
+	float: left;
+	margin: 0 34px 34px 0;
+}
+
+.become-form-box label {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	color: #eb9687;
+	letter-spacing: 1px;
+}
+
+.cf-input-box input{
+	width: 477px;
+	box-shadow: none;
+	border: none;
+	font-size: 15px;
+	font-family: inherit;
+	float: none;
+	color: #333;
+	padding: 16px 24px;
+	border: 1px solid #e4e4e4;
+	margin-top: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.cf-input-box input:focus {
+	outline: none;
+}
+
+.cf-textarea-box textarea{
+	width: 990px;
+	height: 140px;
+	box-shadow: none;
+	border: none;
+	font-size: 15px;
+	font-family: inherit;
+	float: none;
+	color: #333;
+	padding: 16px 24px;
+	border: 1px solid #e4e4e4;
+	margin-top: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.cf-textarea-box textarea:focus {
+	outline: none;
+}
+
+.contact-form .become-required-fields {
+	font-size: 13px;
+	padding: 0;
+}
+
+.cf-captcha-box {
+	margin: 34px auto;
+	display: block;
+	width: 200px;
+	border: 1px solid #e4e4e4;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.cf-captcha-box input {
+	width: 198px;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #ededed;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: #636363;
+    font-family: inherit;
+    letter-spacing: 1px;
+}
+
+.cf-captcha-box img {
+	width: 120px;
+	display: block;
+	margin: auto;
+	padding: 0 10px 10px 10px;
+}
+
+.cf-submit-box input{
+	display: block;
+	margin: 34px auto;
+	float: none;
+	cursor: pointer;
+	border: none;
+}
+
+.become-info {
+	display: block;
+	padding: 15px;
+	background-color: #f2f2f2;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 16px;
+	margin-right: 34px;
+	margin-bottom: 34px;
+}
+
+.become-info .error{
+	margin-right: 30px;
+	color: red;
+}
+
+.become-info .success{
+	margin-right: 30px;
+	color: #1C7;
+}
+
+.display-none-become {
+	display: none;
+}

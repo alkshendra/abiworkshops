@@ -1,0 +1,622 @@
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//	 (*) This is the style archive for all widgets located in single posts with
+//	 sidebar.
+//
+//   01. Testimonials.
+//   02. Count Up.
+//   03. Team Carousel.
+//   04. Three Experiences.
+//   05. Brands Carousel.
+//	 06. Features widget.
+//   07. Most Liked widget.
+//	 08. Last Experiences with Grid widget.
+//   09. Experiences Types Carousel.
+//   10. Portfolio widget.
+//   11. Last Reviews widget.
+//	 12. Last Posts widget.
+//	 13. Newsletter widget.
+//	 14. Call to Action widget.
+//	 15. Slider widget.
+//		15.1. Slider Content.
+//	 16. Image widget. 
+//	 17. Title widget.
+// ========================================================================== */
+
+#content-single-nprs .overlay a,
+#content-single-npls .overlay a,
+.experiences-content-box .overlay a{
+	color: #ffffff;
+}
+
+/* Testimonials.
+// ========================================================================== */
+
+#single-experience-box .testimonials,
+#content-single-nprs .testimonials,
+#content-single-npls .testimonials {
+	width: 80%;
+	padding-bottom: 40px;
+	margin: auto;
+}
+
+#single-experience-box .testimonials-icons,
+#content-single-nprs .testimonials-icons,
+#content-single-npls .testimonials-icons {
+	display: none;
+}
+
+#single-experience-box .crop-client-image-testimonial,
+#content-single-nprs .crop-client-image-testimonial,
+#content-single-npls .crop-client-image-testimonial {
+	width: 100px;
+	height: 100px;
+	float: none;
+	margin: auto;
+}
+
+#single-experience-box .testimonials p,
+#content-single-nprs .testimonials p,
+#content-single-npls .testimonials p{
+	float: none;
+	text-align: center;
+	width: 100%;
+	padding: 20px 0;
+}
+
+#single-experience-box .testimonials figcaption .name,
+#content-single-nprs .testimonials figcaption .name,
+#content-single-npls .testimonials figcaption .name {
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin: -20px 0;
+}
+
+#single-experience-box .widget-slider,
+#content-single-nprs .widget-slider,
+#content-single-npls .widget-slider {
+	height: auto;
+}
+
+#single-experience-box .widget-slider ul li,
+#content-single-nprs .widget-slider ul li,
+#content-single-npls .widget-slider ul li { 
+	height: auto;
+}
+
+#single-experience-box .widget-slider ul,
+#content-single-nprs .widget-slider ul,
+#content-single-npls .widget-slider ul{ 
+	padding: 0;
+}
+
+#single-experience-box .widget-slider .dots,
+#content-single-nprs .widget-slider .dots,
+#content-single-npls .widget-slider .dots{ 
+	padding: 0;
+}
+
+/* Count Up.
+// ========================================================================== */
+
+#content-single-nprs .widget_experience_count_up_widget,
+#content-single-npls .widget_experience_count_up_widget {
+	width: 100%;
+	margin: auto;
+}
+
+#content-single-nprs .count-up-widget,
+#content-single-npls .count-up-widget {
+	padding-left: 0;
+}
+
+#content-single-nprs .count-up-widget li,
+#content-single-npls .count-up-widget li {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+#content-single-nprs .count-up-widget-li h4,
+#content-single-npls .count-up-widget-li h4 {
+	font-size: 30px;
+}
+
+#content-single-nprs .count-up-widget-li h5,
+#content-single-npls .count-up-widget-li h5 {
+	font-size: 13px;
+}
+
+/* Team Carousel.
+// ========================================================================== */
+
+#single-experience-box .widget_experience_team_carousel_widget,
+#content-single-nprs .widget_experience_team_carousel_widget,
+#content-single-npls .widget_experience_team_carousel_widget {
+	width: 100%;
+}
+
+#single-experience-box .team-carousel-widget.slick-slider,
+#content-single-nprs .team-carousel-widget.slick-slider,
+#content-single-npls .team-carousel-widget.slick-slider {
+	width: 80%;
+}
+
+#single-experience-box .team-carousel-widget .team-carousel-image-crop,
+#content-single-nprs .team-carousel-widget .team-carousel-image-crop,
+#content-single-npls .team-carousel-widget .team-carousel-image-crop {
+	height: 160px;
+	width: 160px;
+}
+
+#single-experience-box .team-carousel-widget .slick-slide .team-carousel-figcaption,
+#content-single-nprs .team-carousel-widget .slick-slide .team-carousel-figcaption,
+#content-single-npls .team-carousel-widget .slick-slide .team-carousel-figcaption {
+	width: 160px;
+	margin: 25px auto 0 auto;
+}
+
+#single-experience-box .testimonials-whole-team-button-container,
+#content-single-nprs .testimonials-whole-team-button-container,
+#content-single-npls .testimonials-whole-team-button-container {
+	width: auto;
+}
+
+#single-experience-box .testimonials-whole-team-button,
+#content-single-nprs .testimonials-whole-team-button,
+#content-single-npls .testimonials-whole-team-button {
+	font-size: 13px;
+	margin-top: 0;
+}
+
+/* Three Experinces.
+// ========================================================================== */
+
+#single-experience-box .widget_experience_show_three_widget,
+#content-single-nprs .widget_experience_show_three_widget,
+#content-single-npls .widget_experience_show_three_widget {
+	width: 100%;
+}
+
+#single-experience-box .exp-w-container,
+#content-single-nprs .exp-w-container,
+#content-single-npls .exp-w-container {
+	height: auto;
+	width: 79%;
+}
+
+#single-experience-box .exp-w-image,
+#content-single-nprs .exp-w-image,
+#content-single-npls .exp-w-image {
+	height: 200px;
+	width: 100%;
+	float: none;
+}
+
+#single-experience-box .exp-w-right-side,
+#content-single-nprs .exp-w-right-side,
+#content-single-npls .exp-w-right-side {
+	float:none;
+	text-align: center;
+	margin-left:0;
+	width: 100%;
+	font-weight: lighter;
+}
+
+#single-experience-box .custom-width .exp-w-title,
+#content-single-nprs .custom-width .exp-w-title,
+#content-single-npls .custom-width .exp-w-title {
+	font-size: 18px;
+	margin-top: 20px; 
+}
+
+#content-wrapper #single-experience-box .exp-w-text-experience p,
+#content-wrapper #content-single-nprs .exp-w-text-experience p,
+#content-wrapper #content-single-npls .exp-w-text-experience p{
+	font-size: 16px;
+}
+
+#single-experience-box .exp-w-info-icons,
+#content-single-nprs .exp-w-info-icons,
+#content-single-npls .exp-w-info-icons{
+	margin-bottom: 20px;
+}
+
+#content-wrapper #single-experience-box .exp-w-price,
+#content-wrapper #content-single-nprs .exp-w-price,
+#content-wrapper #content-single-npls .exp-w-price{
+	font-size: 18px;
+}
+
+#content-wrapper #single-experience-box .exp-w-location,
+#content-wrapper #content-single-nprs .exp-w-location,
+#content-wrapper #content-single-npls .exp-w-location {
+	font-size: 18px;
+}
+
+#content-wrapper #single-experience-box .exp-w-book-now,
+#content-wrapper #content-single-nprs .exp-w-book-now,
+#content-wrapper #content-single-npls .exp-w-book-now{
+	position: relative;
+	display: inline-block;
+}
+
+#single-experience-box .exp-w-button-rel,
+#content-single-nprs .exp-w-button-rel,
+#content-single-npls .exp-w-button-rel{
+	position: relative;
+	width: 100%;
+}
+
+#single-experience-box .exp-w-more,
+#content-single-nprs .exp-w-more,
+#content-single-npls .exp-w-more{
+	display: none;
+}
+
+#single-experience-box .exp-w-more-background,
+#content-single-nprs .exp-w-more-background,
+#content-single-npls .exp-w-more-background{
+	display: none;
+}
+
+#content-wrapper #single-experience-box .exp-w-container .slick-dots,
+#content-wrapper #content-single-nprs .exp-w-container .slick-dots,
+#content-wrapper #content-single-npls .exp-w-container .slick-dots {
+	top: -45px;
+	padding-left: 0;
+}
+
+#single-experience-box .exp-w-container .slick-dots,
+#content-single-nprs .exp-w-container .slick-dots,
+#content-single-npls .exp-w-container .slick-dots{
+	height: 10px;
+	width: 100%;
+	margin-left: 0;
+	text-align: center;
+}
+
+#single-experience-box .exp-w-container .slick-dots button,
+#content-single-nprs .exp-w-container .slick-dots button,
+#content-single-npls .exp-w-container .slick-dots button{
+	width: 12px;
+	height: 12px;
+}
+
+#content-wrapper #single-experience-box .exp-w-right-side p:active,
+#content-wrapper #content-single-nprs .exp-w-right-side p:active,
+#content-wrapper #content-single-npls .exp-w-right-side p:active,
+#content-wrapper #single-experience-box .exp-w-right-side h4:active,
+#content-wrapper #content-single-nprs .exp-w-right-side h4:active,
+#content-wrapper #content-single-npls .exp-w-right-side h4:active,
+#content-wrapper #single-experience-box .exp-w-right-side:active,
+#content-wrapper #content-single-nprs .exp-w-right-side:active,
+#content-wrapper #content-single-npls .exp-w-right-side:active {
+	cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+/* Brands Carousel.
+// ========================================================================== */
+
+#content-single-nprs .widget_experience_brands_carousel_widget,
+#content-single-npls .widget_experience_brands_carousel_widget {
+	width: 100%;
+}
+
+#content-single-nprs .brands-carousel-widget,
+#content-single-npls .brands-carousel-widget{
+	width: 80%;
+}
+
+/* Features widget.
+// ========================================================================== */
+
+#content-single-nprs .features-title,
+#content-single-npls .features-title {
+	width: 100%;
+}
+
+#content-single-nprs .features-title,
+#content-single-npls .features-title{
+	margin: 0;
+}
+
+/* Most Liked widget.
+// ========================================================================== */
+
+#content-single-nprs .most-all-info-container,
+#content-single-npls .most-all-info-container {
+	width: 80%;
+}
+
+#content-single-nprs .most-info-experience-container,
+#content-single-npls .most-info-experience-container {
+	width: 100%;
+}
+
+#content-single-nprs .most-title-liked-box,
+#content-single-npls .most-title-liked-box {
+	margin-bottom: 20px;
+}
+
+#content-wrapper #content-single-nprs .most-title-experience,
+#content-wrapper #content-single-npls .most-title-experience {
+	margin: 0;
+}
+
+#content-single-nprs .most-likes-experience,
+#content-single-npls .most-likes-experience {
+	margin-left: 10px;
+}
+
+#content-single-nprs .most-title-liked-box .post-like,
+#content-single-npls .most-title-liked-box .post-like {
+	margin-left: 10px;
+	padding: 3px 7px;
+}
+
+#content-single-nprs .most-text-experience p,
+#content-single-npls .most-text-experience p {
+	padding: 0 20px;
+}
+
+#content-single-nprs .most-location,
+#content-single-npls .most-location {
+	padding: 0 20px;
+}
+
+#content-single-nprs .most-info-experience-icons,
+#content-single-npls .most-info-experience-icons {
+	margin-bottom: 0;
+}
+
+/* Last Experiences with Grid.
+// ========================================================================== */
+
+#single-experience-box .widget_experience_last_experience_grid_widget,
+#content-single-nprs .widget_experience_last_experience_grid_widget,
+#content-single-npls .widget_experience_last_experience_grid_widget {
+	width: 100%;
+}
+
+#single-experience-box .last-experiences-container,
+#content-single-nprs .last-experiences-container,
+#content-single-npls .last-experiences-container {
+	width: 100%;
+}
+
+#single-experience-box .last-experiences-container .last-experience-figure,
+#content-single-nprs .last-experiences-container .last-experience-figure,
+#content-single-npls .last-experiences-container .last-experience-figure {
+	margin: 7px;
+	width: 300px;
+	height: 340px;
+}
+
+#single-experience-box .last-experiences-featured-container,
+#content-single-nprs .last-experiences-featured-container,
+#content-single-npls .last-experiences-featured-container {
+    height: 230px;
+}
+
+#single-experience-box .last-experience-featured-image,
+#content-single-nprs .last-experience-featured-image,
+#content-single-npls .last-experience-featured-image {
+	width: 300px;
+	height: 230px;
+}
+
+#single-experience-box .last-experience-figcaption .last-experience-title-h4,
+#content-single-nprs .last-experience-figcaption .last-experience-title-h4,
+#content-single-npls .last-experience-figcaption .last-experience-title-h4 {
+	font-size: 14px;
+}
+
+#single-experience-box .author-link,
+#content-single-nprs .author-link,
+#content-single-npls .author-link {
+	font-size: 14px;
+}
+
+#single-experience-box .last-experience-price,
+#single-experience-box .last-experience-price,
+#single-experience-box .last-experience-duration,
+#single-experience-box .last-experience-people,
+#single-experience-box .last-experience-figcaption .post-like {
+	padding: 6px;
+	margin: 8px 8px 8px 0;
+	font-size: 13px;
+}
+
+#content-single-npls .last-experience-price,
+#content-single-npls .last-experience-price,
+#content-single-npls .last-experience-duration,
+#content-single-npls .last-experience-people,
+#content-single-npls .last-experience-figcaption .post-like {
+	padding: 6px;
+	margin: 8px 8px 8px 0;
+	font-size: 13px;
+}
+
+#content-single-nprs .last-experience-price,
+#content-single-nprs .last-experience-duration,
+#content-single-nprs .last-experience-people,
+#content-single-nprs .last-experience-figcaption .post-like {
+	padding: 6px;
+	margin: 8px 8px 8px 0;
+	font-size: 13px;
+}
+
+/* Experiences Types widget.
+// ========================================================================== */
+
+#content-single-nprs .widget_experience_types_carousel_widget,
+#content-single-npls .widget_experience_types_carousel_widget {
+	width: 100%;
+	margin: auto;
+}
+
+#content-single-nprs .image-type-figure,
+#content-single-npls .image-type-figure {
+	width: 100%;
+	margin: 20px auto 0 auto;
+}
+
+#content-single-nprs .type-button,
+#content-single-npls .type-button {
+	padding: 10px;
+	font-size: 11px;
+}
+
+#content-single-nprs .experiences-type-leftarrow,
+#content-single-npls .experiences-type-leftarrow {
+	left: 4px;
+}
+
+#content-single-nprs .experiences-type-rightarrow,
+#content-single-npls .experiences-type-rightarrow {
+	right: 4px;
+}
+
+/* Portfolio widget.
+// ========================================================================== */
+
+#single-experience-box .widget_experience_two_portfolio_widget,
+#content-single-nprs .widget_experience_two_portfolio_widget,
+#content-single-npls .widget_experience_two_portfolio_widget {
+	width: 100%;
+}
+
+#single-experience-box .text-portfolio-pic,
+#content-single-nprs .text-portfolio-pic,
+#content-single-npls .text-portfolio-pic {
+	height: 200px;
+}
+
+#single-experience-box .two-portfolio-leftarrow,
+#content-single-nprs .two-portfolio-leftarrow,
+#content-single-npls .two-portfolio-leftarrow {
+	left: 4px;
+}
+
+#single-experience-box .two-portfolio-rightarrow,
+#content-single-nprs .two-portfolio-rightarrow,
+#content-single-npls .two-portfolio-rightarrow {
+	right: 4px;
+}
+
+#single-experience-box .two-portfolio-leftarrow,
+#content-single-nprs .two-portfolio-leftarrow,
+#content-single-npls .two-portfolio-leftarrow,
+#single-experience-box .two-portfolio-rightarrow,
+#content-single-nprs .two-portfolio-rightarrow,
+#content-single-npls .two-portfolio-rightarrow {
+	top: 45%;
+}
+
+/* Last Reviews widget.
+// ========================================================================== */
+
+#content-single-nprs .widget_experience_last_reviews_widget,
+#content-single-npls .widget_experience_last_reviews_widget {
+	width: 100%;
+}
+
+#content-single-nprs .last-reviews-leftarrow,
+#content-single-npls .last-reviews-leftarrow {
+	left: 4px;
+}
+
+#content-single-nprs .last-reviews-rightarrow,
+#content-single-npls .last-reviews-rightarrow {
+	right: 4px;
+}
+
+/* Last Posts widget.
+// ========================================================================== */
+
+#single-experience-box .last-posts-container,
+#content-single-nprs .last-posts-container,
+#content-single-npls .last-posts-container {
+	width: 100%;
+}
+
+#single-experience-box .post-container,
+#content-single-nprs .post-container,
+#content-single-npls .post-container {
+	width: 200px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#single-experience-box .last-posts-container .last-posts-pic.img,
+#content-single-nprs .last-posts-container .last-posts-pic.img,
+#content-single-npls .last-posts-container .last-posts-pic.img {
+	width: 200px;
+	height: 200px;
+}
+
+/* Newsletter widget.
+// ========================================================================== */
+
+#single-experience-box .widget_experience_newsletter_widget,
+#content-single-nprs .widget_experience_newsletter_widget,
+#content-single-npls .widget_experience_newsletter_widget {
+	width: 100%;
+}
+
+#content-wrapper #single-experience-box .experience-newsletter-input,
+#content-wrapper #content-single-nprs .experience-newsletter-input,
+#content-wrapper #content-single-npls .experience-newsletter-input {
+	width: 100%;
+}
+
+/* Call to Action widget.
+// ========================================================================== */
+
+#content-single-nprs .widget_experience_call_action_widget,
+#content-single-npls .widget_experience_call_action_widget {
+	width: 100%;
+}
+
+/* Slider widget.
+// ========================================================================== */
+
+#content-single-nprs .widget-slider-ul,
+#content-single-npls .widget-slider-ul {
+	padding: 0;
+}
+
+/*
+// Slider Content.
+*/
+
+#content-single-nprs  .slider-widget-text-p,
+#content-single-npls .slider-widget-text-p {
+	font-size: 15px;
+	line-height: 26px;
+}
+
+/* Image widget.
+// ========================================================================== */
+
+#content-single-npls .experience-widget-title.widget_image,
+#content-single-npls .text-after-title.widget_image {
+	width: 100%;
+}
+
+#content-single-nprs .experience-widget-title.widget_image,
+#content-single-nprs .text-after-title.widget_image {
+	width: 100%;
+}
+
+/* Title widget.
+// ========================================================================== */
+
+#content-single-nprs .widget_experience_title_text_widget,
+#content-single-npls .widget_experience_title_text_widget {
+	width: 100%;
+}

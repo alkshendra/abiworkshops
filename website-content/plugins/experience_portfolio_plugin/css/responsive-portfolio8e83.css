@@ -1,0 +1,435 @@
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. General.
+//		1.1 Isotope Filters.
+//	 02. Portfolio with Text.
+//	 03. Portfolio Grid.
+//	 04. Single.
+//	 05. Taxonomy Page.
+// ========================================================================== */
+
+/* PHONE
+// ========================================================================== */
+
+@media only screen and (max-width: 514px),
+(max-device-width: 514px) {
+
+	/* General.
+	// ====================================================================== */
+
+	.portfolio-page-content-width {
+		width: 80%;
+	}
+
+	/*
+	// Isotope filters.
+	*/
+
+	.isotope_filters_portfolio li a {
+		margin: 0px 10px 20px 10px;
+	}
+
+	/* Portfolio with Text.
+	// ====================================================================== */
+
+	.portfolio-text-box {
+		width: 85%;
+	}
+
+	.text-portfolio figure{
+		width: 100%;
+		margin: 30px auto;
+		height: auto;
+	}
+
+	.text-portfolio-pic {
+		width: 100%;
+		height: 200px;
+	}
+
+	.project-text-categories {
+		margin: 15px 15px 0 0;
+	}
+
+	.project-text-entry-title a {
+		font-size: 20px;
+	}
+
+	.project-meta-container {
+		align-items: center;
+		-webkit-align-items: center;
+	    flex-direction: column;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+	}
+
+	/* Portfolio Grid.
+	// ====================================================================== */
+
+	.portfolio-same-box {
+		width: 80%;
+	}
+
+	.portfolio-same-box .same-portfolio {
+		height: 200px;
+		width: 100%;
+		margin: 30px auto;
+	}
+
+	.same-portfolio figure{
+		width: 100%;
+		margin: 0;
+	}
+
+	.portfolio-same-box  .same-portfolio-pic {
+		margin: 0 auto;
+		height: 200px;
+		width: 100%;
+	}
+
+	.project-same-entry-title a {
+		font-size: 20px;
+	}
+
+	.effect-marley  .project-same-categories p {
+		top: 45px;
+	}
+
+	/* Single.
+	// ====================================================================== */
+
+	#main-single-portfolio  .single-portfolio {
+		width: 80%;
+	}
+
+	.title-single-portfolio-header {
+		font-size: 35px;
+	}
+
+	.text-single-portfolio-header {
+		margin-top: 65px;
+	}
+
+	.text-single-portfolio-header a {
+		font-size: 25px;
+	}
+
+	.portfolio-single-author {
+		width: 100%;
+	}
+
+	.portfolio-author-name {
+		margin-bottom: 0;
+		line-height: 50px;
+	}
+
+	.portfolio-single-client {
+		width: 100%;
+	}
+
+	.portfolio-client-name {
+		line-height: 26px;
+	}
+
+	.portfolio-single-client .portfolio-client-gravatar-img img {
+		margin-bottom: 20px;
+	}
+
+	.portfolio-client-social {
+		display: inline-flex;
+	}
+
+	/* Taxonomy Page.
+	// ====================================================================== */
+
+	.taxonomy-content-box {
+		width: 85%;
+	}
+
+	.taxonomy-thumb {
+		height: 200px;
+		margin-top: 20px;
+	}
+
+	.taxonomy-thumb img {
+		min-width: 100%;
+		width: 200%;
+		min-height: 100%;
+	}
+
+	.single-project-categories {
+		margin: 10px 0 0 0;
+	}
+
+}
+
+/* TABLET
+// ========================================================================== */
+
+@media only screen and (min-width: 515px) and (max-width: 768px),
+(min-device-width: 515px) and (max-device-width: 768px) {
+
+	/* General.
+	// ====================================================================== */
+
+	.portfolio-page-content-width {
+		width: 80%;
+	}
+
+	/*
+	// Isotope filters.
+	*/
+
+	.isotope_filters_portfolio li a {
+		margin: 0px 10px 20px 10px;
+	}
+
+	/* Portfolio with Text.
+	// ====================================================================== */
+
+	.portfolio-text-box {
+		width: 80%;
+	}
+
+	.text-portfolio figure{
+		width: 100%;
+		height: auto;
+		margin: 30px auto;
+	}
+
+	.text-portfolio-pic {
+		width: 100%;
+		height: 218px;
+	}
+
+	.project-text-categories {
+		margin: 15px 15px 0 0;
+	}
+
+	/* Portfolio Grid.
+	// ====================================================================== */
+
+	.portfolio-same-box {
+		width: 85%;
+	}
+
+	.portfolio-same-box  .same-portfolio-pic {
+		width: 270px;
+	    height: 218px;
+	    margin: 20px 0 20px 40px;
+	}
+
+	.same-portfolio-pic {
+		margin: 30px auto;
+		height: 218px;
+		width: 100%;
+	}
+
+	.effect-marley .project-same-categories p {
+		top: 40px;
+		margin: 0;
+	}
+
+	/* Single.
+	// ====================================================================== */
+
+	#main-single-portfolio .single-portfolio {
+		width: 85%;
+	}
+
+	.portfolio-single-author .portfolio-author-gravatar-img img {
+		float: none;
+	}
+
+	.portfolio-single-author {
+		width: 45%;
+		overflow: hidden;
+	}
+
+	.portfolio-author-name {
+		margin-bottom: 0;
+		line-height: 50px;
+	}
+
+	.portfolio-single-client .portfolio-client-gravatar-img img {
+		float: none;
+	}
+
+	.portfolio-single-client {
+		overflow: hidden;
+		width: 45%;
+	}
+
+	.portfolio-client-name {
+		margin-bottom: 0;
+		line-height: 50px;
+	}
+
+	/* Taxonomy Page.
+	// ====================================================================== */
+
+	.taxonomy-content-box {
+		width: 85%;
+	}
+
+	.portfolio-taxonomy .taxonomy-thumb {
+		height: 218px;
+		margin-top: 20px;
+	}
+
+	.portfolio-taxonomy .taxonomy-thumb img {
+		min-width: 100%;
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.single-project-categories {
+		margin: 10px 0 0 0;
+	}
+
+}
+
+/* TABLET LANDSCAPE
+// ========================================================================== */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px),
+(min-device-width: 769px) and (max-device-width: 1024px) {
+
+	/* General.
+	// ====================================================================== */
+
+	.portfolio-page-content-width {
+		width: 85%;
+	}
+
+	/*
+	// Isotope filters.
+	*/
+
+	.isotope_filters_portfolio li a {
+		margin: 0px 10px 20px 10px;
+	}
+
+	/* Portfolio with Text.
+	// ====================================================================== */
+
+	.portfolio-text-box {
+		width: 85%;
+	}
+
+	.text-portfolio figure {
+		max-width: 100%;
+	    width: 360px;
+	    margin: 20px 0 20px 50px;
+	}
+
+	.text-portfolio-pic {
+		width: 100%;
+		height: 257px;
+	}
+
+	.project-text-categories {
+
+	}
+
+	.project-text-entry-title a {
+		font-size: 20px;
+	}
+	
+	.project-meta-container {
+		overflow: auto;
+	}
+
+	/* Portfolio Grid.
+	// ====================================================================== */
+
+	.portfolio-same-box {
+		width: 85%;
+	}
+
+	.portfolio-same-box .same-portfolio-pic {
+		width: 360px;
+	    height: 280px;
+	    margin: 20px 0 30px 50px;
+	    max-width: 100%;
+	}
+
+	.same-portfolio-pic img {
+		width: 150%;
+	}
+
+	.project-same-entry-title a {
+		font-size: 20px;
+	}
+
+	/* Single.
+	// ====================================================================== */
+
+	#main-single-portfolio  .single-portfolio {
+		width: 85%;
+	}
+
+	.title-single-portfolio-header {
+		font-size: 40px;
+	}
+
+	.text-single-portfolio-header {
+		margin-top: 30px;
+	}
+
+	.text-single-portfolio-header a {
+		font-size: 30px;
+	}
+
+	.portfolio-single-author .portfolio-author-gravatar-img img {
+		float: none;
+	}
+
+	.portfolio-single-author {
+		width: 45%;
+		overflow: hidden;
+	}
+
+	.portfolio-author-name {
+		margin-bottom: 0;
+		line-height: 50px;
+	}
+
+	.portfolio-single-client .portfolio-client-gravatar-img img {
+		float: none;
+	}
+
+	.portfolio-single-client {
+		overflow: hidden;
+		width: 45%;
+	}
+
+	.portfolio-client-name {
+		margin-bottom: 0;
+		line-height: 50px;
+	}
+
+	/* Taxonomy Page.
+	// ====================================================================== */
+
+	.taxonomy-content-box {
+		width: 85%;
+	}
+
+	.taxonomy-thumb {
+		height: 218px;
+		margin-top: 20px;
+	}
+
+	.taxonomy-thumb img {
+		min-width: 100%;
+		width: 200%;
+		min-height: 100%;
+	}
+
+	.single-project-categories {
+		margin: 10px 0 0 0;
+	}
+
+}
