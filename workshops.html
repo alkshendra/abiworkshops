@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
-		<title>Contact | ABI Workshops</title>
+		<title>About | ABI Workshops</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link
@@ -354,6 +354,29 @@
 					margin-bottom: 0px;
 				}
 			}
+			ul.workshops-listing {
+				display: flex;
+				flex-wrap: wrap;
+				list-style: none;
+			}
+			.workshops-listing li {
+				width: calc(100% / 3 - 40px);
+				margin: 20px;
+				box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.06);
+			}
+			.workshops-listing li .offer-banner {
+				height: 240px;
+				background-size: cover;
+			}
+			.workshops-listing li .offer-title {
+				padding: 8px 14px;
+			}
+			.workshops-listing li .offer-payment .flex-space-between {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 8px 14px;
+			}
 		</style>
 		<!-- Facebook Pixel Code -->
 		<script>
@@ -396,8 +419,6 @@
 	<body
 		class="home page-template-default page page-id-65 siteorigin-panels siteorigin-panels-before-js siteorigin-panels-home"
 	>
-		<!-- Starts the body -->
-
 		<main id="content-wrapper">
 			<!-- Start Content Wrapper -->
 
@@ -442,14 +463,16 @@
 								<a href="index.html">Home</a>
 							</li>
 							<li
-								class="menu-item menu-item-type-custom menu-item-object-custom menu-item-172"
+								class="menu-item menu-item-type-custom menu-item-object-custom menu-item-172 current-menu-item current_page_item"
 							>
 								<a href="about.html">About Us</a>
 							</li>
 							<li
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
 							>
-								<a href="http://abiworkshops.com/workshops"
+								<a
+									href="https://www.instamojo.com/abiworkshops/"
+									target="_blank"
 									>Workshops</a
 								>
 							</li>
@@ -463,7 +486,7 @@
 								>
 							</li>
 							<li
-								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131 current-menu-item current_page_item"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"
 							>
 								<a href="contact.html">Contact</a>
 							</li>
@@ -478,11 +501,11 @@
 
 			<div class="clearfix"></div>
 
-			<div class="page-header">
+			<div class="page-header" style="max-height: 400px;">
 				<div
 					class="featured-img-header parallax"
 					style="
-						background-image: url('https://images.unsplash.com/photo-1546449993-d15627692071?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80');
+						background-image: url('website-content/uploads/img/about-header.png');
 						background-position: center !important;
 					"
 				></div>
@@ -492,7 +515,7 @@
 							class="title-page-header display-none-experiences animated fadeInDown"
 							style="color: rgb(83, 45, 59); display: block;"
 						>
-							CONTACT US
+							ONLINE WORKSHOPS
 						</h2>
 						<!-- <p class="text-page-header display-none-experiences animated fadeInUp" style="color: rgb(51, 51, 51); display: block;">Let's learn together!</p> -->
 					</div>
@@ -520,70 +543,604 @@
 									<div
 										class="so-widget-sow-editor so-widget-sow-editor-base"
 									>
-										<div
-											class="siteorigin-widget-tinymce textwidget"
-										>
-											<h1 style="text-align: center;">
-												<span
-													style="
-														color: #886572;
-														text-align: center;
-													"
-													>SAY HELLO!</span
-												>
-											</h1>
-											<div style="text-align: center;">
-												<div>
-													<p>
-														Fill in the form below
-														and someone from our
-														team will get back to
-														you shortly
-													</p>
-													<a
-														class="exp-button-primary shortcode"
-														href="https://forms.gle/esyQ5Ej6aYkNPbWP7"
-														target="_blank"
-														title="Get In Touch"
-													>
-														Get In Touch
-													</a>
+										<ul class="workshops-listing">
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/4e4ea27563f94f22a0138d31e90bd98f.png');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Architectural
+																Portfolio Making
+																- 5th & 6th
+																sept. 2020</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	class="rupee-container"
+																	data-testid="rupee-value-container"
+																	>₹ 950</span
+																>
+															</div>
+															<div>
+																<a
+																	href="architectural-making.html"
+																	target="_blank"
+																	class="btn btn-green"
+																	>Buy</a
+																>
+															</div>
+														</div>
+													</div>
 												</div>
-												<br />
-												<br />
-												<div>
-													<p>
-														You can send us a
-														request, if you wish to
-														attend a workshop that
-														is currently not
-														scheduled.
-													</p>
-													<a
-														class="exp-button-primary shortcode"
-														href="https://forms.gle/5RbdRKRLeU2CoFnK8"
-														title="Request"
-														target="_blank"
-													>
-														Request
-													</a>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/61e9ea3766034bd6ac3a566e60c69162.png');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Graphic Design
+																Workshop - 5th
+																sept. 2020</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	>Min
+																	<span
+																		class="rupee-container"
+																		data-testid="rupee-value-container"
+																		>₹ 499</span
+																	></span
+																>
+															</div>
+															<div>
+																<a
+																	href="graphic-design.html"
+																	target="_blank"
+																	class="btn btn-green"
+																	>Buy</a
+																>
+															</div>
+														</div>
+													</div>
 												</div>
-											</div>
-										</div>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/a6f914dc1b364871be411abd4398319d.jpg');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Architectural
+																Photoshop
+																Workshop - 29th
+																&amp; 30th Aug,
+																2020</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	class="rupee-container"
+																	data-testid="rupee-value-container"
+																	>₹ 950</span
+																>
+															</div>
+															<div>
+																<a
+																	class="btn btn-disabled"
+																	disabled=""
+																	>Unavailable</a
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/00c7253f09c54a1192dcfdffc6d7c11d.png');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Site Analysis
+																to Concept
+																Evolution - 23
+																Aug, 2020</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	class="rupee-container"
+																	data-testid="rupee-value-container"
+																	>₹ 499</span
+																>
+															</div>
+															<div>
+																<a
+																	class="btn btn-disabled"
+																	disabled=""
+																	>Unavailable</a
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/a732881d3f284c509c8297ac5f2d4cd7.jpg');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Architectural
+																Portfolio Making
+																- 15th Mar,
+																2020</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	class="rupee-container"
+																	data-testid="rupee-value-container"
+																	>₹ 1,950</span
+																>
+															</div>
+															<div>
+																<a
+																	class="btn btn-disabled"
+																	disabled=""
+																	>Unavailable</a
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/3aa05622c8ed46738988d4ea7cf63b36.jpg');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>2D
+																Architectural
+																Rendering Using
+																Software Skills
+																- 22nd Feb, 2020
+																(Saturday)</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	class="rupee-container"
+																	data-testid="rupee-value-container"
+																	>₹ 1,950</span
+																>
+															</div>
+															<div>
+																<a
+																	class="btn btn-disabled"
+																	disabled=""
+																	>Unavailable</a
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/f5747f06156a4088b6aa883a4ebf96f2.jpg');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Sketch-up +
+																Vray
+																September</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	class="rupee-container"
+																	data-testid="rupee-value-container"
+																	>₹ 2,900</span
+																>
+															</div>
+															<div>
+																<a
+																	class="btn btn-disabled"
+																	disabled=""
+																	>Unavailable</a
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/ccdae015948049d8917563e5382c134b.jpg');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Architectural
+																Rendering Using
+																Hand Skills -
+																4th Aug, 2019
+																(Sunday)</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	>Min
+																	<span
+																		class="rupee-container"
+																		data-testid="rupee-value-container"
+																		>₹ 1,550</span
+																	></span
+																>
+															</div>
+															<div>
+																<a
+																	class="btn btn-disabled"
+																	disabled=""
+																	>Unavailable</a
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/a7840f75bc5d4171b7102a756303ac1d.jpg');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Concept
+																Evolution - 11th
+																Aug, 2019
+																(Sunday)</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	>Min
+																	<span
+																		class="rupee-container"
+																		data-testid="rupee-value-container"
+																		>₹ 1,850</span
+																	></span
+																>
+															</div>
+															<div>
+																<a
+																	class="btn btn-disabled"
+																	disabled=""
+																	>Unavailable</a
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li
+												class="columns push--bottom small-only-flush--bottom"
+											>
+												<div class="card offer-card">
+													<div
+														class="offer-banner"
+														style="
+															background-image: url('https://media.instamojo.com/imgs/7584af47b6bc4bf9a6a198e1bf74a5f7.jpg');
+														"
+													></div>
+													<div class="offer-summary">
+														<div
+															class="offer-title soft text-black"
+															style="
+																background: rgb(
+																	244,
+																	246,
+																	248
+																);
+																overflow-wrap: break-word;
+															"
+														>
+															<span
+																class="font-rc"
+																>Designing With
+																Contours - 23rd
+																Feb,2020
+																(Sunday)</span
+															>
+														</div>
+													</div>
+													<div class="offer-payment">
+														<div
+															class="flex-space-between"
+														>
+															<div
+																class="text-black strong"
+																style="
+																	padding-top: 4px;
+																"
+															>
+																<span
+																	class="rupee-container"
+																	data-testid="rupee-value-container"
+																	>₹ 1,850</span
+																>
+															</div>
+															<div>
+																<a
+																	class="btn btn-disabled"
+																	disabled=""
+																	>Unavailable</a
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="contactSection" style="text-align: center;">
-							<p>Need more help?</p>
-							<p>
-								Email us at:<br />
-								ankitakakani@gmail.com
-							</p>
-							<p>
-								Call us on:<br />
-								+91 9739638321
-							</p>
 						</div>
 					</div>
 				</div>
@@ -643,25 +1200,6 @@
 							</a>
 						</div>
 						<!-- End of Social Footer Box -->
-						<br />
-						<br />
-						<p>
-							<a href="terms.html" style="font-size: 13px;"
-								>Terms &amp; Conditions</a
-							>
-							<span
-								style="
-									font-weight: 600;
-									color: #777;
-									margin: 0 8px;
-								"
-							>
-								·
-							</span>
-							<a href="privacy.html" style="font-size: 13px;"
-								>Privacy Policy</a
-							>
-						</p>
 					</div>
 					<div class="widget-horizontal">
 						<div class="textwidget instagramWrap">
@@ -996,7 +1534,9 @@
 									<a href="about.html">About Us</a>
 								</li>
 								<li>
-									<a href="http://abiworkshops.com/workshops"
+									<a
+										href="https://www.instamojo.com/abiworkshops/"
+										target="_blank"
 										>Workshops</a
 									>
 								</li>
