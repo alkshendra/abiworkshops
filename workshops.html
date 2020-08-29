@@ -358,6 +358,7 @@
 				display: flex;
 				flex-wrap: wrap;
 				list-style: none;
+				margin: 0;
 			}
 			.workshops-listing li {
 				width: calc(100% / 3 - 40px);
@@ -376,6 +377,34 @@
 				justify-content: space-between;
 				align-items: center;
 				padding: 8px 14px;
+			}
+			.workshops-listing li .offer-summary a {
+				color: #333;
+				font-weight: normal;
+			}
+			@media (max-width: 980px) {
+				.workshops-listing li {
+					width: calc(100% / 2 - 40px);
+				}
+			}
+			@media (max-width: 768px) {
+				ul.workshops-listing {
+					margin: -24px;
+				}
+				.workshops-listing li {
+					width: calc(100% / 2 - 24px);
+					margin: 12px;
+				}
+			}
+			@media (max-width: 500px) {
+				ul.workshops-listing {
+					margin: 0;
+				}
+				.workshops-listing li {
+					width: 100%;
+					max-width: 330px;
+					margin: 16px auto;
+				}
 			}
 		</style>
 		<!-- Facebook Pixel Code -->
@@ -471,7 +500,7 @@
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
 							>
 								<a
-									href="https://www.instamojo.com/abiworkshops/"
+									href="http://abiworkshops.com/workshops"
 									target="_blank"
 									>Workshops</a
 								>
@@ -566,12 +595,13 @@
 																overflow-wrap: break-word;
 															"
 														>
-															<span
+															<a
+																href="portfolio-making.html"
 																class="font-rc"
 																>Architectural
 																Portfolio Making
 																- 5th & 6th
-																sept. 2020</span
+																sept. 2020</a
 															>
 														</div>
 													</div>
@@ -593,10 +623,9 @@
 															</div>
 															<div>
 																<a
-																	href="architectural-making.html"
-																	target="_blank"
+																	href="portfolio-making.html"
 																	class="btn btn-green"
-																	>Buy</a
+																	>Join</a
 																>
 															</div>
 														</div>
@@ -625,11 +654,12 @@
 																overflow-wrap: break-word;
 															"
 														>
-															<span
+															<a
 																class="font-rc"
+																href="graphic-design.html"
 																>Graphic Design
 																Workshop - 5th
-																sept. 2020</span
+																sept. 2020</a
 															>
 														</div>
 													</div>
@@ -655,9 +685,8 @@
 															<div>
 																<a
 																	href="graphic-design.html"
-																	target="_blank"
 																	class="btn btn-green"
-																	>Buy</a
+																	>Join</a
 																>
 															</div>
 														</div>
@@ -1535,7 +1564,7 @@
 								</li>
 								<li>
 									<a
-										href="https://www.instamojo.com/abiworkshops/"
+										href="http://abiworkshops.com/workshops"
 										target="_blank"
 										>Workshops</a
 									>

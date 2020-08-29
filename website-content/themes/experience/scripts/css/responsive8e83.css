@@ -31,9 +31,7 @@
 /* PHONE
 // ========================================================================== */
 
-@media only screen and (max-width: 514px),
-(max-device-width: 514px) {
-
+@media only screen and (max-width: 514px), (max-device-width: 514px) {
 	iframe {
 		max-width: 100%;
 	}
@@ -42,14 +40,14 @@
 	// ====================================================================== */
 
 	#TB_window {
-	    top: 0 !important;
+		top: 0 !important;
 		left: 0 !important;
-	    height: 100% !important;
+		height: 100% !important;
 		width: 100% !important;
-	    margin-top: 0 !important;
+		margin-top: 0 !important;
 		margin-left: 0 !important;
-	    border-top: 0;
-	    border-bottom: 0;
+		border-top: 0;
+		border-bottom: 0;
 	}
 
 	#TB_ajaxContent {
@@ -79,7 +77,7 @@
 	#experience-logo {
 		max-height: 45px;
 	}
-	
+
 	.experience-header.relative-version #experience-logo {
 		max-height: 120px;
 		min-height: 120px;
@@ -101,7 +99,7 @@
 
 	#experience-logo-text {
 		margin-top: 5px;
-	    margin-left: 20px;
+		margin-left: 20px;
 	}
 
 	.experience-header.smaller #experience-logo-text {
@@ -121,7 +119,7 @@
 	// Menu.
 	*/
 
-	#relative-menu-box{
+	#relative-menu-box {
 		position: relative;
 		float: right;
 		display: inline;
@@ -131,7 +129,7 @@
 		float: right;
 		z-index: 3;
 		margin-right: 20px;
-	    position: relative;
+		position: relative;
 		width: 50px;
 	}
 
@@ -147,7 +145,7 @@
 
 	.dl-menuwrapper {
 		width: 42px;
-	    height: 115px;
+		height: 115px;
 	}
 
 	.smaller .dl-menuwrapper {
@@ -158,25 +156,21 @@
 	.dl-menuwrapper button:after {
 		width: 59%;
 		top: 9.5px;
-	    left: 9.5px;
+		left: 9.5px;
 	}
 
-	.dl-menuwrapper.white button:after{
-		box-shadow: 
-			0 9px 0 #fff, 
-			0 18px 0 #fff;
+	.dl-menuwrapper.white button:after {
+		box-shadow: 0 9px 0 #fff, 0 18px 0 #fff;
 	}
 
 	.dl-menuwrapper.dark button:after {
-		box-shadow: 
-			0 9px 0 #333, 
-			0 18px 0 #333;
+		box-shadow: 0 9px 0 #333, 0 18px 0 #333;
 	}
 
-	.smaller .dl-menuwrapper button:after { 
+	.smaller .dl-menuwrapper button:after {
 		width: 69%;
-	    top: 6.4px;
-	    left: 5.5px;
+		top: 6.4px;
+		left: 5.5px;
 	}
 
 	.dl-trigger {
@@ -186,7 +180,7 @@
 		left: 0;
 		margin: auto;
 		width: 50px;
-	    height: 43px;
+		height: 43px;
 	}
 
 	.white .dl-trigger {
@@ -216,18 +210,18 @@
 		padding-top: 20px;
 	}
 
-	.experience-header.smaller .sidr{
+	.experience-header.smaller .sidr {
 		margin-top: -19px;
 	}
 
-	#sidr ul li{
+	#sidr ul li {
 		line-height: 20px;
 	}
 
-	#sidr ul li a, 
+	#sidr ul li a,
 	#sidr ul li span {
 		font-size: 12px;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		font-weight: 700;
 	}
 
@@ -236,24 +230,24 @@
 	*/
 
 	#relative-menu-box .experience-login-register-header {
-	    display: inline-flex;
-	    width: 100%;
-	    justify-content: center;
-	    align-items: center;
+		display: inline-flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
 	}
-	
+
 	.experience-header.relative-version .experience-login-register-header {
 		display: none;
 	}
 
-	.experience-login-register-header .log_out i, 
-	.experience-login-register-header .log_in i, 
-	.experience-login-register-header .register i, 
+	.experience-login-register-header .log_out i,
+	.experience-login-register-header .log_in i,
+	.experience-login-register-header .register i,
 	.experience-login-register-header .profile i {
 		font-size: 14px;
 	}
 
-	.experience-login-register-header p{
+	.experience-login-register-header p {
 		margin: 0;
 		float: none;
 		height: 85px;
@@ -272,7 +266,7 @@
 		height: 50px;
 	}
 
-	body  #TB_ajaxWindowTitle {
+	body #TB_ajaxWindowTitle {
 		line-height: 50px;
 		padding-left: 80px;
 	}
@@ -298,7 +292,7 @@
 	/* Main.
 	// ====================================================================== */
 
-	#content-wrapper{
+	#content-wrapper {
 		max-width: 514px;
 		width: 100%;
 		overflow: hidden;
@@ -369,8 +363,8 @@
 		margin-right: 0;
 		margin-bottom: 30px;
 	}
-	
-	#loop-gridrightsidebar  .grid-thumbnail img {
+
+	#loop-gridrightsidebar .grid-thumbnail img {
 		height: auto;
 	}
 
@@ -384,16 +378,16 @@
 		margin-left: 0;
 		margin-bottom: 30px;
 	}
-	
-	#loop-gridleftsidebar  .grid-thumbnail img {
+
+	#loop-gridleftsidebar .grid-thumbnail img {
 		height: auto;
 	}
 
 	#loop-grid {
 		width: 100%;
 	}
-	
-	#loop-grid  .grid-thumbnail img {
+
+	#loop-grid .grid-thumbnail img {
 		min-height: 0;
 		height: auto;
 	}
@@ -408,7 +402,7 @@
 	// Normal No Sidebar.
 	*/
 
-	#loop-normalnosidebar  {
+	#loop-normalnosidebar {
 		width: 100%;
 	}
 
@@ -418,7 +412,7 @@
 
 	/* Video. */
 
-	.video-format iframe{
+	.video-format iframe {
 		width: 100%;
 		height: auto;
 	}
@@ -493,7 +487,7 @@
 		width: 80%;
 	}
 
-	#single-author img{
+	#single-author img {
 		min-height: 100%;
 		min-width: 100%;
 		width: auto;
@@ -519,8 +513,8 @@
 	// Comments.
 	*/
 
-	#commentform #author, 
-	#commentform #email, 
+	#commentform #author,
+	#commentform #email,
 	#commentform #url,
 	#commentform #comment {
 		width: 100%;
@@ -542,14 +536,14 @@
 	}
 
 	#footer-box h6 {
-	    width: 80%;
-	    margin: 30px 0;
+		width: 80%;
+		margin: 30px 0;
 	}
 
 	/* Pages.
 	// ====================================================================== */
 
-	.page-header .text-page-header-container{
+	.page-header .text-page-header-container {
 		padding: 0 5%;
 	}
 
@@ -567,7 +561,9 @@
 	*/
 
 	.main-page-def {
-		width: 85%;
+		/* width: 85%; */
+		width: 100%;
+		padding: 56px 24px;
 	}
 
 	/*
@@ -601,22 +597,20 @@
 	#content-wrapper .no-responsive {
 		display: none;
 	}
-	
+
 	/* Misc.
 	// ========================================================================== */
 
 	div[data-stellar-background-ratio="0.5"] {
 		background-attachment: scroll;
 	}
-	
 }
 
 /* TABLET
 // ========================================================================== */
 
 @media only screen and (min-width: 515px) and (max-width: 768px),
-(min-device-width: 515px) and (max-device-width: 768px) {
-
+	(min-device-width: 515px) and (max-device-width: 768px) {
 	iframe {
 		max-width: 100%;
 	}
@@ -625,21 +619,20 @@
 	// ====================================================================== */
 
 	#TB_window {
-	    top: 0 !important;
+		top: 0 !important;
 		left: 0 !important;
-	    height: 100% !important;
+		height: 100% !important;
 		width: 100% !important;
-	    margin-top: 0 !important;
+		margin-top: 0 !important;
 		margin-left: 0 !important;
-	    border-top: 0;
-	    border-bottom: 0;
+		border-top: 0;
+		border-bottom: 0;
 	}
 
 	#TB_ajaxContent {
 		width: 100% !important;
 		height: 100% !important;
 	}
-
 
 	/* Header.
 	// ====================================================================== */
@@ -667,14 +660,14 @@
 	#experience-logo {
 		max-height: 45px;
 	}
-	
+
 	.experience-header.relative-version #experience-logo {
 		max-height: 120px;
 		min-height: 120px;
 	}
 
 	.image-logo {
-	    padding-left: 35px;
+		padding-left: 35px;
 	}
 
 	.smaller #experience-logo {
@@ -697,29 +690,29 @@
 	/*
 	// Menu.
 	*/
-	#relative-menu-box{
+	#relative-menu-box {
 		position: relative;
-	    float: right;
-	    display: inline;
+		float: right;
+		display: inline;
 		border: none;
 	}
 
 	#dl-menu {
 		float: right;
-	    z-index: 3;
+		z-index: 3;
 		margin-right: 12px;
-	    position: relative;
-	    width: 50px;
+		position: relative;
+		width: 50px;
 	}
 
 	#sidr {
 		top: 30px;
 		width: 300px;
-	    font-size: 13px;
-	    margin-top: -30px;
-	    height: 100%;
-	    overflow: auto;
-	    padding-top: 20px;
+		font-size: 13px;
+		margin-top: -30px;
+		height: 100%;
+		overflow: auto;
+		padding-top: 20px;
 	}
 
 	.dl-menuwrapper {
@@ -727,43 +720,42 @@
 		height: 100px;
 	}
 
-
 	.smaller .dl-menuwrapper {
 		height: 65px;
 	}
 
 	.dl-menuwrapper button:after {
-	    width: 67%;
-	    top: 9.5px;
-	    left: 7.5px;
+		width: 67%;
+		top: 9.5px;
+		left: 7.5px;
 	}
 
 	.dl-menuwrapper.white button:after {
-	    background: #fff;
-	    box-shadow: 0 10px 0 #fff, 0 20px 0 #fff;
+		background: #fff;
+		box-shadow: 0 10px 0 #fff, 0 20px 0 #fff;
 	}
 
 	.dl-menuwrapper.dark button:after {
-	    background: #333;
-	    box-shadow: 0 10px 0 #333, 0 20px 0 #333;
+		background: #333;
+		box-shadow: 0 10px 0 #333, 0 20px 0 #333;
 	}
 
 	.white .dl-trigger {
-	    border: 2px solid #fff;
+		border: 2px solid #fff;
 	}
 
 	.dark .dl-trigger {
-	    border: 2px solid #333;
+		border: 2px solid #333;
 	}
 
 	.experience-header .dl-trigger {
 		top: -5px;
-	    bottom: 0;
-	    right: 0;
-	    left: 0;
-	    margin: auto;
-	    width: 50px;
-	    height: 43px;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		width: 50px;
+		height: 43px;
 	}
 
 	.smaller .dl-trigger {
@@ -784,11 +776,11 @@
 		padding-top: 20px;
 	}
 
-	.smaller .sidr{
+	.smaller .sidr {
 		margin-top: -19px;
 	}
 
-	.sidr ul li a, 
+	.sidr ul li a,
 	.sidr ul li span {
 		font-size: 13px;
 		font-weight: 700;
@@ -830,18 +822,17 @@
 
 	.experience-header.dark-menu .experience-login-register-header a {
 		color: #fff;
-	    border: 2px solid #fff;
+		border: 2px solid #fff;
 	}
 
 	html body #TB_window {
-
 	}
 
 	body #TB_title {
 		height: 50px;
 	}
 
-	body  #TB_ajaxWindowTitle {
+	body #TB_ajaxWindowTitle {
 		line-height: 50px;
 		padding-left: 80px;
 	}
@@ -859,7 +850,7 @@
 	/* Main.
 	// ====================================================================== */
 
-	#content-wrapper{
+	#content-wrapper {
 		max-width: 768px;
 		width: 100%;
 		overflow: hidden;
@@ -936,11 +927,11 @@
 	#loop-grid {
 		width: 100%;
 	}
-	
-	#loop-grid  .grid-thumbnail img {
+
+	#loop-grid .grid-thumbnail img {
 		min-height: 0;
 	}
-	
+
 	#loop-grid .grid {
 		width: 45%;
 		margin: 2%;
@@ -950,7 +941,7 @@
 	// Normal No Sidebar.
 	*/
 
-	#loop-normalnosidebar  {
+	#loop-normalnosidebar {
 		width: 100%;
 	}
 
@@ -960,7 +951,7 @@
 
 	/* Video. */
 
-	.video-format iframe{
+	.video-format iframe {
 		width: 100%;
 		max-height: 218px;
 	}
@@ -994,7 +985,7 @@
 	}
 
 	.grid-thumbnail.gallery-slider ul li {
-		height: 130px; 
+		height: 130px;
 	}
 
 	.grid-thumbnail.gallery-slider .unslider-arrow {
@@ -1020,7 +1011,7 @@
 		width: 80%;
 	}
 
-	#single-author img{
+	#single-author img {
 		min-height: 100%;
 		width: auto;
 		margin-top: 0;
@@ -1046,14 +1037,14 @@
 	}
 
 	#footer-box h6 {
-	    width: 80%;
-	    margin: 30px 0;
+		width: 80%;
+		margin: 30px 0;
 	}
 
 	/* Pages.
 	// ====================================================================== */
 
-	.page-header .text-page-header-container{
+	.page-header .text-page-header-container {
 		padding: 0 5%;
 	}
 
@@ -1062,7 +1053,9 @@
 	*/
 
 	.main-page-def {
-		width: 85%;
+		/* width: 85%; */
+		width: 100%;
+		padding: 56px 24px;
 	}
 
 	/*
@@ -1092,14 +1085,13 @@
 	.no-responsive {
 		display: none;
 	}
-	
+
 	/* Misc.
 	// ========================================================================== */
 
 	div[data-stellar-background-ratio="0.5"] {
 		background-attachment: scroll;
 	}
-
 }
 @media only screen and (max-width: 1024px), (max-device-width: 1024px) {
 	/*
@@ -1135,13 +1127,21 @@
 		margin: 0 0 12px;
 	}
 	#experience-navigation .experience-navigation-list .menu-item a {
-		color: #fafafa!important;
+		color: #fafafa !important;
 		border: none;
 		text-align: center;
 		font-size: 16px;
 	}
-	#header-box #experience-navigation .experience-navigation-list .menu-item a:hover,
-	#header-box #experience-navigation .experience-navigation-list .menu-item.current-menu-item a {
+	#header-box
+		#experience-navigation
+		.experience-navigation-list
+		.menu-item
+		a:hover,
+	#header-box
+		#experience-navigation
+		.experience-navigation-list
+		.menu-item.current-menu-item
+		a {
 		background: rgba(250, 250, 250, 0.15);
 		border: none;
 	}
@@ -1151,20 +1151,19 @@
 // ========================================================================== */
 
 @media only screen and (min-width: 769px) and (max-width: 1024px),
-(min-device-width: 769px) and (max-device-width: 1024px) {
-
+	(min-device-width: 769px) and (max-device-width: 1024px) {
 	/* Thickbox.
 	// ====================================================================== */
 
 	#TB_window {
-	    top: 0 !important;
+		top: 0 !important;
 		left: 0 !important;
-	    height: 100% !important;
+		height: 100% !important;
 		width: 100% !important;
-	    margin-top: 0 !important;
+		margin-top: 0 !important;
 		margin-left: 0 !important;
-	    border-top: 0;
-	    border-bottom: 0;
+		border-top: 0;
+		border-bottom: 0;
 	}
 
 	#TB_ajaxContent {
@@ -1194,17 +1193,17 @@
 	#experience-logo {
 		max-height: 45px;
 	}
-	
+
 	.experience-header.relative-version #experience-logo {
 		max-height: 120px;
 		min-height: 120px;
 	}
 
 	.image-logo {
-	    padding-left: 35px;
+		padding-left: 35px;
 	}
 
-	#experience-logo-text a{
+	#experience-logo-text a {
 		padding-left: 35px;
 	}
 
@@ -1236,25 +1235,25 @@
 
 	#dl-menu {
 		float: right;
-	    z-index: 3;
-	    margin-right: 35px;
-	    position: relative;
-	    width: 50px;
+		z-index: 3;
+		margin-right: 35px;
+		position: relative;
+		width: 50px;
 	}
 
 	#sidr {
 		top: 30px;
-	    width: 300px;
-	    font-size: 13px;
-	    margin-top: -30px;
-	    height: 100%;
-	    overflow: auto;
-	    padding-top: 20px;
+		width: 300px;
+		font-size: 13px;
+		margin-top: -30px;
+		height: 100%;
+		overflow: auto;
+		padding-top: 20px;
 	}
 
-	.sidr ul li a, 
+	.sidr ul li a,
 	.sidr ul li span {
-	    font-weight: 700;
+		font-weight: 700;
 	}
 
 	.dl-menuwrapper {
@@ -1267,42 +1266,42 @@
 	}
 
 	.dl-menuwrapper button:after {
-	    width: 67%;
-	    top: 8.5px;
-	    left: 7.5px;
+		width: 67%;
+		top: 8.5px;
+		left: 7.5px;
 	}
 
 	.dl-menuwrapper.white button:after {
-	    background: #fff;
-	    box-shadow: 0 10px 0 #fff, 0 20px 0 #fff;
+		background: #fff;
+		box-shadow: 0 10px 0 #fff, 0 20px 0 #fff;
 	}
 
 	.dl-menuwrapper.dark button:after {
-	    background: #333;
-	    box-shadow: 0 9px 0 #333, 0 19px 0 #333;
+		background: #333;
+		box-shadow: 0 9px 0 #333, 0 19px 0 #333;
 	}
 
 	.dl-trigger {
 		top: 0;
-	    bottom: 0;
-	    right: 0;
-	    left: 0;
-	    margin: auto;
-	    width: 50px;
-	    height: 42px;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		width: 50px;
+		height: 42px;
 	}
 
 	.white .dl-trigger {
-	    border: 2px solid #fff;
+		border: 2px solid #fff;
 	}
 
 	.dark .dl-trigger {
-	    border: 2px solid #333;
+		border: 2px solid #333;
 	}
 
 	.smaller .dl-trigger {
-	    width: 45px;
-	    height: 38px;
+		width: 45px;
+		height: 38px;
 	}
 
 	.menu-main-nav-container a {
@@ -1318,11 +1317,11 @@
 		padding-top: 30px;
 	}
 
-	#sidr ul li{
+	#sidr ul li {
 		line-height: 20px;
 	}
 
-	#sidr ul li a, 
+	#sidr ul li a,
 	#sidr ul li span {
 		font-size: 14px;
 	}
@@ -1341,14 +1340,14 @@
 		margin: 0;
 	}
 
-	.sidr-inner .experience-login-register-header p{
+	.sidr-inner .experience-login-register-header p {
 		margin: 0;
 	}
 
 	.experience-login-register-header .responsive {
 		display: none;
 	}
-	
+
 	.experience-login-register-header .no-responsive {
 		display: inline-flex;
 	}
@@ -1357,7 +1356,7 @@
 		height: 50px;
 	}
 
-	body  #TB_ajaxWindowTitle {
+	body #TB_ajaxWindowTitle {
 		line-height: 50px;
 		padding-left: 80px;
 	}
@@ -1375,13 +1374,12 @@
 	/* Main.
 	// ====================================================================== */
 
-	#content-wrapper{
+	#content-wrapper {
 		max-width: 100%;
 	}
 
 	/* Vertical Sidebar.
 	// ====================================================================== */
-
 
 	#right-sidebar {
 		width: 40%;
@@ -1390,7 +1388,7 @@
 		margin: 0 auto;
 	}
 
-	#main-single #right-sidebar  {
+	#main-single #right-sidebar {
 		float: left;
 	}
 
@@ -1487,7 +1485,7 @@
 	// Normal No Sidebar.
 	*/
 
-	#loop-normalnosidebar  {
+	#loop-normalnosidebar {
 		width: 100%;
 	}
 
@@ -1497,7 +1495,7 @@
 
 	/* Video. */
 
-	.video-format iframe{
+	.video-format iframe {
 		width: 100%;
 		max-height: 175px;
 	}
@@ -1527,7 +1525,7 @@
 
 	.grid-thumbnail.gallery-slider ul,
 	.grid-thumbnail.gallery-slider ul li {
-		height: 127px; 
+		height: 127px;
 	}
 
 	.grid-thumbnail.gallery-slider .gallery-slider-arrow {
@@ -1567,7 +1565,7 @@
 		width: 85%;
 	}
 
-	#single-author img{
+	#single-author img {
 		min-height: 100%;
 		width: auto;
 		margin-top: 0;
@@ -1592,7 +1590,9 @@
 	*/
 
 	.main-page-def {
-		width: 85%;
+		width: 100%;
+		padding: 56px 24px;
+		/* width: 85%; */
 	}
 
 	/*
@@ -1622,7 +1622,7 @@
 	.no-responsive {
 		display: none;
 	}
-	
+
 	/* Misc.
 	// ========================================================================== */
 
